@@ -1,0 +1,16 @@
+{
+    "name": "CameraFollow",
+    "rootNamespace": "",
+    "references": [
+        "GUID:84b653a037b61964b8992f9a2cee0e48"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "CherrySeven",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eadb3d4e111d8d445ba6d47d3e4de0fa",
+        "GUID:7a0c3b4e00feb17439d09bc641cd4ffc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
