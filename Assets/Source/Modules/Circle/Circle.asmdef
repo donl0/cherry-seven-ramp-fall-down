@@ -1,0 +1,17 @@
+{
+    "name": "Circle",
+    "rootNamespace": "",
+    "references": [
+        "GUID:84b653a037b61964b8992f9a2cee0e48",
+        "GUID:e77342b43dc160344a85725ce94be047"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

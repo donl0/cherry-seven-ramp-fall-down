@@ -1,4 +1,4 @@
-public interface ICircleView
+internal interface ICircleView
 {
     public void Hide();
 }

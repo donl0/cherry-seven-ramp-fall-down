@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CircleView : MonoBehaviour, ICircleView
+internal class CircleView : MonoBehaviour, ICircleView
 {
     public void Hide()
     {

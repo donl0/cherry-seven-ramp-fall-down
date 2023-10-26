@@ -45,11 +45,15 @@
                 <e p="Car" t="Include" />
               </e>
             </e>
+            <e p="Prefabs" t="Include">
+              <e p="Circle" t="Include" />
+            </e>
             <e p="Scenes" t="Include" />
             <e p="Scripts" t="Include">
               <e p="Base" t="Include">
                 <e p="Base.asmdef" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
+                <e p="Trigger.cs" t="Include" />
               </e>
               <e p="Root" t="Include">
                 <e p="CherrySeven.asmdef" t="Include" />
@@ -61,6 +65,24 @@
             <e p="Camera" t="Include">
               <e p="CameraFollow.asmdef" t="Include" />
               <e p="FollowObject.cs" t="Include" />
+            </e>
+            <e p="Car" t="Include">
+              <e p="Car.asmdef" t="Include" />
+              <e p="Car.cs" t="Include" />
+            </e>
+            <e p="Circle" t="Include">
+              <e p="Affector" t="Include">
+                <e p="CircleAffector.cs" t="Include" />
+                <e p="CircleBoostAffector.cs" t="Include" />
+              </e>
+              <e p="Circle.asmdef" t="Include" />
+              <e p="Trigger" t="Include">
+                <e p="CarTrigger.cs" t="Include" />
+              </e>
+              <e p="View" t="Include">
+                <e p="CircleView.cs" t="Include" />
+                <e p="ICircleView.cs" t="Include" />
+              </e>
             </e>
             <e p="Movemet" t="Include">
               <e p="Input" t="Include">
@@ -134,20 +156,13 @@
             <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
-        <e p="TutorialInfo" t="Include">
-          <e p="Icons" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="Editor" t="Include">
-              <e p="ReadmeEditor.cs" t="Include" />
-            </e>
-            <e p="Readme.cs" t="Include" />
-          </e>
-        </e>
       </e>
       <e p="Base.csproj" t="IncludeRecursive" />
       <e p="CameraFollow.csproj" t="IncludeRecursive" />
+      <e p="Car.csproj" t="IncludeRecursive" />
       <e p="cherry-seven.sln" t="IncludeFlat" />
       <e p="CherrySeven.csproj" t="IncludeRecursive" />
+      <e p="Circle.csproj" t="IncludeRecursive" />
       <e p="Movement.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
