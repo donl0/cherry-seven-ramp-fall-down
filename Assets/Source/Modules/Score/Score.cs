@@ -14,4 +14,15 @@ public class Score : MonoBehaviour, IScore
         
         _value += value;
     }
+
+    public void RemoveScore(float value)
+    {
+        if (value < 0)
+            throw new ArgumentException("Value should be non-negative.");
+
+        if (_value - value < 0)
+            _value = 0;
+        else
+            _value -= value;
+    }
 }

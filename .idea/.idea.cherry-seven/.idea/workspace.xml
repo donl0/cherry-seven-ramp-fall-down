@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IInittable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostAffector.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,7 +36,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/WheelsView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/FourWheelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/IWheelsView.cs" />
@@ -56,20 +56,24 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Fly/IScoreStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Fly/CarScoreStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Fly/FlyTimePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/FlipDetector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/IScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels View/WheelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/AWDEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/IWheelsEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/CarTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/CircleAffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostAffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ICircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleAffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/IScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IInittable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostAffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/FlipDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyTimePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +119,7 @@
       <updated>1698154379534</updated>
       <workItem from="1698154398893" duration="33256000" />
       <workItem from="1698257766773" duration="3518000" />
-      <workItem from="1698262813611" duration="22728000" />
+      <workItem from="1698262813611" duration="23741000" />
     </task>
     <servers />
   </component>

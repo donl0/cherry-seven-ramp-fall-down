@@ -1,10 +1,13 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SocialPlatforms.Impl;
 
 [RequireComponent(typeof(IScoreStarter))]
-public class FlyTimePresenter : MonoBehaviour
+public class FlyTimePresenter : MonoBehaviour, IInittable<Score>
 {
+    private Score _score;
+    
     private CarScoreStarter _scoreStarter;
     
     private bool _isFlying;
@@ -72,5 +75,10 @@ public class FlyTimePresenter : MonoBehaviour
     private void SetScoreZero()
     {
         _flyTime = 0;
+    }
+
+    public void Init(Score score)
+    {
+        _score = score;
     }
 }

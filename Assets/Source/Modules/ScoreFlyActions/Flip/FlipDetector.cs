@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class FlipDetector : MonoBehaviour
+public class FlipDetector : MonoBehaviour, IInittable<Score>
 {
+    private Score _score;
+    
     private Transform _car;
     
     private float _currentRotationFrontBack = 0;
@@ -82,5 +84,10 @@ public class FlipDetector : MonoBehaviour
     {
         _currentRotationSide = 0f;
         _windupRotationSide = 0f;
+    }
+
+    public void Init(Score score)
+    {
+        _score = score;
     }
 }

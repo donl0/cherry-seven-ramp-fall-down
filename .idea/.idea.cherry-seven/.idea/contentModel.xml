@@ -53,6 +53,7 @@
               <e p="Base" t="Include">
                 <e p="Base.asmdef" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
+                <e p="IInittable.cs" t="Include" />
                 <e p="Trigger.cs" t="Include" />
               </e>
               <e p="Root" t="Include">
@@ -110,7 +111,9 @@
               <e p="Score.cs" t="Include" />
             </e>
             <e p="ScoreFlyActions" t="Include">
-              <e p="FlipDetector.cs" t="Include" />
+              <e p="Flip" t="Include">
+                <e p="FlipDetector.cs" t="Include" />
+              </e>
               <e p="Fly" t="Include">
                 <e p="CarScoreStarter.cs" t="Include" />
                 <e p="FlyTimePresenter.cs" t="Include" />
