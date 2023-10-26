@@ -1,13 +1,8 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class FlipDetector : MonoBehaviour
 {
-    [SerializeField] private Transform _trackableObject;
-    [SerializeField] private TextMeshProUGUI  _text;
-    [SerializeField] private TextMeshProUGUI _textDot;
-
     float _currentRotationFrontBack = 0;
     float _windupRotationFrontBack = 0;
     
@@ -45,7 +40,6 @@ public class FlipDetector : MonoBehaviour
     private void DetectBackFrontFlip()
     {
         float FrontBackFlips = GetFlipCount(ref _currentRotationFrontBack, ref _windupRotationFrontBack, _car.eulerAngles.z);
-        _text.text = FrontBackFlips.ToString();
 
         if (FrontBackFlips >=  1)
         {
