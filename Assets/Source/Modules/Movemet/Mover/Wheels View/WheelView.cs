@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WheelView : IWheelsView
+internal class WheelView : IWheelsView
 {
     private readonly WheelCollider[] _frontCollider;
     private readonly WheelCollider[] _rearCollider;

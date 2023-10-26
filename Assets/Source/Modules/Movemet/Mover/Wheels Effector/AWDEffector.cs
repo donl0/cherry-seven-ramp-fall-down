@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AWDEffector : IWheelsEffector
+internal class AWDEffector : IWheelsEffector
 {
     private readonly WheelCollider[] _front;
     private readonly WheelCollider[] _rear;
