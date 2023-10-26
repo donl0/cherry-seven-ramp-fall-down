@@ -3,13 +3,13 @@ using UnityEngine.Events;
 
 public class FlipDetector : MonoBehaviour
 {
-    float _currentRotationFrontBack = 0;
-    float _windupRotationFrontBack = 0;
-    
-    float _currentRotationSide = 0;
-    float _windupRotationSide = 0;
-
     private Transform _car;
+    
+    private float _currentRotationFrontBack = 0;
+    private float _windupRotationFrontBack = 0;
+
+    private float _currentRotationSide = 0;
+    private float _windupRotationSide = 0;
 
     public UnityAction BackFlipped;
     public UnityAction FrontFlipped;
