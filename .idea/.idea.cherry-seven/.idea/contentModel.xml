@@ -53,7 +53,6 @@
               <e p="Base" t="Include">
                 <e p="Base.asmdef" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
-                <e p="IInittable.cs" t="Include" />
                 <e p="Trigger.cs" t="Include" />
               </e>
               <e p="Root" t="Include">
@@ -106,19 +105,36 @@
               </e>
             </e>
             <e p="Score" t="Include">
-              <e p="IScore.cs" t="Include" />
+              <e p="Convention" t="Include">
+                <e p="BaseScoreConvention.cs" t="Include" />
+                <e p="Flip.cs" t="Include" />
+                <e p="IScoreConvention.cs" t="Include" />
+              </e>
+              <e p="Score" t="Include">
+                <e p="IScore.cs" t="Include" />
+                <e p="Score.cs" t="Include" />
+              </e>
               <e p="Score.asmdef" t="Include" />
-              <e p="Score.cs" t="Include" />
             </e>
             <e p="ScoreFlyActions" t="Include">
               <e p="Flip" t="Include">
-                <e p="FlipDetector.cs" t="Include" />
+                <e p="FlipScoring.cs" t="Include" />
+                <e p="View" t="Include">
+                  <e p="FlipScoreView.cs" t="Include" />
+                </e>
               </e>
               <e p="Fly" t="Include">
                 <e p="CarScoreStarter.cs" t="Include" />
-                <e p="FlyTimePresenter.cs" t="Include" />
+                <e p="FlyScorePresenter.cs" t="Include" />
+                <e p="FlyScoring.cs" t="Include" />
+                <e p="IScorePresenter.cs" t="Include" />
                 <e p="IScoreStarter.cs" t="Include" />
+                <e p="View" t="Include">
+                  <e p="FlyScoreView.cs" t="Include" />
+                  <e p="IScoringView.cs" t="Include" />
+                </e>
               </e>
+              <e p="IScoring.cs" t="Include" />
               <e p="ScoreDuringFly.asmdef" t="Include" />
             </e>
           </e>

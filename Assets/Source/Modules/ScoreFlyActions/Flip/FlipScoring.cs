@@ -1,12 +1,17 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class FlipDetector : MonoBehaviour
+internal class FlipScoring : MonoBehaviour, IScoring
 {
-    private Score _score;
+    [SerializeField] private Transform _car;
+    
+    private readonly List<Flip> _currentFlips = new List<Flip>();
+
+    private IScorePresenter _presenter;
     private IScoreConvention _scoreConvention;
     
-    private Transform _car;
+    private bool _isWork;
     
     private float _currentRotationFrontBack = 0;
     private float _windupRotationFrontBack = 0;
@@ -14,17 +19,41 @@ public class FlipDetector : MonoBehaviour
     private float _currentRotationSide = 0;
     private float _windupRotationSide = 0;
 
-    public UnityAction BackFlipped;
-    public UnityAction FrontFlipped;
-    public UnityAction SideFlipped;
-    
-    private void Awake()
+    public void Init(IScorePresenter presenter, IScoreConvention scoreConvention)
     {
-        _car = GetComponent<Transform>();
+        _presenter = presenter;
+        _scoreConvention = scoreConvention;
+    }
+
+    public void StartScoring()
+    {
+        _isWork = true;
+    }
+
+    public void StopScoring()
+    {
+        _currentFlips.Clear();
+        _presenter.HideFlipScoreView();
+        _isWork = false;
+    }
+
+    public float GetCurrentScore()
+    {
+        float score = 0f;
+        
+        foreach (var flipScore in _currentFlips)
+        {
+            score += _scoreConvention.ConvertFlipToScore(flipScore);
+        }
+        
+        return score;
     }
 
     private void Update()
     {
+        if (_isWork == false)
+            return;
+        
         DetectBackFrontFlip();
         DetectSideFlip();
     }
@@ -35,8 +64,7 @@ public class FlipDetector : MonoBehaviour
 
         if (SideFlips >= 1f || SideFlips <= -1f)
         {
-            DoBaseValuesSideFlips();
-            SideFlipped?.Invoke();
+            AfterDetectFlipAction(Flip.Side, DoBaseValuesSideFlips);
         }        
     }
 
@@ -46,13 +74,11 @@ public class FlipDetector : MonoBehaviour
 
         if (FrontBackFlips >=  1)
         {
-            DoBaseValuesFrontBackFlips();
-            BackFlipped?.Invoke();
+            AfterDetectFlipAction(Flip.Back, DoBaseValuesFrontBackFlips);
         }
         else if (FrontBackFlips <= -1)
         {
-            DoBaseValuesFrontBackFlips();
-            FrontFlipped?.Invoke();
+            AfterDetectFlipAction(Flip.Front, DoBaseValuesFrontBackFlips);
         }
     }
 
@@ -75,21 +101,24 @@ public class FlipDetector : MonoBehaviour
         return (int)flips;
     }
 
+    private void AfterDetectFlipAction(Flip flip, UnityAction actionToDoBaseValue)
+    {
+        _currentFlips.Add(flip);
+        actionToDoBaseValue?.Invoke();
+        _presenter.AddFlipScore(flip);
+        _presenter.SetFlipScoreView(flip);
+        _presenter.ShowFlipScoreView();
+    }
+
     private void DoBaseValuesFrontBackFlips()
     {
         _currentRotationFrontBack = 0;
         _windupRotationFrontBack = 0;
     }
-    
+
     private void DoBaseValuesSideFlips()
     {
         _currentRotationSide = 0f;
         _windupRotationSide = 0f;
-    }
-
-    public void Init(Score score, IScoreConvention scoreConvention)
-    {
-        _score = score;
-        _scoreConvention = scoreConvention;
     }
 }

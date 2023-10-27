@@ -1,15 +1,16 @@
 using TMPro;
 using UnityEngine;
 
-internal class FlyScoreView : MonoBehaviour, IScoringView
+internal class FlipScoreView : MonoBehaviour, IScoringView
 {
     [SerializeField] private TMP_Text _text;
-
+    
+    
     private void Awake()
     {
         HideScore();
     }
-    
+
     public void SetScore(string value)
     {
         _text.text = value;
@@ -17,11 +18,13 @@ internal class FlyScoreView : MonoBehaviour, IScoringView
 
     public void HideScore()
     {
-        _text.alpha = 0f;
+        float hideValue = 0f;
+        _text.alpha = hideValue;
     }
 
     public void ShowScore()
     {
-        _text.alpha = 1f;
+        float showValue = 1f;
+        _text.alpha = showValue;
     }
 }

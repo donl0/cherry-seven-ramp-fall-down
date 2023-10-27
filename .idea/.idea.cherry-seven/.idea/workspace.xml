@@ -11,37 +11,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IInittable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostAffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/IMovementInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/MovementPcInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/IMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/CarController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/InstantForce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Input/IMovementInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Input/MovementPcInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/WheelsView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/FourWheelView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/IWheelsView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/WheelView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/IMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/ICarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Affector/IWheelsAffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Affector/AWDAffector.cs" />
@@ -68,12 +54,31 @@
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/IScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IInittable.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostAffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/FlipDetector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyTimePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/IInittableScoreChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IInittable.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/IScoreChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/BaseScoreChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/ScoreDuringFly.asmdef" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/IScoreConvention.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/BaseScoreConvention.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyTimePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/IScoreStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/IScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/BaseScoreConvention.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/IScoreConvention.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/CarScoreStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipScoring.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +124,7 @@
       <updated>1698154379534</updated>
       <workItem from="1698154398893" duration="33256000" />
       <workItem from="1698257766773" duration="3518000" />
-      <workItem from="1698262813611" duration="23741000" />
+      <workItem from="1698262813611" duration="43150000" />
     </task>
     <servers />
   </component>
@@ -136,17 +141,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="345" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1698257691206" />
-    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698353726804">
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698419696601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698353726804" />
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698419696601" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1698354087340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698354087340" />
-    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698356792343">
+    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698414784471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698356792343" />
+    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698414784471" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1698359175986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698359175986" />
   </component>
 </project>
