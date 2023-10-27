@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Score : MonoBehaviour, IScore
+public class Score :IScore
 {
     private float _value;
     
