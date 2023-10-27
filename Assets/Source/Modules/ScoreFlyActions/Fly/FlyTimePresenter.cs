@@ -1,18 +1,22 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SocialPlatforms.Impl;
 
 [RequireComponent(typeof(IScoreStarter))]
-public class FlyTimePresenter : MonoBehaviour, IInittable<Score>
+public class FlyTimePresenter : MonoBehaviour
 {
-    private Score _score;
-    
+    private IScoringView _view;
+    private IScore _score;
+    private IScoreConvention _scoreConvention;
+
     private CarScoreStarter _scoreStarter;
-    
+
     private bool _isFlying;
+
     private float _flyTime;
 
+    private float _thresholdTimeToApplyScore = 0.5f;
+    
     private Coroutine _scoring;
 
     private void Awake()
@@ -32,10 +36,24 @@ public class FlyTimePresenter : MonoBehaviour, IInittable<Score>
         _scoreStarter.ScoreEnded -= OnScoreEnded;
     }
 
+    public void Init(IScore score, IScoreConvention scoreConvention, IScoringView view)
+    {
+        _score = score;
+        _scoreConvention = scoreConvention;
+        _view = view;
+    }
+
     private void OnScoreStarted()
     {
         _isFlying = true;
-        StartScoring(SetScoreZero);
+
+        UnityAction endAction = () =>
+        {
+            SetScoreZero();
+            _view.HideScore();
+        };
+        
+        StartScoring(endAction);
     }
 
     private void OnScoreEnded()
@@ -58,18 +76,36 @@ public class FlyTimePresenter : MonoBehaviour, IInittable<Score>
         while (_isFlying == true)
         {
             _flyTime += Time.deltaTime;
-            SetScore(_flyTime);
-            
+
+            if (_flyTime > _thresholdTimeToApplyScore)
+            {
+                SetViewScore(_flyTime);
+                _view.ShowScore();
+            }
+
             yield return null;
         }
 
+        TryAddScore(_flyTime);
+        
         _scoring = null;
         endAction?.Invoke();
     }
 
-    private void SetScore(float flyTime)
+    private void TryAddScore(float flyTime)
     {
-        //TO DO: update view and model
+        if (flyTime > _thresholdTimeToApplyScore)
+        {
+            _scoreConvention.ConvertScore(ref flyTime);
+            _score.AddScore(flyTime);
+        }
+    }
+
+    private void SetViewScore(float flyTime)
+    {
+        _scoreConvention.ConvertScore(ref flyTime);
+
+        _view.SetScore(ConvertForView(flyTime));
     }
 
     private void SetScoreZero()
@@ -77,8 +113,10 @@ public class FlyTimePresenter : MonoBehaviour, IInittable<Score>
         _flyTime = 0;
     }
 
-    public void Init(Score score)
+    private string ConvertForView(float value)
     {
-        _score = score;
+        string result = ((int)value).ToString();
+
+        return result;
     }
 }
