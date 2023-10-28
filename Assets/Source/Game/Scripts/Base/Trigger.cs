@@ -15,6 +15,16 @@ public abstract class Trigger<T> : MonoBehaviour where T : MonoBehaviour
         _collider.isTrigger = true;
     }
 
+    public void Enable()
+    {
+        enabled = true;
+    }
+
+    public void Disable()
+    {
+        enabled = false;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out T triggered))

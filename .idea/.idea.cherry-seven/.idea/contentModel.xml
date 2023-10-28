@@ -44,6 +44,7 @@
               <e p="Materials" t="Include">
                 <e p="Car" t="Include" />
               </e>
+              <e p="Sprites" t="Include" />
             </e>
             <e p="Prefabs" t="Include">
               <e p="Circle" t="Include" />
@@ -53,6 +54,10 @@
               <e p="Base" t="Include">
                 <e p="Base.asmdef" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
+                <e p="Save" t="Include">
+                  <e p="GUIDObject.cs" t="Include" />
+                  <e p="SavedObject.cs" t="Include" />
+                </e>
                 <e p="Trigger.cs" t="Include" />
               </e>
               <e p="Root" t="Include">
@@ -72,16 +77,25 @@
             </e>
             <e p="Circle" t="Include">
               <e p="Affector" t="Include">
-                <e p="CircleAffector.cs" t="Include" />
-                <e p="CircleBoostAffector.cs" t="Include" />
+                <e p="CircleBoostEffector.cs" t="Include" />
+                <e p="CircleEffector.cs" t="Include" />
               </e>
               <e p="Circle.asmdef" t="Include" />
+              <e p="Presenter" t="Include">
+                <e p="BaseCirclePresenter.cs" t="Include" />
+                <e p="BoostCirclePresenter.cs" t="Include" />
+              </e>
               <e p="Trigger" t="Include">
                 <e p="CarTrigger.cs" t="Include" />
               </e>
               <e p="View" t="Include">
-                <e p="CircleView.cs" t="Include" />
-                <e p="ICircleView.cs" t="Include" />
+                <e p="BaseCircleView.cs" t="Include" />
+                <e p="CircleViewItem.cs" t="Include" />
+                <e p="PictureCircleView.cs" t="Include" />
+                <e p="SO" t="Include">
+                  <e p="CircleItemPicture.cs" t="Include" />
+                </e>
+                <e p="ViewItemSprite.cs" t="Include" />
               </e>
             </e>
             <e p="Movemet" t="Include">
