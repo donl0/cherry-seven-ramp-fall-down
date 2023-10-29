@@ -26,5 +26,9 @@ public abstract class SavedObject<T> where T : class
         OnLoad(loadedObject as T);
     }
 
+    public virtual void Merge(T mergeWith)
+    {
+    }
+
     protected abstract void OnLoad(T loadedObject);
 }
