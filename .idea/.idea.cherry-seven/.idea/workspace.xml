@@ -12,40 +12,31 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../KnowledgeIsPower/Assets/CodeBase/Infrastructure/Game.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Save/SavedObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/PictureCircleView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItemSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleViewItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/AWDEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/IWheelsEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/CarTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/CircleAffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ICircleView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/IScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/FlipDetector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/IInittableScoreChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IInittable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/IScoreChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/BaseScoreChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/ScoreDuringFly.asmdef" />
@@ -57,15 +48,9 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/IScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/BaseScoreConvention.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/IScoreConvention.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/CarScoreStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipScoring.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/GUIDObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Save/SavedObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" />
@@ -85,6 +70,24 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BoostCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/Progress/Progress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/ScoreProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/IScoreConvention.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/BaseScoreConvention.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipScoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/DuringRaceScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/MainScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" />
       </list>
     </option>
   </component>
@@ -131,7 +134,7 @@
       <workItem from="1698154398893" duration="33256000" />
       <workItem from="1698257766773" duration="3518000" />
       <workItem from="1698262813611" duration="43799000" />
-      <workItem from="1698518827340" duration="8115000" />
+      <workItem from="1698518827340" duration="16906000" />
     </task>
     <servers />
   </component>
@@ -148,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="345" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1698257691206" />
-    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698520591455">
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698535770341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698520591455" />
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698535770341" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1698354087340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -54,10 +54,6 @@
               <e p="Base" t="Include">
                 <e p="Base.asmdef" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
-                <e p="Save" t="Include">
-                  <e p="GUIDObject.cs" t="Include" />
-                  <e p="SavedObject.cs" t="Include" />
-                </e>
                 <e p="Trigger.cs" t="Include" />
               </e>
               <e p="Root" t="Include">
@@ -118,6 +114,16 @@
                 </e>
               </e>
             </e>
+            <e p="Progress" t="Include">
+              <e p="IntProgress.cs" t="Include" />
+              <e p="Progress.asmdef" t="Include" />
+              <e p="Progress.cs" t="Include" />
+            </e>
+            <e p="Save" t="Include">
+              <e p="GUIDObject.cs" t="Include" />
+              <e p="Save.asmdef" t="Include" />
+              <e p="SavedObject.cs" t="Include" />
+            </e>
             <e p="Score" t="Include">
               <e p="Convention" t="Include">
                 <e p="BaseScoreConvention.cs" t="Include" />
@@ -125,10 +131,19 @@
                 <e p="IScoreConvention.cs" t="Include" />
               </e>
               <e p="Score" t="Include">
-                <e p="IScore.cs" t="Include" />
-                <e p="Score.cs" t="Include" />
+                <e p="Model" t="Include">
+                  <e p="IScore.cs" t="Include" />
+                  <e p="Score.cs" t="Include" />
+                </e>
+                <e p="ScoreHolder" t="Include">
+                  <e p="DuringRaceScoreHolder.cs" t="Include" />
+                  <e p="IScoreHolder.cs" t="Include" />
+                  <e p="MainScoreHolder.cs" t="Include" />
+                  <e p="ScoreHolder.cs" t="Include" />
+                </e>
               </e>
               <e p="Score.asmdef" t="Include" />
+              <e p="SO" t="Include" />
             </e>
             <e p="ScoreFlyActions" t="Include">
               <e p="Flip" t="Include">
@@ -199,6 +214,8 @@
       <e p="Movement.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
+      <e p="Progress.csproj" t="IncludeRecursive" />
+      <e p="Save.csproj" t="IncludeRecursive" />
       <e p="Score.csproj" t="IncludeRecursive" />
       <e p="ScoreDuringFly.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
