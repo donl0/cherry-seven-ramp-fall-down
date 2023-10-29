@@ -68,8 +68,8 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
 
     private void AddFinalScore()
     {
-        _score.AddScore(_flipScoring.GetCurrentScore());
-        _score.AddScore(_flipScoring.GetCurrentScore());
+        _score.Add(_flipScoring.GetCurrentScore());
+        _score.Add(_flipScoring.GetCurrentScore());
     }
 
     private string ConvertForView(float value)
@@ -88,9 +88,9 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
 
     public void SetFlyScoreView(float flyTime)
     {
-        _scoreConvention.ConvertFlyToScore(ref flyTime);
+        int score = _scoreConvention.ConvertFlyToScore(flyTime);
 
-        _flyView.SetScore(ConvertForView(flyTime));
+        _flyView.SetScore(ConvertForView(score));
     }
 
     public void ShowFlyScoreView()
@@ -116,14 +116,15 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
 
     public void AddFlipScore(Flip flip)
     {
-        float score = _scoreConvention.ConvertFlipToScore(flip);
-        _score.AddScore(score);
+        int score = _scoreConvention.ConvertFlipToScore(flip);
+        _score.Add(score);
     }
 
     public void AddFlyScore(float flyTime)
     {
-        _scoreConvention.ConvertFlyToScore(ref flyTime);
-        _score.AddScore(flyTime);
+        int score = _scoreConvention.ConvertFlyToScore(flyTime);
+
+        _score.Add(score);
     }
 
     private string GetFlipRenderString(Flip flip)

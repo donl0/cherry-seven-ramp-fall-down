@@ -2,13 +2,14 @@ public class BaseScoreConvention : IScoreConvention
 {
     private float _FlyTimeMultiple = 15f;
     
-    public void ConvertFlyToScore(ref float value)
+    public int ConvertFlyToScore(float value)
     {
         value *= _FlyTimeMultiple;
+        return (int)value;
     }
 
-    public float ConvertFlipToScore(Flip flip)
+    public int ConvertFlipToScore(Flip flip)
     {
-        return 500f;
+        return 500;
     }
 }

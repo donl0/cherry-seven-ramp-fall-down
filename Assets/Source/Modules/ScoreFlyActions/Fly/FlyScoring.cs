@@ -30,12 +30,12 @@ internal class FlyScoring : MonoBehaviour, IScoring
         _isWork = false;
     }
 
-    public float GetCurrentScore()
+    public int GetCurrentScore()
     {
         float flyTime = _flyTime;
-        _scoreConvention.ConvertFlyToScore(ref flyTime);
-
-        return flyTime;
+        int score = _scoreConvention.ConvertFlyToScore(flyTime);
+        
+        return score;
     }
 
     private void OnScoreStarted()

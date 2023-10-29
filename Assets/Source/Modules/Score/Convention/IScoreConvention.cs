@@ -1,5 +1,5 @@
 public interface IScoreConvention
 {
-    public void ConvertFlyToScore(ref float value);
-    public float ConvertFlipToScore(Flip flip);
+    public int ConvertFlyToScore(float value);
+    public int ConvertFlipToScore(Flip flip);
 }

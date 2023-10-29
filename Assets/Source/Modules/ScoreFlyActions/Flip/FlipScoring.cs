@@ -37,7 +37,7 @@ internal class FlipScoring : MonoBehaviour, IScoring
         _isWork = false;
     }
 
-    public float GetCurrentScore()
+    public int GetCurrentScore()
     {
         float score = 0f;
         
@@ -46,7 +46,7 @@ internal class FlipScoring : MonoBehaviour, IScoring
             score += _scoreConvention.ConvertFlipToScore(flipScore);
         }
         
-        return score;
+        return (int)score;
     }
 
     private void Update()
