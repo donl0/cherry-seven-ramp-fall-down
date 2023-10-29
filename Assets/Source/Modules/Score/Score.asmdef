@@ -2,7 +2,8 @@
     "name": "Score",
     "rootNamespace": "",
     "references": [
-        "GUID:4481203ca738ee94b807eceaec3e7503"
+        "GUID:4481203ca738ee94b807eceaec3e7503",
+        "GUID:8b79d73ece90ee6479550166af0e2ce5"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

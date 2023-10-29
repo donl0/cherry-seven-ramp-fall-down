@@ -8,12 +8,11 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
     [SerializeField] private FlipScoreView _flipScoreView;
 
     private readonly List<Flip> _currentRenderFlips = new List<Flip>();
-    
-    
+
     private IScoring _flyScoring;
     private IScoring _flipScoring;
 
-    private IScore _score;
+    private IScoreHolder _score;
     private IScoreConvention _scoreConvention;
 
 
@@ -35,7 +34,7 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
         _flipScoring = GetComponent<FlipScoring>();
     }
 
-    public void Init(IScore score, IScoreConvention scoreConvention)
+    public void Init(IScoreHolder score, IScoreConvention scoreConvention)
     {
         _score = score;
         _scoreConvention = scoreConvention;

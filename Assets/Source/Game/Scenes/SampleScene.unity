@@ -6538,6 +6538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveController: {fileID: 3931614341009717017}
   _cameraFollower: {fileID: 963194229}
+  _raceScoreHandler: {fileID: 3931614341009717030}
   flyScorePresenter: {fileID: 836580485}
 --- !u!4 &1163730478
 Transform:
@@ -13545,6 +13546,7 @@ GameObject:
   - component: {fileID: 3931614341009717023}
   - component: {fileID: 3931614341009717028}
   - component: {fileID: 3931614341009717029}
+  - component: {fileID: 3931614341009717030}
   m_Layer: 6
   m_Name: Car10 1
   m_TagString: Untagged
@@ -13690,6 +13692,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f053df3ece026742abc61cce144b61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3931614341009717030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3931614341009717018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5a066373a60e34caa66fe269532258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3934573432358744159

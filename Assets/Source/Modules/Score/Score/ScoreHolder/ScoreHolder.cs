@@ -1,6 +1,7 @@
+using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class ScoreHolder<T> : IScoreHolder where T:IScore
+public abstract class ScoreHolder<T> :MonoBehaviour, IScoreHolder where T:IScore
 {
     protected T _score;
 
@@ -23,12 +24,12 @@ public abstract class ScoreHolder<T> : IScoreHolder where T:IScore
         _score.Changed -= OnMoneyChanged;
     }
     
-    public virtual void AddMoney(int value)
+    public virtual void Add(int value)
     {
         _score.Add(value);
     }
 
-    public virtual void SpendMoney(int value)
+    public virtual void Spend(int value)
     {
         throw new System.NotImplementedException();
     }

@@ -16,16 +16,16 @@ public class MainScoreHolder :ScoreHolder<Score>
         _score.Save();
     }
     
-    public override void AddMoney(int value)
+    public override void Add(int value)
     {
-        base.AddMoney(value);
+        base.Add(value);
         _totalMoneyProgress.Add(_score.Value);
         _totalMoneyProgress.Save();
     }
     
     public virtual void SpendMoney(int value)
     {
-        base.SpendMoney(value);
+        base.Spend(value);
         _score.Spend(value);
     }
 
