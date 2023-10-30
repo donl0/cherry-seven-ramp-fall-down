@@ -33,21 +33,18 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/CarPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleViewItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/PictureCircleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostAffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItems.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleViewItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ItemPicture.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemPicture.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleSpriteView.cs" />
@@ -94,6 +91,11 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/AddScoreCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/InventoryHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/InventoryCarPartsHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/CarPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/InventoryCarPartsHandler.cs" />
       </list>
     </option>
   </component>
@@ -140,7 +142,7 @@
       <workItem from="1698154398893" duration="33256000" />
       <workItem from="1698257766773" duration="3518000" />
       <workItem from="1698262813611" duration="43799000" />
-      <workItem from="1698518827340" duration="29682000" />
+      <workItem from="1698518827340" duration="33629000" />
     </task>
     <servers />
   </component>
@@ -157,10 +159,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="345" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1698257691206" />
-    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698535770341">
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698680405897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698535770341" />
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698680405897" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1698354087340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -113,6 +113,14 @@
                 <e p="ViewItemSprite.cs" t="Include" />
               </e>
             </e>
+            <e p="Inventory" t="Include">
+              <e p="Car parts" t="Include">
+                <e p="CarPart.cs" t="Include" />
+                <e p="InventoryCarPartsHandler.cs" t="Include" />
+              </e>
+              <e p="Inventory.asmdef" t="Include" />
+              <e p="Inventory.cs" t="Include" />
+            </e>
             <e p="Movemet" t="Include">
               <e p="Input" t="Include">
                 <e p="IMovementInput.cs" t="Include" />
@@ -230,6 +238,7 @@
       <e p="cherry-seven.sln" t="IncludeFlat" />
       <e p="CherrySeven.csproj" t="IncludeRecursive" />
       <e p="Circle.csproj" t="IncludeRecursive" />
+      <e p="Inventory.csproj" t="IncludeRecursive" />
       <e p="Movement.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
