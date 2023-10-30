@@ -1,11 +1,15 @@
+using System;
 using System.Collections.Generic;
+using UnityEngine;
 
+[Serializable]
 public class Inventory<T>: SavedObject<Inventory<T>>
 {
-    private List<T> _items = new List<T>();
+    [SerializeField] private List<T> _items;
     
-    public Inventory(string guid) : base(guid)
+    public Inventory(List<T> items, string guid) : base(guid)
     {
+        _items = items;
     }
 
     public void Add(T item)
@@ -13,13 +17,14 @@ public class Inventory<T>: SavedObject<Inventory<T>>
         _items.Add(item);
     }
 
-    private void MakeCopy(out List<T> items)
+    private List<T> GetCopy()
     {
-        items = new List<T>(_items);
+        return new List<T>(_items);
     }
 
     protected override void OnLoad(Inventory<T> loadedObject)
     {
-        loadedObject.MakeCopy(out _items);
+        if (loadedObject._items != null)
+            _items = loadedObject._items;
     }
 }

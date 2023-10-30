@@ -1,14 +1,16 @@
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class InventoryCarPartsHandler : GUIDObject
 {
-    private Inventory<CarPart> _inventory;
+    [SerializeField] private Inventory<CarPart> _inventory;
 
     public UnityAction<CarPart> ItemAdded;
     
     private void Awake()
     {
-        _inventory = new Inventory<CarPart>(GUID);
+        _inventory = new Inventory<CarPart>(new List<CarPart>(), GUID);
         _inventory.Load();
     }
 

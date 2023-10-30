@@ -6,11 +6,11 @@ public abstract class BaseCirclePresenter<T, V> : GUIDObject where T:MonoBehavio
     [SerializeField] private Trigger<T> _trigger;
     [SerializeField] private V _renderItem;
 
-    protected CircleEffector<T> _effector;
+    private CircleEffector<T> _effector;
 
     protected virtual void Awake()
     {
-        InitEffector();
+        _effector = InitEffector();
         UpdateRenderItem(_renderItem);
         _view.Render(_renderItem);
     }
@@ -39,7 +39,7 @@ public abstract class BaseCirclePresenter<T, V> : GUIDObject where T:MonoBehavio
         _renderItem = value;
     }
 
-    protected abstract void InitEffector();
+    protected abstract CircleEffector<T> InitEffector();
 
     protected virtual void DisableSystem()
     {

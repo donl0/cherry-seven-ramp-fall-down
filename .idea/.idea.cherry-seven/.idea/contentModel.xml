@@ -56,6 +56,7 @@
                 <e p="Extantions" t="Include">
                   <e p="Extantions.cs" t="Include" />
                 </e>
+                <e p="HelpFunctionsScript.cs" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
                 <e p="Trigger.cs" t="Include" />
               </e>
@@ -74,6 +75,11 @@
               <e p="Car.asmdef" t="Include" />
               <e p="Car.cs" t="Include" />
             </e>
+            <e p="Car parts" t="Include">
+              <e p="Car Parts.asmdef" t="Include" />
+              <e p="CarPart.cs" t="Include" />
+              <e p="InventoryCarPartsHandler.cs" t="Include" />
+            </e>
             <e p="Circle" t="Include">
               <e p="Affector" t="Include">
                 <e p="Add Remove Score" t="Include">
@@ -81,13 +87,23 @@
                   <e p="ChangeScoreTypeEffector.cs" t="Include" />
                   <e p="DecreaseScoreCircleEffector.cs" t="Include" />
                 </e>
-                <e p="CircleBoostEffector.cs" t="Include" />
+                <e p="Boost" t="Include">
+                  <e p="CircleBoostEffector.cs" t="Include" />
+                </e>
+                <e p="Car part" t="Include">
+                  <e p="CarPartEffector.cs" t="Include" />
+                </e>
                 <e p="CircleEffector.cs" t="Include" />
               </e>
               <e p="Circle.asmdef" t="Include" />
               <e p="Presenter" t="Include">
                 <e p="BaseCirclePresenter.cs" t="Include" />
-                <e p="BoostCirclePresenter.cs" t="Include" />
+                <e p="Boost" t="Include">
+                  <e p="BoostCirclePresenter.cs" t="Include" />
+                </e>
+                <e p="Car part" t="Include">
+                  <e p="CartPartCirclePresenter.cs" t="Include" />
+                </e>
                 <e p="Change Score" t="Include">
                   <e p="AddScoreCirclePresenter.cs" t="Include" />
                   <e p="DecreaseScoreCirclePresenter.cs" t="Include" />
@@ -95,6 +111,7 @@
               </e>
               <e p="Trigger" t="Include">
                 <e p="CarTrigger.cs" t="Include" />
+                <e p="InventoryCarPartHandlerTrigger.cs" t="Include" />
                 <e p="RaceScoreHandlerTrigger.cs" t="Include" />
               </e>
               <e p="View" t="Include">
@@ -102,13 +119,24 @@
                 <e p="BaseItemSprite.cs" t="Include" />
                 <e p="InsideCircleViewItemName.cs" t="Include" />
                 <e p="Picture View" t="Include">
-                  <e p="BaseSpriteView.cs" t="Include" />
-                  <e p="SimpleActionSpriteCircleView.cs" t="Include" />
+                  <e p="Car part" t="Include">
+                    <e p="CarPartCircleView.cs" t="Include" />
+                    <e p="CarPartItemSprite.cs" t="Include" />
+                  </e>
+                  <e p="Simple Picture" t="Include">
+                    <e p="BaseSpriteView.cs" t="Include" />
+                    <e p="SimpleActionItemSprite.cs" t="Include" />
+                    <e p="SimpleActionSpriteCircleView.cs" t="Include" />
+                  </e>
                 </e>
-                <e p="SimpleActionItemSprite.cs" t="Include" />
                 <e p="SO" t="Include">
-                  <e p="BaseItemPictureList.cs" t="Include" />
-                  <e p="SimpleActionCircleItemSpriteList.cs" t="Include" />
+                  <e p="Car part" t="Include">
+                    <e p="CarPartItemSpriteList.cs" t="Include" />
+                  </e>
+                  <e p="Simple Picture" t="Include">
+                    <e p="BaseItemPictureList.cs" t="Include" />
+                    <e p="SimpleActionCircleItemSpriteList.cs" t="Include" />
+                  </e>
                 </e>
                 <e p="String View" t="Include">
                   <e p="StringCircleView.cs" t="Include" />
@@ -117,10 +145,6 @@
               </e>
             </e>
             <e p="Inventory" t="Include">
-              <e p="Car parts" t="Include">
-                <e p="CarPart.cs" t="Include" />
-                <e p="InventoryCarPartsHandler.cs" t="Include" />
-              </e>
               <e p="Inventory.asmdef" t="Include" />
               <e p="Inventory.cs" t="Include" />
             </e>
@@ -238,6 +262,7 @@
       <e p="Base.csproj" t="IncludeRecursive" />
       <e p="CameraFollow.csproj" t="IncludeRecursive" />
       <e p="Car.csproj" t="IncludeRecursive" />
+      <e p="CarParts.csproj" t="IncludeRecursive" />
       <e p="cherry-seven.sln" t="IncludeFlat" />
       <e p="CherrySeven.csproj" t="IncludeRecursive" />
       <e p="Circle.csproj" t="IncludeRecursive" />

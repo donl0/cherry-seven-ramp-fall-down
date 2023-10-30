@@ -4,9 +4,10 @@ internal class AddScoreCirclePresenter : BaseCirclePresenter<DuringRaceScoreHold
 {
     [SerializeField] private int _amount;
 
-    protected override void InitEffector()
+    protected override CircleEffector<DuringRaceScoreHolder> InitEffector()
     {
-        _effector = new AddScoreCircleEffector(_amount);
+        var effector = new AddScoreCircleEffector(_amount);
+        return effector;
     }
 
     protected override void UpdateRenderItem(StringColor value)

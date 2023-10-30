@@ -11,70 +11,56 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../KnowledgeIsPower/Assets/CodeBase/Infrastructure/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../KnowledgeIsPower/Assets/CodeBase/Infrastructure/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CartPartCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Boost/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/BaseSpriteView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Car Part/CarPartEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/InventoryCarPartHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Car Part/CarPartItemSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Add Remove Score/ChangeScoreTypeEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/BaseItemPictureList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SimpleActionItemSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Car Part/CarPartItemSpriteList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/CarPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/InsideCircleViewItemName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/SimpleActionSpriteCircleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/StringCirclePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleAddRemoveScoreEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/AddScoreCircleEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/DecreaseScoreCircleEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Add Remove Score/ChangeScoreTypeEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/AddRemoveScoreCirclePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/AddSpendScoreCirclePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/AddScoreCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Circle.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/AddScoreCirclePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/InventoryHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/InventoryCarPartsHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/CarPart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/InventoryCarPartsHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemPicture.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemPictureList.cs" />
@@ -98,6 +84,24 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CheckDS.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseItemSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/BaseItemPictureList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Circle/CarPartItemSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Car Part/CarPartItemSpriteList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Car Part/CarPartItemSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Car Part/CarPartCircleView1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Car Part/CarPartCircleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Car Part/CarPartEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CartPartCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/AddScoreCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/BaseItemPictureList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/InventoryCarPartHandlerTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/InventoryCarPartsHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" />
       </list>
     </option>
   </component>
@@ -123,10 +127,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="18932">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="18932" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -144,7 +148,8 @@
       <workItem from="1698154398893" duration="33256000" />
       <workItem from="1698257766773" duration="3518000" />
       <workItem from="1698262813611" duration="43799000" />
-      <workItem from="1698518827340" duration="41937000" />
+      <workItem from="1698518827340" duration="47036000" />
+      <workItem from="1698699200223" duration="565000" />
     </task>
     <servers />
   </component>
@@ -161,10 +166,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="345" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1698257691206" />
-    <state width="407" height="464" key="DebuggerActiveHint" timestamp="1698692645468">
+    <state width="428" height="464" key="DebuggerActiveHint" timestamp="1698698945678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="407" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1698692645468" />
+    <state width="428" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1698698945678" />
+    <state width="1877" height="72" key="GridCell.Tab.0.bottom" timestamp="1698699168743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168743" />
+    <state width="1877" height="72" key="GridCell.Tab.0.center" timestamp="1698699168743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168743" />
+    <state width="1877" height="72" key="GridCell.Tab.0.left" timestamp="1698699168743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168743" />
+    <state width="1877" height="72" key="GridCell.Tab.0.right" timestamp="1698699168743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168743" />
+    <state width="1877" height="72" key="GridCell.Tab.1.bottom" timestamp="1698699168744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168744" />
+    <state width="1877" height="72" key="GridCell.Tab.1.center" timestamp="1698699168743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168743" />
+    <state width="1877" height="72" key="GridCell.Tab.1.left" timestamp="1698699168743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168743" />
+    <state width="1877" height="72" key="GridCell.Tab.1.right" timestamp="1698699168744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168744" />
+    <state width="1877" height="72" key="GridCell.Tab.2.bottom" timestamp="1698699168745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168745" />
+    <state width="1877" height="72" key="GridCell.Tab.2.center" timestamp="1698699168745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168745" />
+    <state width="1877" height="72" key="GridCell.Tab.2.left" timestamp="1698699168744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168744" />
+    <state width="1877" height="72" key="GridCell.Tab.2.right" timestamp="1698699168745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168745" />
     <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698687274407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,10 +226,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698354087340" />
-    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698688963586">
+    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698696987056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698688963586" />
+    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698696987056" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1698359175986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

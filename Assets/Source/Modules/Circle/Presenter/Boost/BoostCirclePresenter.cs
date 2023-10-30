@@ -5,9 +5,10 @@ public class BoostCirclePresenter : BaseCirclePresenter<Car, InsideCircleViewIte
     [SerializeField] private Vector3 _forceDirection;
     [SerializeField] private float _forse;
 
-    protected override void InitEffector()
+    protected override CircleEffector<Car> InitEffector()
     {
-        _effector = new CircleBoostEffector(_forse, _forceDirection);
+        var effector = new CircleBoostEffector(_forse, _forceDirection);
+        return effector;
     }
 
     private void OnDrawGizmos()

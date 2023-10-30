@@ -1,0 +1,17 @@
+{
+    "name": "CarParts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8922788db58740c488077b3a86de7af2",
+        "GUID:8b79d73ece90ee6479550166af0e2ce5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
