@@ -14,7 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KnowledgeIsPower/Assets/CodeBase/Infrastructure/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CartPartCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CarPartCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Car Part/CarPartItemSpriteList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartSaveAssistance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,9 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Circle.asmdef" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" />
@@ -92,9 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Car Part/CarPartCircleView1.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Car Part/CarPartCircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Car Part/CarPartEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CartPartCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/AddScoreCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/BaseItemPictureList.cs" />
@@ -102,6 +98,11 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/InventoryCarPartsHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CartPartSaveAssistance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CartPartCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CarPartCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartSaveAssistance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +150,7 @@
       <workItem from="1698257766773" duration="3518000" />
       <workItem from="1698262813611" duration="43799000" />
       <workItem from="1698518827340" duration="47036000" />
-      <workItem from="1698699200223" duration="565000" />
+      <workItem from="1698699200223" duration="3403000" />
     </task>
     <servers />
   </component>
@@ -218,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="72" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1698699168745" />
-    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698687274407">
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698701498084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698687274407" />
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698701498084" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1698354087340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

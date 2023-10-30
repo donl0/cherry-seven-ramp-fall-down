@@ -30,7 +30,6 @@ public abstract class BaseCirclePresenter<T, V> : MonoBehaviour where T:MonoBeha
     protected virtual void OnEnter(T value)
     {
         _effector.Affect(value);
-        _view.Hide();
         DisableSystem();
     }
 
@@ -45,6 +44,7 @@ public abstract class BaseCirclePresenter<T, V> : MonoBehaviour where T:MonoBeha
     {
         enabled = false;
         _trigger.enabled =false;
+        _view.Hide();
     }
 
     protected virtual void OnExit(T value) {}

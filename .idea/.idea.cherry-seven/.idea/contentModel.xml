@@ -78,6 +78,7 @@
             <e p="Car parts" t="Include">
               <e p="Car Parts.asmdef" t="Include" />
               <e p="CarPart.cs" t="Include" />
+              <e p="CarPartSaveAssistance.cs" t="Include" />
               <e p="InventoryCarPartsHandler.cs" t="Include" />
             </e>
             <e p="Circle" t="Include">
@@ -102,7 +103,7 @@
                   <e p="BoostCirclePresenter.cs" t="Include" />
                 </e>
                 <e p="Car part" t="Include">
-                  <e p="CartPartCirclePresenter.cs" t="Include" />
+                  <e p="CarPartCirclePresenter.cs" t="Include" />
                 </e>
                 <e p="Change Score" t="Include">
                   <e p="AddScoreCirclePresenter.cs" t="Include" />
