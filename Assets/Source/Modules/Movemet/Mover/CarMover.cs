@@ -59,7 +59,7 @@ internal class CarMover : MonoBehaviour, ICarMover
         }
         else
         {
-            RotateCarLerp(new Vector3(0f, 0f, _rotationSpeed * value));
+            RotateCarLerp(new Vector3(_rotationSpeed * value, 0f, 0f));
         }
     }
 

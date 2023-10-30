@@ -9,5 +9,11 @@ internal abstract class BaseCircleView<T>: MonoBehaviour
         _circle.Play();
     }
 
-    public abstract void Hide();
+    public void Hide()
+    {
+        _circle.Stop();
+        OnHide();
+    }
+
+    protected abstract void OnHide();
 }

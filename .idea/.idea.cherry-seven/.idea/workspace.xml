@@ -14,8 +14,8 @@
     <setting file="file://$PROJECT_DIR$/../KnowledgeIsPower/Assets/CodeBase/Infrastructure/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/PictureCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,36 +24,25 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Add Remove Score/ChangeScoreTypeEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleViewItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/PictureCircleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/IScoreChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/BaseScoreChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/ScoreDuringFly.asmdef" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/IScoreConvention.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Changer/BaseScoreConvention.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyTimePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/IScoreStarter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/IScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/CarScoreStarter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/View/FlyScoreView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/GUIDObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Save/SavedObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleAffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostAffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItems.cs" />
@@ -63,11 +52,9 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemPicture.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleSpriteView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/PictureCircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItemSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BoostCirclePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/Progress/Progress.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/ScoreProgress.cs" />
@@ -87,7 +74,26 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/StringCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleAddRemoveScoreEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/AddScoreCircleEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/DecreaseScoreCircleEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Add Remove Score/ChangeScoreTypeEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/AddRemoveScoreCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/AddSpendScoreCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/AddScoreCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Circle.asmdef" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/PictureCircleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/AddScoreCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" />
       </list>
     </option>
   </component>
@@ -134,7 +140,7 @@
       <workItem from="1698154398893" duration="33256000" />
       <workItem from="1698257766773" duration="3518000" />
       <workItem from="1698262813611" duration="43799000" />
-      <workItem from="1698518827340" duration="18359000" />
+      <workItem from="1698518827340" duration="29682000" />
     </task>
     <servers />
   </component>
@@ -159,10 +165,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698354087340" />
-    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698414784471">
+    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698657918159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698414784471" />
+    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698657918159" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1698359175986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

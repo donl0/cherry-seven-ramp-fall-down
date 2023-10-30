@@ -31,7 +31,7 @@ public abstract class ScoreHolder<T> :MonoBehaviour, IScoreHolder where T:IScore
 
     public virtual void Spend(int value)
     {
-        throw new System.NotImplementedException();
+        _score.Spend(value);
     }
 
     protected abstract void InitScore();

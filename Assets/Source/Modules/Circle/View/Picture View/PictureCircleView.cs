@@ -13,8 +13,12 @@ internal class PictureCircleView : BaseCircleView<CircleViewItem>
         _image.sprite = _itenPicture.TakePicture(item);
     }
 
-    public override void Hide()
+    protected override void OnHide()
     {
-        gameObject.SetActive(false);
+        float offColor = 0f;
+
+        Color spriteColor = _image.color;
+        spriteColor.a = offColor;
+        _image.color = spriteColor;
     }
 }

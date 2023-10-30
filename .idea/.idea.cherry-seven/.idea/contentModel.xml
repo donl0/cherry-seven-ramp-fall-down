@@ -53,6 +53,9 @@
             <e p="Scripts" t="Include">
               <e p="Base" t="Include">
                 <e p="Base.asmdef" t="Include" />
+                <e p="Extantions" t="Include">
+                  <e p="Extantions.cs" t="Include" />
+                </e>
                 <e p="IFlowControl.cs" t="Include" />
                 <e p="Trigger.cs" t="Include" />
               </e>
@@ -73,6 +76,11 @@
             </e>
             <e p="Circle" t="Include">
               <e p="Affector" t="Include">
+                <e p="Add Remove Score" t="Include">
+                  <e p="AddScoreCircleEffector.cs" t="Include" />
+                  <e p="ChangeScoreTypeEffector.cs" t="Include" />
+                  <e p="DecreaseScoreCircleEffector.cs" t="Include" />
+                </e>
                 <e p="CircleBoostEffector.cs" t="Include" />
                 <e p="CircleEffector.cs" t="Include" />
               </e>
@@ -80,16 +88,27 @@
               <e p="Presenter" t="Include">
                 <e p="BaseCirclePresenter.cs" t="Include" />
                 <e p="BoostCirclePresenter.cs" t="Include" />
+                <e p="Change Score" t="Include">
+                  <e p="AddScoreCirclePresenter.cs" t="Include" />
+                  <e p="DecreaseScoreCirclePresenter.cs" t="Include" />
+                </e>
               </e>
               <e p="Trigger" t="Include">
                 <e p="CarTrigger.cs" t="Include" />
+                <e p="RaceScoreHandlerTrigger.cs" t="Include" />
               </e>
               <e p="View" t="Include">
                 <e p="BaseCircleView.cs" t="Include" />
                 <e p="CircleViewItem.cs" t="Include" />
-                <e p="PictureCircleView.cs" t="Include" />
+                <e p="Picture View" t="Include">
+                  <e p="PictureCircleView.cs" t="Include" />
+                </e>
                 <e p="SO" t="Include">
                   <e p="CircleItemPicture.cs" t="Include" />
+                </e>
+                <e p="String View" t="Include">
+                  <e p="StringCircleView.cs" t="Include" />
+                  <e p="StringColor.cs" t="Include" />
                 </e>
                 <e p="ViewItemSprite.cs" t="Include" />
               </e>
