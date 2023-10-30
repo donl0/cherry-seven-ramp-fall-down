@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class BaseCirclePresenter<T, V> : GUIDObject where T:MonoBehaviour
+public abstract class BaseCirclePresenter<T, V> : MonoBehaviour where T:MonoBehaviour
 {
     [SerializeField] private BaseCircleView<V> _view;
     [SerializeField] private Trigger<T> _trigger;
@@ -45,7 +45,6 @@ public abstract class BaseCirclePresenter<T, V> : GUIDObject where T:MonoBehavio
     {
         enabled = false;
         _trigger.enabled =false;
-        _view = null;
     }
 
     protected virtual void OnExit(T value) {}
