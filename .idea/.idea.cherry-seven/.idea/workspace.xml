@@ -20,13 +20,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItemSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/BaseSpriteView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Add Remove Score/ChangeScoreTypeEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/BaseItemPictureList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SimpleActionItemSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,9 +37,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/CarPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleViewItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/InsideCircleViewItemName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/PictureCircleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/SimpleActionSpriteCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,27 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ItemPicture.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemPicture.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleSpriteView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/PictureCircleView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItemSprite.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BoostCirclePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/CircleEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/Progress/Progress.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/ScoreProgress.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/IScoreConvention.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/BaseScoreConvention.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipScoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/DuringRaceScoreHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/MainScoreHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
@@ -82,7 +63,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/AddScoreCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Circle.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/PictureCircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" />
@@ -96,6 +76,28 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/CarPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Car parts/InventoryCarPartsHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemPicture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemPictureList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/CircleViewItemName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ViewItemSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/ItemSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/InsideCircleViewItemName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CircleItemSpriteList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/PictureCircleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/BasePictureView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/BaseItemPicture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/SpriteCircleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SimpleActionBaseItemSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SimpleActionItemSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/SimpleActionSpriteCircleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/SimpleActionCircleItemSpriteList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/BaseSpriteView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CheckSo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CheckSOScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/CheckDS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseItemSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/BaseItemPictureList.cs" />
       </list>
     </option>
   </component>
@@ -121,10 +123,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="18932">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="18932" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -142,7 +144,7 @@
       <workItem from="1698154398893" duration="33256000" />
       <workItem from="1698257766773" duration="3518000" />
       <workItem from="1698262813611" duration="43799000" />
-      <workItem from="1698518827340" duration="33629000" />
+      <workItem from="1698518827340" duration="41937000" />
     </task>
     <servers />
   </component>
@@ -159,18 +161,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="345" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1698257691206" />
-    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698680405897">
+    <state width="407" height="464" key="DebuggerActiveHint" timestamp="1698692645468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698680405897" />
+    <state width="407" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1698692645468" />
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1698687274407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698687274407" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1698354087340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698354087340" />
-    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698657918159">
+    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1698688963586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698657918159" />
+    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698688963586" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1698359175986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

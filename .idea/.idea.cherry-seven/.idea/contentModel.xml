@@ -99,18 +99,21 @@
               </e>
               <e p="View" t="Include">
                 <e p="BaseCircleView.cs" t="Include" />
-                <e p="CircleViewItem.cs" t="Include" />
+                <e p="BaseItemSprite.cs" t="Include" />
+                <e p="InsideCircleViewItemName.cs" t="Include" />
                 <e p="Picture View" t="Include">
-                  <e p="PictureCircleView.cs" t="Include" />
+                  <e p="BaseSpriteView.cs" t="Include" />
+                  <e p="SimpleActionSpriteCircleView.cs" t="Include" />
                 </e>
+                <e p="SimpleActionItemSprite.cs" t="Include" />
                 <e p="SO" t="Include">
-                  <e p="CircleItemPicture.cs" t="Include" />
+                  <e p="BaseItemPictureList.cs" t="Include" />
+                  <e p="SimpleActionCircleItemSpriteList.cs" t="Include" />
                 </e>
                 <e p="String View" t="Include">
                   <e p="StringCircleView.cs" t="Include" />
                   <e p="StringColor.cs" t="Include" />
                 </e>
-                <e p="ViewItemSprite.cs" t="Include" />
               </e>
             </e>
             <e p="Inventory" t="Include">
