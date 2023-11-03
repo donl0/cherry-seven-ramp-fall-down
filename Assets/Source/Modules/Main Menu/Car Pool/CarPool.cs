@@ -12,7 +12,7 @@ internal class CarPool: MonoBehaviour , IPool<CarType>
     {
         InitCars();
 
-        SetCarPropierties();
+        SetCarProperties();
     }
 
     public GameObject GetObject(CarType value)
@@ -32,12 +32,13 @@ internal class CarPool: MonoBehaviour , IPool<CarType>
         }
     }
 
-    private void SetCarPropierties()
+    private void SetCarProperties()
     {
         foreach (var prefab in _carPrefab.Values)
         {
             Destroy(prefab.GetComponentInChildren<Camera>().gameObject);
-            prefab.GetComponentInChildren<Rigidbody>().isKinematic = true;
+            prefab.GetComponentInChildren<Rigidbody>().useGravity = false;
+            prefab.GetComponentInChildren<MoveController>().Activate();
         }
     }
 }
