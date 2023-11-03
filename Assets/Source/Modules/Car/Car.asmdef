@@ -1,3 +1,16 @@
 {
-	"name": "Car"
+    "name": "Car",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3257c6d65b519c14187e5f8f60aa8e13"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
