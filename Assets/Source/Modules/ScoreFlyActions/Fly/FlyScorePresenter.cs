@@ -4,9 +4,7 @@ using UnityEngine;
 public class FlyScorePresenter : MonoBehaviour, IScorePresenter
 {
     [SerializeField] private CarScoreStarter _scoreStarter;
-    [SerializeField] private FlyScoreView _flyView;
-    [SerializeField] private FlipScoreView _flipScoreView;
-
+    
     private readonly List<Flip> _currentRenderFlips = new List<Flip>();
 
     private IScoring _flyScoring;
@@ -15,6 +13,8 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
     private IScoreHolder _score;
     private IScoreConvention _scoreConvention;
 
+    private FlyScoreView _flyView;
+    private FlipScoreView _flipScoreView;
 
     private void OnEnable()
     {
@@ -34,10 +34,12 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
         _flipScoring = GetComponent<FlipScoring>();
     }
 
-    public void Init(IScoreHolder score, IScoreConvention scoreConvention)
+    public void Init(IScoreHolder score, IScoreConvention scoreConvention, FlyScoreView flyView, FlipScoreView flipScoreView)
     {
         _score = score;
         _scoreConvention = scoreConvention;
+        _flyView = flyView;
+        _flipScoreView = flipScoreView;
         _flyScoring.Init(this, _scoreConvention);
         _flipScoring.Init(this, _scoreConvention);
     }

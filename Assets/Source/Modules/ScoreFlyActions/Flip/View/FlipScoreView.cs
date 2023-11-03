@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-internal class FlipScoreView : MonoBehaviour, IScoringView
+public class FlipScoreView : MonoBehaviour, IScoringView
 {
     [SerializeField] private TMP_Text _text;
     

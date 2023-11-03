@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-internal class FlyScoreView : MonoBehaviour, IScoringView
+public class FlyScoreView : MonoBehaviour, IScoringView
 {
     [SerializeField] private TMP_Text _text;
 

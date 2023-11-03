@@ -7,4 +7,16 @@ public static class Extantions
     {
         return value.Replace("\\n", "\n");
     }
+
+    public static T GetComponentOrThrowNullException<T>(GameObject gameObject, string componentName)
+    {
+        T component = gameObject.GetComponentInChildren<T>();
+
+        if (component == null)
+        {
+            throw new ArgumentNullException(componentName, $"{componentName} not found.");
+        }
+
+        return component;
+    }
 }
