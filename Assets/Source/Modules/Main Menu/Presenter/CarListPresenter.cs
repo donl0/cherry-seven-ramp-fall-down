@@ -1,17 +1,17 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CarListPresenter : MainMenuPresenter
+internal class CarListPresenter<T> : MainMenuPresenter where T: ICarMenuMover
 {
     [SerializeField] private Button _previousButton;
     [SerializeField] private Button _nextButton;
 
-    private ICarMenuMover _mover;
+    private T _mover;
 
     
     private void Awake()
     {
-        _mover = GetComponent<CarMenuMover>();
+        _mover = GetComponent<T>();
     }
 
     private void OnNextButtonClicked()
@@ -48,17 +48,19 @@ public class CarListPresenter : MainMenuPresenter
         _nextButton.onClick.RemoveListener(OnNextButtonClicked);
     }
 
-    public override void Activate()
+    protected override void Activate()
     {
         base.Activate();
         ActivateButtons();
         SubButtons();
+        _mover.Activate();
     }
 
-    public override void Deactivate()
+    protected override void Deactivate()
     {
         base.Deactivate();
         DeactivateButtons();
         UnSubButtons();
+        _mover.Hide();
     }
 }

@@ -1,5 +1,5 @@
 public interface IMainMenuPresenter
 {
-    public void Activate();
-    public void Deactivate();
+    public bool TryActivate();
+    public bool TryDeactivate();
 }

@@ -1,3 +1,4 @@
-﻿internal class SkinsPresenter: CarListPresenter
+﻿internal class SkinsPresenter: CarListPresenter<SkinCarMover>
 {
 }
+

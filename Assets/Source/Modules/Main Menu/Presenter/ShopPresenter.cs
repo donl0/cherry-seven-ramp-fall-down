@@ -1,3 +1,3 @@
-﻿internal class ShopPresenter: MainMenuPresenter
+﻿internal class ShopPresenter: CarListPresenter<CarMenuMover>
 {
 }

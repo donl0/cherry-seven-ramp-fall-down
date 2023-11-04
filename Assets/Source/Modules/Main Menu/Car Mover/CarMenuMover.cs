@@ -12,14 +12,23 @@ internal class CarMenuMover: MonoBehaviour, ICarMenuMover
     [SerializeField] private Vector3 _rightPosition;
     [SerializeField] private Vector3 _middlePosition;
     
-    private CarType _currentCar;
+    protected CarType CurrentCar;
 
     private Coroutine _moveMainCoroutine;
     private Coroutine _moveNextCoroutine;
     
-    private void OnEnable()
+    public void Activate()
     {
-        _currentCar = _progressCarType.Load();
+        CurrentCar = _progressCarType.Load();
+        TryStopCoroutine(ref _moveNextCoroutine);
+        TryStopCoroutine(ref _moveMainCoroutine);
+    }
+
+    public void Hide()
+    {
+        TryStopCoroutine(ref _moveNextCoroutine);
+        var currentCar = _pool.GetObject(CurrentCar);
+        DisableObject(currentCar);
     }
 
     public void MoveLeft()
@@ -49,15 +58,25 @@ internal class CarMenuMover: MonoBehaviour, ICarMenuMover
         
         MovingRight();
     }
-    
+
+    private bool TryStopCoroutine(ref Coroutine coroutine)
+    {
+        if (coroutine == null)
+            return false;
+        
+        StopCoroutine(coroutine);
+        coroutine = null;
+        return true;
+    }
+
     private void MakeNextType()
     {
-        _currentCar = _carTypes.GetNextTypeCircular(_currentCar);
+        CurrentCar = _carTypes.GetNextTypeCircular(CurrentCar);
     }
 
     private void MakePreviousType()
     {
-        _currentCar = _carTypes.GetPreviousTypeCircular(_currentCar);
+        CurrentCar = _carTypes.GetPreviousTypeCircular(CurrentCar);
     }
 
     private void MovingLeft()
@@ -88,34 +107,34 @@ internal class CarMenuMover: MonoBehaviour, ICarMenuMover
         _moveMainCoroutine = StartCoroutine(Moving(moveObject, _rightPosition, _middlePosition, startAction, endAction));
     }
 
-    private void MakeMainCarInfo(out GameObject moveObject,out UnityAction startAction, out UnityAction endAction)
+    private void MakeMainCarInfo(out GameObject moveObject, out UnityAction startAction, out UnityAction endAction)
     {
-        MakeCurrentMovingCarInfo(out moveObject,out startAction);
+        startAction = null;
+        MakeCurrentMovingCarInfo(out moveObject,ref startAction);
         var o = moveObject;
         endAction = () => { DisableObject(o);
             _moveMainCoroutine = null;
         };
     }
     
-    private void MakeNextMovingCarInfo(out GameObject moveObject,out UnityAction startAction, out UnityAction endAction)
+    protected virtual void MakeNextMovingCarInfo(out GameObject moveObject,out UnityAction startAction, out UnityAction endAction)
     {
-        MakeCurrentMovingCarInfo(out moveObject,out startAction);
+        startAction = () => {};
+        MakeCurrentMovingCarInfo(out moveObject,ref startAction);
         var o = moveObject;
         endAction = () => { 
             _moveNextCoroutine = null;
-            SaveNewCurrentCar(_currentCar);
         };
     }
 
-    private void MakeCurrentMovingCarInfo(out GameObject moveObject, out UnityAction startAction)
+    private void MakeCurrentMovingCarInfo(out GameObject moveObject, ref UnityAction startAction)
     {
-        moveObject = _pool.GetObject(_currentCar);
+        moveObject = _pool.GetObject(CurrentCar);
         
         var o = moveObject;
-        startAction = () =>
-        {
-            EnableObject(o);
-        };
+       
+        startAction += () => EnableObject(o);
+
     }
 
     private IEnumerator Moving(GameObject moveObject , Vector3 endPosition,Vector3 startPosition, UnityAction startAction ,UnityAction endAction)
@@ -146,10 +165,5 @@ internal class CarMenuMover: MonoBehaviour, ICarMenuMover
     private void EnableObject(GameObject value)
     {
         value.SetActive(true);
-    }
-
-    private void SaveNewCurrentCar(CarType car)
-    {
-        _progressCarType.Save(car); //TO DO: move another responsoble
     }
 }
