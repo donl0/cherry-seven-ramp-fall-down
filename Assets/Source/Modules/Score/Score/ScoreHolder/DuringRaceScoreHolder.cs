@@ -7,10 +7,10 @@ public class DuringRaceScoreHolder : ScoreHolder<IScore>
 
     public void SaveFinalResult()
     {
-        SavedObject<IScore> globalScore = new Score();
+        SavedObject<Score> globalScore = new Score();
         globalScore.Load();
         
-        globalScore.Merge(_score);
+        globalScore.Merge((Score)_score);
         globalScore.Save();
     }
 }

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Events;
 
-public class Score :SavedObject<IScore>, IScore
+public class Score :SavedObject<Score>, IScore
 {
     private const string SaveKey = "MoneyBalance";
 
@@ -22,22 +22,19 @@ public class Score :SavedObject<IScore>, IScore
         _value += value;
     }
 
-    public void Spend(int value)
+    public bool TrySpend(int value)
     {
         CheckOnNegative(value);
 
         if (_value - value < 0)
-            _value = 0;
-        else
-            _value -= value;
-    }
+            return false;
+        
+        _value -= value;
 
-    protected override void OnLoad(IScore loadedObject)
-    {
-        _value = loadedObject.Value;
+        return true;
     }
-
-    public override void Merge(IScore mergeWith)
+    
+    public override void Merge(Score mergeWith)
     {
         int mergeValue = mergeWith.Value;
 
@@ -50,5 +47,10 @@ public class Score :SavedObject<IScore>, IScore
     {
         if (value < 0)
             throw new ArgumentException("Value should be non-negative.");
+    }
+
+    protected override void OnLoad(Score loadedObject)
+    {
+        _value = loadedObject.Value;
     }
 }
