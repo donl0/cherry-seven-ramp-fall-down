@@ -6,14 +6,8 @@ internal class CarListCarPlacePresenter<T> : MainMenuCarPlacePresenter where T: 
     [SerializeField] private Button _previousButton;
     [SerializeField] private Button _nextButton;
 
-    private T _mover;
-
+    [SerializeField] private T _mover;
     
-    private void Awake()
-    {
-        _mover = GetComponent<T>();
-    }
-
     private void OnNextButtonClicked()
     {
         _mover.MoveRight();
