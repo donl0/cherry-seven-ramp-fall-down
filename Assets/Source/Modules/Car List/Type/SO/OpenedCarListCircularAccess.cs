@@ -7,4 +7,15 @@ public class OpenedCarListCircularAccess : CarTypesListCircularAccess
     {
         Cars.Add(car);
     }
+
+    public bool CheckIfContains(CarType car)
+    {
+        foreach (var carinList in Cars)
+        {
+            if (carinList == car)
+                return true;
+        }
+
+        return false;
+    }
 }

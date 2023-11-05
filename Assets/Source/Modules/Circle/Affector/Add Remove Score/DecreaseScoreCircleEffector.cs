@@ -13,6 +13,6 @@ public class DecreaseScoreCircleEffector : CircleEffector<DuringRaceScoreHolder>
 
     public override void Affect(DuringRaceScoreHolder value)
     {
-        value.Spend(_amount);
+        value.TrySpend(_amount);
     }
 }

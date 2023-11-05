@@ -75,12 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/CarTypePrefab.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Current Car Placer/ICurrentCarPlacer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Current Car Placer/CurrentCarPlacer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/CarPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car builder/ICarBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car builder/CarBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Spawn Position/SpawnPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/GetComponentOrThrowNullException.cs" />
@@ -113,7 +107,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/CarPrefabs.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/CarPriseList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCarListCircularAccess.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/View/CarPartsView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Car Parts.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/View/CarPartsView.cs" />
@@ -125,7 +118,14 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/CarListCarPlacePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/View/CarPartView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCarListCircularAccess.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Shop/View/CarPriseView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1698518827340" duration="47036000" />
       <workItem from="1698699200223" duration="4795000" />
       <workItem from="1698933767919" duration="44961000" />
-      <workItem from="1699203923779" duration="9132000" />
+      <workItem from="1699203923779" duration="14231000" />
     </task>
     <servers />
   </component>
@@ -260,24 +260,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698359175986" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs</url>
-          <line>92</line>
-          <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Main Menu\Presenter\BuyCarPresenter.cs" initialLine="92">
-            <startOffsets>
-              <option value="2352" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2384" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

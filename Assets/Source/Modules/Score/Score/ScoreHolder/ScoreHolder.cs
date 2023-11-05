@@ -29,9 +29,9 @@ public abstract class ScoreHolder<T> :MonoBehaviour, IScoreHolder where T:IScore
         _score.Add(value);
     }
 
-    public virtual void Spend(int value)
+    public virtual bool TrySpend(int value)
     {
-        _score.Spend(value);
+        return _score.TrySpend(value);
     }
 
     protected abstract void InitScore();

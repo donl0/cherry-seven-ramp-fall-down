@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,14 +11,14 @@ public class CarPartView : BaseRenderView<CarPart>
 
     [SerializeField] private Sprite _partInInventorySprite;
     [SerializeField] private Sprite _partNotInInventorySprite;
-
+    
     private InventoryCarPartsHandler _partsHandler;
 
     public void Init(InventoryCarPartsHandler partsHandler)
     {
         _partsHandler = partsHandler;
     }
-
+    
     public override void Render(CarPart item)
     {
         Sprite partSprite = _partWithSprite.TakePicture(item);

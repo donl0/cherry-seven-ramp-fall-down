@@ -23,10 +23,10 @@ public class MainScoreHolder :ScoreHolder<Score>
         _totalMoneyProgress.Save();
     }
     
-    public virtual void SpendMoney(int value)
+    public override bool TrySpend(int value)
     {
-        base.Spend(value);
-        _score.Spend(value);
+        base.TrySpend(value);
+        return _score.TrySpend(value);
     }
 
     protected override void InitScore()
@@ -38,5 +38,11 @@ public class MainScoreHolder :ScoreHolder<Score>
     {
         base.OnMoneyChanged();
         _score.Save();
+    }
+
+    [ContextMenu("Save")]
+    public void Save()
+    {
+        _score.Add(0);
     }
 }

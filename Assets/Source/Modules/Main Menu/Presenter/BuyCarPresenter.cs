@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 internal class BuyCarPresenter : BaseMainMenuPresenter
 {
@@ -15,6 +16,12 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
     [SerializeField] private CurrentCarHandler _currentCar;
 
     [SerializeField] private InventoryCarPartsHandler _partsHandler;
+    [SerializeField] private OpenedCarListCircularAccess _openedCars;
+    [SerializeField] private CarPriseList _carPrises;
+
+    [SerializeField] private MainScoreHolder _scoreHolder;
+    
+    [SerializeField] private Button _buyButton;
     
     private const int _partsCount = 3;
     
@@ -23,6 +30,8 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
 
     private CarPartWithCarType _carPartWithCarType;
 
+    private CarType _currentShownCar;
+    
 
     private void Awake()
     {
@@ -48,15 +57,18 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
     private void Sub()
     {
         _changeListener.Changed += OnMainCarChanged;
+        _buyButton.onClick.AddListener(OnBuyButtonClicked);
     }
 
     private void UnSub()
     {
         _changeListener.Changed -= OnMainCarChanged;
+        _buyButton.onClick.RemoveListener(OnBuyButtonClicked);
     }
 
     private void OnMainCarChanged(CarType value)
     {
+        _currentShownCar = value;
         Render(value);
     }
 
@@ -70,7 +82,14 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
 
     private void RenderPrise(CarType car)
     {
+        if (_openedCars.CheckIfContains(car) == true)
+        {
+            _priseView.SetIsBought();
+            return;
+        }
+        
         _priseView.Render(car);
+        _priseView.SetIsNotBought();
     }
     
     private void RenderParts(CarType car, out int renderedCount)
@@ -113,5 +132,25 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
         }
         
         _priseView = Instantiate(_priseViewTemplate, _priseViewContainer);
+    }
+
+    private void OnBuyButtonClicked()
+    {
+        TryBuy(_currentShownCar);
+        Render(_currentShownCar);
+    }
+
+    private bool TryBuy(CarType car)
+    {
+        if (_openedCars.CheckIfContains(car) == true)
+            return false;
+
+        if (_scoreHolder.TrySpend(_carPrises.GetPrise(car)) == false)
+            return false;
+                
+        _openedCars.Add(car);
+        _currentCar.Changed(car);
+
+        return true;
     }
 }
