@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HomePresenter : MainMenuPresenter
+public class HomeCarPlacePresenter : MainMenuCarPlacePresenter
 {
     protected override void Activate()
     {

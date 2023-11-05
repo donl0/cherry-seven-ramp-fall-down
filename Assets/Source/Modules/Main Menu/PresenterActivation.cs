@@ -14,9 +14,9 @@ public class PresenterActivation : MonoBehaviour
     
     private void Awake()
     {
-        _homePresenter = GetComponent<HomePresenter>();
-        _skinsPresenter = GetComponent<SkinsPresenter>();
-        _shopPresenter = GetComponent<ShopPresenter>();
+        _homePresenter = GetComponent<HomeCarPlacePresenter>();
+        _skinsPresenter = GetComponent<SkinsCarPlacePresenter>();
+        _shopPresenter = GetComponent<ShopCarPlacePresenter>();
         
         _homePresenter.TryActivate();
     }

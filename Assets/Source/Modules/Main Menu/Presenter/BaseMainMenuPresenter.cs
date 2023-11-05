@@ -1,9 +1,7 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public abstract class MainMenuPresenter: MonoBehaviour, IMainMenuPresenter
+public abstract class BaseMainMenuPresenter : MonoBehaviour, IMainMenuPresenter
 {
-    [SerializeField] private CurrentCarPlacer _placer;
-
     private bool _isActive;
     
     public bool TryActivate()
@@ -23,18 +21,16 @@ public abstract class MainMenuPresenter: MonoBehaviour, IMainMenuPresenter
         Deactivate();
         return true;
     }
-
+    
     protected virtual void Activate()
     {
         enabled = true;
         _isActive = true;
-        _placer.Place();
     }
     
     protected virtual void Deactivate()
     {
         enabled = false;
         _isActive = false;
-        _placer.Hide();
     }
 }

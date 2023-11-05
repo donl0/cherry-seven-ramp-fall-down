@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-internal class CarListPresenter<T> : MainMenuPresenter where T: ICarMenuMover
+internal class CarListCarPlacePresenter<T> : MainMenuCarPlacePresenter where T: ICarMenuMover
 {
     [SerializeField] private Button _previousButton;
     [SerializeField] private Button _nextButton;
