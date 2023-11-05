@@ -43,22 +43,41 @@
             <e p="Art" t="Include">
               <e p="Materials" t="Include">
                 <e p="Car" t="Include" />
+                <e p="Fall Guys" t="Include">
+                  <e p="Materials" t="Include" />
+                </e>
               </e>
-              <e p="Sprites" t="Include" />
+              <e p="Sprites" t="Include">
+                <e p="Car parts" t="Include" />
+                <e p="Positive Negative Sighns" t="Include" />
+                <e p="UI" t="Include">
+                  <e p="Main Menu Buttons" t="Include" />
+                  <e p="Money" t="Include" />
+                </e>
+              </e>
             </e>
             <e p="Prefabs" t="Include">
+              <e p="Car" t="Include" />
               <e p="Circle" t="Include" />
+              <e p="Main Menu" t="Include" />
+              <e p="View" t="Include" />
             </e>
             <e p="Scenes" t="Include" />
             <e p="Scripts" t="Include">
               <e p="Base" t="Include">
                 <e p="Base.asmdef" t="Include" />
+                <e p="BaseItemPictureList.cs" t="Include" />
+                <e p="BaseItemSprite.cs" t="Include" />
                 <e p="Extantions" t="Include">
                   <e p="Extantions.cs" t="Include" />
+                  <e p="GetComponentOrThrowNullException.cs" t="Include" />
                 </e>
                 <e p="HelpFunctionsScript.cs" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
                 <e p="Trigger.cs" t="Include" />
+                <e p="View" t="Include">
+                  <e p="BaseRenderView.cs" t="Include" />
+                </e>
               </e>
               <e p="Root" t="Include">
                 <e p="CherrySeven.asmdef" t="Include" />
@@ -74,12 +93,51 @@
             <e p="Car" t="Include">
               <e p="Car.asmdef" t="Include" />
               <e p="Car.cs" t="Include" />
+              <e p="Current Car" t="Include">
+                <e p="CurrentCarHandler.cs" t="Include" />
+                <e p="SO" t="Include" />
+              </e>
+            </e>
+            <e p="Car builder" t="Include">
+              <e p="CarBuilder.asmdef" t="Include" />
+              <e p="CarBuilder.cs" t="Include" />
+              <e p="ICarBuilder.cs" t="Include" />
+            </e>
+            <e p="Car List" t="Include">
+              <e p="Car Prefab" t="Include">
+                <e p="CarTypePrefab.cs" t="Include" />
+                <e p="SO" t="Include">
+                  <e p="CarPrefabs.cs" t="Include" />
+                </e>
+              </e>
+              <e p="CarList.asmdef" t="Include" />
+              <e p="Prise" t="Include">
+                <e p="CarPrise.cs" t="Include" />
+                <e p="CarPriseList.cs" t="Include" />
+                <e p="SO" t="Include" />
+              </e>
+              <e p="Type" t="Include">
+                <e p="CarType.cs" t="Include" />
+                <e p="SO" t="Include">
+                  <e p="CarTypesList.cs" t="Include" />
+                  <e p="CarTypesListCircularAccess.cs" t="Include" />
+                  <e p="OpenedCarListCircularAccess.cs" t="Include" />
+                </e>
+              </e>
             </e>
             <e p="Car parts" t="Include">
               <e p="Car Parts.asmdef" t="Include" />
               <e p="CarPart.cs" t="Include" />
+              <e p="CarPartItemSprite.cs" t="Include" />
               <e p="CarPartSaveAssistance.cs" t="Include" />
+              <e p="CarPartWithCarType.cs" t="Include" />
               <e p="InventoryCarPartsHandler.cs" t="Include" />
+              <e p="SO" t="Include">
+                <e p="CarPartItemSpriteList.cs" t="Include" />
+              </e>
+              <e p="View" t="Include">
+                <e p="CarPartView.cs" t="Include" />
+              </e>
             </e>
             <e p="Circle" t="Include">
               <e p="Affector" t="Include">
@@ -117,25 +175,17 @@
               </e>
               <e p="View" t="Include">
                 <e p="BaseCircleView.cs" t="Include" />
-                <e p="BaseItemSprite.cs" t="Include" />
                 <e p="InsideCircleViewItemName.cs" t="Include" />
                 <e p="Picture View" t="Include">
-                  <e p="Car part" t="Include">
-                    <e p="CarPartCircleView.cs" t="Include" />
-                    <e p="CarPartItemSprite.cs" t="Include" />
-                  </e>
                   <e p="Simple Picture" t="Include">
                     <e p="BaseSpriteView.cs" t="Include" />
+                    <e p="CarPartCircleView.cs" t="Include" />
                     <e p="SimpleActionItemSprite.cs" t="Include" />
                     <e p="SimpleActionSpriteCircleView.cs" t="Include" />
                   </e>
                 </e>
                 <e p="SO" t="Include">
-                  <e p="Car part" t="Include">
-                    <e p="CarPartItemSpriteList.cs" t="Include" />
-                  </e>
                   <e p="Simple Picture" t="Include">
-                    <e p="BaseItemPictureList.cs" t="Include" />
                     <e p="SimpleActionCircleItemSpriteList.cs" t="Include" />
                   </e>
                 </e>
@@ -148,6 +198,40 @@
             <e p="Inventory" t="Include">
               <e p="Inventory.asmdef" t="Include" />
               <e p="Inventory.cs" t="Include" />
+            </e>
+            <e p="Main Menu" t="Include">
+              <e p="Car Mover" t="Include">
+                <e p="CarMenuMover.cs" t="Include" />
+                <e p="ICarMenuMover.cs" t="Include" />
+                <e p="On Moved Excecutor" t="Include">
+                  <e p="IMainCarInteracter.cs" t="Include" />
+                  <e p="InceracterListener.cs" t="Include" />
+                  <e p="OnSkinChangedInteracter.cs" t="Include" />
+                  <e p="SkinMainCarInteracter.cs" t="Include" />
+                </e>
+                <e p="SkinCarMover.cs" t="Include" />
+              </e>
+              <e p="Car Pool" t="Include">
+                <e p="CarPool.cs" t="Include" />
+                <e p="IPool.cs" t="Include" />
+              </e>
+              <e p="Current Car Placer" t="Include">
+                <e p="CurrentCarPlacer.cs" t="Include" />
+                <e p="ICurrentCarPlacer.cs" t="Include" />
+              </e>
+              <e p="MainMenu.asmdef" t="Include" />
+              <e p="Presenter" t="Include">
+                <e p="BaseMainMenuPresenter.cs" t="Include" />
+                <e p="BuyCarPresenter.cs" t="Include" />
+                <e p="CarListCarPlacePresenter.cs" t="Include" />
+                <e p="HomeCarPlacePresenter.cs" t="Include" />
+                <e p="IMainMenuPresenter.cs" t="Include" />
+                <e p="MainMenuCarPlacePresenter.cs" t="Include" />
+                <e p="ShopCarPlacePresenter.cs" t="Include" />
+                <e p="SkinsCarPlacePresenter.cs" t="Include" />
+              </e>
+              <e p="PresenterActivation.cs" t="Include" />
+              <e p="View" t="Include" />
             </e>
             <e p="Movemet" t="Include">
               <e p="Input" t="Include">
@@ -221,6 +305,16 @@
               <e p="IScoring.cs" t="Include" />
               <e p="ScoreDuringFly.asmdef" t="Include" />
             </e>
+            <e p="Shop" t="Include">
+              <e p="Shop.asmdef" t="Include" />
+              <e p="View" t="Include">
+                <e p="CarPriseView.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Spawn Position" t="Include">
+              <e p="SpawnPosition.asmdef" t="Include" />
+              <e p="SpawnPosition.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
@@ -263,11 +357,14 @@
       <e p="Base.csproj" t="IncludeRecursive" />
       <e p="CameraFollow.csproj" t="IncludeRecursive" />
       <e p="Car.csproj" t="IncludeRecursive" />
+      <e p="CarBuilder.csproj" t="IncludeRecursive" />
+      <e p="CarList.csproj" t="IncludeRecursive" />
       <e p="CarParts.csproj" t="IncludeRecursive" />
       <e p="cherry-seven.sln" t="IncludeFlat" />
       <e p="CherrySeven.csproj" t="IncludeRecursive" />
       <e p="Circle.csproj" t="IncludeRecursive" />
       <e p="Inventory.csproj" t="IncludeRecursive" />
+      <e p="MainMenu.csproj" t="IncludeRecursive" />
       <e p="Movement.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
@@ -275,6 +372,8 @@
       <e p="Save.csproj" t="IncludeRecursive" />
       <e p="Score.csproj" t="IncludeRecursive" />
       <e p="ScoreDuringFly.csproj" t="IncludeRecursive" />
+      <e p="Shop.csproj" t="IncludeRecursive" />
+      <e p="SpawnPosition.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
     </e>
   </component>
