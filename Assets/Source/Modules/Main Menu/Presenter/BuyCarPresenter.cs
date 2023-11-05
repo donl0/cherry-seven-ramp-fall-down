@@ -147,9 +147,25 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
 
         if (_scoreHolder.TrySpend(_carPrises.GetPrise(car)) == false)
             return false;
-                
+
+        if (CheckInventoryContainsParts(car) == false)
+            return false;
+        
         _openedCars.Add(car);
         _currentCar.Changed(car);
+
+        return true;
+    }
+
+    private bool CheckInventoryContainsParts(CarType car)
+    {
+        List<CarPart> parts = _carPartWithCarType.GetParts(car);
+
+        foreach (var part in parts)
+        {
+            if (_partsHandler.TryFound(part) == false)
+                return false;
+        }
 
         return true;
     }
