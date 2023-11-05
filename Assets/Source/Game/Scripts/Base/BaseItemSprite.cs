@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [Serializable]
-internal abstract class BaseItemSprite<T>
+public abstract class BaseItemSprite<T>
 {
     [SerializeField] private T _itemName;
     [SerializeField] private Sprite _sprite;

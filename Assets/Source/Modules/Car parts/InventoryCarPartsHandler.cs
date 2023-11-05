@@ -7,7 +7,7 @@ public class InventoryCarPartsHandler : GUIDObject
     [SerializeField] private Inventory<CarPart> _inventory;
 
     public UnityAction<CarPart> ItemAdded;
-    
+
     private void Awake()
     {
         _inventory = new Inventory<CarPart>(new List<CarPart>(), GUID);
@@ -20,4 +20,6 @@ public class InventoryCarPartsHandler : GUIDObject
         _inventory.Save();
         ItemAdded?.Invoke(part);
     }
+
+    public bool TryFound(CarPart item) => _inventory.TryFound(item);
 }

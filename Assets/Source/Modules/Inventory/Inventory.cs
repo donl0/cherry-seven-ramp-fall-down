@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [Serializable]
@@ -15,6 +16,12 @@ public class Inventory<T>: SavedObject<Inventory<T>>
     public void Add(T item)
     {
         _items.Add(item);
+    }
+
+    public bool TryFound(T item)
+    {
+        var foundItem = _items.FirstOrDefault(i => Equals(i, item));
+        return foundItem != null;
     }
 
     private List<T> GetCopy()

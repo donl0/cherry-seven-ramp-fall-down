@@ -1,10 +1,10 @@
 using UnityEngine;
 
-internal abstract class BaseCircleView<T>: MonoBehaviour
+internal abstract class BaseCircleView<T>: BaseRenderView<T>
 {
     [SerializeField] private ParticleSystem _circle;
 
-    public virtual void Render(T item)
+    public override void Render(T item)
     {
         _circle.Play();
     }

@@ -18,7 +18,7 @@ public class PresenterActivation : MonoBehaviour
         _skinsPresenter = GetComponent<SkinsPresenter>();
         _shopPresenter = GetComponent<ShopPresenter>();
         
-        _homePresenter.Activate();
+        _homePresenter.TryActivate();
     }
     
     private void OnEnable()
@@ -39,26 +39,26 @@ public class PresenterActivation : MonoBehaviour
 
     private void OnHomeButtonClicked()
     {
-        _skinsPresenter.Deactivate();
-        _shopPresenter.Deactivate();
-        _homePresenter.Activate();
+        _skinsPresenter.TryDeactivate();
+        _shopPresenter.TryDeactivate();
+        _homePresenter.TryActivate();
     }
     
     private void OnSkinsButtonClicked()
     {
-        _shopPresenter.Deactivate();
-        _skinsPresenter.Activate();
+        _homePresenter.TryDeactivate();
+        _shopPresenter.TryDeactivate();
+        _skinsPresenter.TryActivate();
     }
 
     private void OnShopButtonClicked()
     {
-        _shopPresenter.Activate();
-        _skinsPresenter.Deactivate();
+        _homePresenter.TryDeactivate();
+        _skinsPresenter.TryDeactivate();
+        _shopPresenter.TryActivate();
     }
 
     private void OnPreferenceButtonClicked()
     {
-        _shopPresenter.Deactivate();
-        _skinsPresenter.Deactivate();
     }
 }

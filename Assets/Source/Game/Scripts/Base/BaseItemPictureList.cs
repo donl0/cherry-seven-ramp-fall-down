@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-internal abstract class BaseItemSpriteList<T, IS> : ScriptableObject where IS:BaseItemSprite<T>
+public abstract class BaseItemSpriteList<T, IS> : ScriptableObject where IS:BaseItemSprite<T>
 {
     [SerializeField] private List<IS> _items;
 

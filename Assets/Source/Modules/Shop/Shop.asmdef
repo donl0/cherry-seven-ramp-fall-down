@@ -1,13 +1,12 @@
 {
-    "name": "CarParts",
+    "name": "Shop",
     "rootNamespace": "",
     "references": [
-        "GUID:8922788db58740c488077b3a86de7af2",
-        "GUID:8b79d73ece90ee6479550166af0e2ce5",
-        "GUID:3257c6d65b519c14187e5f8f60aa8e13",
-        "GUID:84b653a037b61964b8992f9a2cee0e48",
-        "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:6546d7765b4165b40850b3667f981c26"
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor",
+        "Base",
+        "CarList",
+        ""
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
