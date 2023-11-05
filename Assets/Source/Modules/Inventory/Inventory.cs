@@ -20,8 +20,15 @@ public class Inventory<T>: SavedObject<Inventory<T>>
 
     public bool TryFound(T item)
     {
-        var foundItem = _items.FirstOrDefault(i => Equals(i, item));
-        return foundItem != null;
+        foreach (var itemList in _items)
+        {
+            if (Equals(itemList, item))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private List<T> GetCopy()

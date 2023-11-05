@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuyCarPresenter : BaseMainMenuPresenter
+internal class BuyCarPresenter : BaseMainMenuPresenter
 {
     [SerializeField] private CarPartView _partViewTemplate;
     [SerializeField] private CarPriseView _priseViewTemplate;
@@ -14,14 +14,16 @@ public class BuyCarPresenter : BaseMainMenuPresenter
     [SerializeField] private OnSkinChangedInteracter _changeListener;
     [SerializeField] private CurrentCarHandler _currentCar;
 
-    const int _partsCount = 3;
+    [SerializeField] private InventoryCarPartsHandler _partsHandler;
+    
+    private const int _partsCount = 3;
+    
+    private readonly List<CarPartView> _partsView = new List<CarPartView>();
+    private CarPriseView _priseView;
 
     private CarPartWithCarType _carPartWithCarType;
-    
-    private List<CarPartView> _partsView;
-    private CarPriseView _priseView;
-    
-    
+
+
     private void Awake()
     {
         _carPartWithCarType = new CarPartWithCarType();
@@ -90,7 +92,7 @@ public class BuyCarPresenter : BaseMainMenuPresenter
     {
         if (renderedCount < _partsCount)
         {
-            for (int count = renderedCount - 1; count < _partsCount-1; count++)
+            for (int count = renderedCount; count < _partsCount; count++)
             {
                 _partsView[count].gameObject.SetActive(false);
             }
@@ -106,6 +108,7 @@ public class BuyCarPresenter : BaseMainMenuPresenter
         for (int spawned = 0; spawned < _partsCount; spawned++)
         {
             var partView = Instantiate(_partViewTemplate, _partViewContainer);
+            partView.Init(_partsHandler);
             _partsView.Add(partView);
         }
         
