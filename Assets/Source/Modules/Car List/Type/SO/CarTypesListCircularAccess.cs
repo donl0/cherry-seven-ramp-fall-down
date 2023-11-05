@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Car types list/list")]
+[CreateAssetMenu(menuName = "car/car types list/list")]
 public class CarTypesListCircularAccess : CarTypesList
 {
     [SerializeField] protected List<CarType> Cars;

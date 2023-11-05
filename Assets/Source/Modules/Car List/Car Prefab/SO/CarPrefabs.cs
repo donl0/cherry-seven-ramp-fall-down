@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "car prefabs")]
+[CreateAssetMenu(menuName = "car/car prefabs")]
 public class CarPrefabs : ScriptableObject
 {
     [SerializeField] private List<CarTypePrefab> _cars;
