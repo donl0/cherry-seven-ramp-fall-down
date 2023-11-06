@@ -20,7 +20,7 @@ public class PresenterActivation : MonoBehaviour
         _homePresenter = GetComponent<HomeCarPlacePresenter>();
         _skinsPresenter = GetComponent<SkinsCarPlacePresenter>();
         _shopPresenter = GetComponent<ShopCarPlacePresenter>();
-        _levelPresenter = GetComponent<LevelsPresenter>();
+        _levelPresenter = GetComponent<DatasPresenter>();
         
         _homePresenter.TryActivate();
     }
