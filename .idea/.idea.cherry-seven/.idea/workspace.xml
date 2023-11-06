@@ -30,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/IMainMenuPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/CarPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/CarMenuMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car builder/ICarBuilder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,12 +76,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Spawn Position/SpawnPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/GetComponentOrThrowNullException.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartWithCarType.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car/Current Car/CurrentCarHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/ICarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/IMainMenuPresenter.cs" />
@@ -123,9 +119,14 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/CarType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartWithCarType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +176,7 @@
       <workItem from="1698518827340" duration="47036000" />
       <workItem from="1698699200223" duration="4795000" />
       <workItem from="1698933767919" duration="44961000" />
-      <workItem from="1699203923779" duration="14231000" />
+      <workItem from="1699203923779" duration="18169000" />
     </task>
     <servers />
   </component>

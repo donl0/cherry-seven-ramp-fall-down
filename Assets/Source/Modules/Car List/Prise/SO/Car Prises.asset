@@ -17,3 +17,5 @@ MonoBehaviour:
     _car: 0
   - _price: 20000
     _car: 1
+  - _price: 100
+    _car: 2

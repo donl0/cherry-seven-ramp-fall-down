@@ -132,6 +132,9 @@
               <e p="CarPartSaveAssistance.cs" t="Include" />
               <e p="CarPartWithCarType.cs" t="Include" />
               <e p="InventoryCarPartsHandler.cs" t="Include" />
+              <e p="Renderer" t="Include">
+                <e p="CarPartsRenderer.cs" t="Include" />
+              </e>
               <e p="SO" t="Include">
                 <e p="CarPartItemSpriteList.cs" t="Include" />
               </e>
