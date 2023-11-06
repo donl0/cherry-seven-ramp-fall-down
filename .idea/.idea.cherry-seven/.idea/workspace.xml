@@ -50,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Boost/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Car Part/CarPartEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/CarPrise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelsPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/InventoryCarPartHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/CarPrefabs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/OnMovedExecuter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/OnMovedExecuter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/SkinsPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/SkinCarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/ShopPresenter.cs" />
@@ -91,7 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/IMainCarInteracter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/InceracterListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/SkinMovedExcecutor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/PresenterActivation.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/View/BaseRenderView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/InventoryCarPartsHandler.cs" />
@@ -124,10 +122,13 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/PlayableLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/LevelInfoList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/View/LevelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/PlayableLevels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/LevelInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/PresenterActivation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelsPresenter.cs" />
       </list>
     </option>
   </component>
@@ -177,7 +178,7 @@
       <workItem from="1698518827340" duration="47036000" />
       <workItem from="1698699200223" duration="4795000" />
       <workItem from="1698933767919" duration="44961000" />
-      <workItem from="1699203923779" duration="20357000" />
+      <workItem from="1699203923779" duration="24447000" />
     </task>
     <servers />
   </component>

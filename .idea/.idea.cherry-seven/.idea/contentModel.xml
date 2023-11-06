@@ -209,6 +209,7 @@
               <e p="LevelInfo.cs" t="Include" />
               <e p="LevelInfoList.cs" t="Include" />
               <e p="PlayableLevels.cs" t="Include" />
+              <e p="SO" t="Include" />
               <e p="View" t="Include">
                 <e p="LevelView.cs" t="Include" />
               </e>
@@ -240,6 +241,7 @@
                 <e p="CarListCarPlacePresenter.cs" t="Include" />
                 <e p="HomeCarPlacePresenter.cs" t="Include" />
                 <e p="IMainMenuPresenter.cs" t="Include" />
+                <e p="LevelsPresenter.cs" t="Include" />
                 <e p="MainMenuCarPlacePresenter.cs" t="Include" />
                 <e p="ShopCarPlacePresenter.cs" t="Include" />
                 <e p="SkinsCarPlacePresenter.cs" t="Include" />
