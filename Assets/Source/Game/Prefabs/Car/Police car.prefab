@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 649988260291922724}
   - component: {fileID: 5784125006818573289}
   - component: {fileID: 3957154192111074180}
+  - component: {fileID: 5554517862756046922}
   m_Layer: 6
   m_Name: Car10 1
   m_TagString: Untagged
@@ -459,6 +460,19 @@ MonoBehaviour:
   _guid: e93c7c40-004e-4a7f-aff2-751ec64953be
   _inventory:
     _items: 
+--- !u!114 &5554517862756046922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4003108712593272580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c2b2791d8897c47a937a98cb17a772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationForce: 6000
 --- !u!1 &4187303329456777368
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,8 +982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scoreStarter: {fileID: 649988260291922724}
-  _flyView: {fileID: 0}
-  _flipScoreView: {fileID: 0}
 --- !u!114 &3509660816818077328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,11 +1073,11 @@ MonoBehaviour:
   _centreOfMass: {fileID: 0}
   _torque: 3500
   _maxAngle: 65
-  _rotationSpeed: 18
+  _rotationSpeed: 14
   _MoveMask:
     serializedVersion: 2
     m_Bits: 55
-  _lerpRotationSpeed: 4
+  _lerpRotationSpeed: 3
   _radiusNotFlip: 4
 --- !u!114 &6396281825076193217
 MonoBehaviour:

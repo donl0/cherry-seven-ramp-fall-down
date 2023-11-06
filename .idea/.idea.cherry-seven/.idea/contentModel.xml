@@ -99,6 +99,9 @@
                 <e p="SO" t="Include" />
               </e>
             </e>
+            <e p="Car Affector" t="Include">
+              <e p="AtGroundedRotator.cs" t="Include" />
+            </e>
             <e p="Car builder" t="Include">
               <e p="CarBuilder.asmdef" t="Include" />
               <e p="CarBuilder.cs" t="Include" />
