@@ -21078,7 +21078,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _carBuilder: {fileID: 304046039}
   _spawnPosition: {fileID: 336275193}
-  _raceScoreHandler: {fileID: 0}
   _flyView: {fileID: 1624243047}
   _flipScoreView: {fileID: 2088636922}
 --- !u!4 &1163730478
@@ -25128,7 +25127,7 @@ SpriteRenderer:
   m_Size: {x: 20, y: 20}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1722185543

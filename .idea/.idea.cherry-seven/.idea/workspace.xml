@@ -23,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Spawn Position/SpawnPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/View/FlipScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/a3/68d49488/UnityAction`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Add Remove Score/ChangeScoreTypeEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Level/PlayableLevels.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,7 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Boost/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Car Part/CarPartEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/CarPrise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelsPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/InventoryCarPartHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/CarPrefabs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -78,17 +79,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/SkinsPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/SkinCarMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/ShopPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/ICarMenuMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/CarListPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/CarMenuMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/HomePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/IMainCarInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/InceractorListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/IMainCarInteracter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/InceracterListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/SkinMovedExcecutor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/View/BaseRenderView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/BaseCircleView.cs" />
@@ -124,11 +118,18 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/LevelInfoList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/View/LevelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/PlayableLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/LevelInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/PresenterActivation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/InceracterListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Loader/ILevelSharer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Loader/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelsPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Loader/IDataSharer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/View/LevelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Sharer/IDataSharer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +146,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Buildes/01\cherry seven.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProjects\cherry-seven\Buildes\01" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -178,7 +187,7 @@
       <workItem from="1698518827340" duration="47036000" />
       <workItem from="1698699200223" duration="4795000" />
       <workItem from="1698933767919" duration="44961000" />
-      <workItem from="1699203923779" duration="24447000" />
+      <workItem from="1699203923779" duration="26984000" />
     </task>
     <servers />
   </component>
@@ -255,10 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698354087340" />
-    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1699117234271">
+    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1699289207364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1699117234271" />
+    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1699289207364" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1698359175986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
