@@ -51,6 +51,7 @@
                 <e p="Car parts" t="Include" />
                 <e p="Positive Negative Sighns" t="Include" />
                 <e p="UI" t="Include">
+                  <e p="Level" t="Include" />
                   <e p="Main Menu Buttons" t="Include" />
                   <e p="Money" t="Include" />
                 </e>
@@ -201,6 +202,16 @@
             <e p="Inventory" t="Include">
               <e p="Inventory.asmdef" t="Include" />
               <e p="Inventory.cs" t="Include" />
+            </e>
+            <e p="Level" t="Include">
+              <e p="Level.asmdef" t="Include" />
+              <e p="Level.cs" t="Include" />
+              <e p="LevelInfo.cs" t="Include" />
+              <e p="LevelInfoList.cs" t="Include" />
+              <e p="PlayableLevels.cs" t="Include" />
+              <e p="View" t="Include">
+                <e p="LevelView.cs" t="Include" />
+              </e>
             </e>
             <e p="Main Menu" t="Include">
               <e p="Car Mover" t="Include">
@@ -367,6 +378,7 @@
       <e p="CherrySeven.csproj" t="IncludeRecursive" />
       <e p="Circle.csproj" t="IncludeRecursive" />
       <e p="Inventory.csproj" t="IncludeRecursive" />
+      <e p="Level.csproj" t="IncludeRecursive" />
       <e p="MainMenu.csproj" t="IncludeRecursive" />
       <e p="Movement.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

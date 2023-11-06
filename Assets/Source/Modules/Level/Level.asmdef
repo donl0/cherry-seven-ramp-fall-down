@@ -1,11 +1,10 @@
 {
-    "name": "Shop",
+    "name": "Level",
     "rootNamespace": "",
     "references": [
+        "GUID:84b653a037b61964b8992f9a2cee0e48",
         "Unity.TextMeshPro",
-        "Unity.TextMeshPro.Editor",
-        "Base",
-        "CarList"
+        "Unity.TextMeshPro.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

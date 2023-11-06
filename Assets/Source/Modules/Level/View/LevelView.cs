@@ -1,0 +1,19 @@
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class LevelView : BaseRenderView<Level>
+{
+    [SerializeField] private TMP_Text _name;
+    [SerializeField] private Image _image;
+
+    [SerializeField] private LevelInfoList _info;
+
+    public override void Render(Level item)
+    {
+        LevelInfo info = _info.GetInfo(item);
+
+        _name.text = info.Name.ToString();
+        _image.sprite = info.Sprite;
+    }
+}
