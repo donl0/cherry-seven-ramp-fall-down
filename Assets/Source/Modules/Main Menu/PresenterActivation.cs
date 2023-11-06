@@ -8,15 +8,19 @@ public class PresenterActivation : MonoBehaviour
     [SerializeField] private Button _shopButton;
     [SerializeField] private Button _preferenceButton;
 
+    [SerializeField] private Button _playButton;
+    [SerializeField] private Button _levelCloseButton;
+    
     private IMainMenuPresenter _homePresenter;
     private IMainMenuPresenter _skinsPresenter;
     private IMainMenuPresenter _shopPresenter;
-    
+    private IMainMenuPresenter _levelPresenter;
     private void Awake()
     {
         _homePresenter = GetComponent<HomeCarPlacePresenter>();
         _skinsPresenter = GetComponent<SkinsCarPlacePresenter>();
         _shopPresenter = GetComponent<ShopCarPlacePresenter>();
+        _levelPresenter = GetComponent<LevelsPresenter>();
         
         _homePresenter.TryActivate();
     }
@@ -27,6 +31,8 @@ public class PresenterActivation : MonoBehaviour
         _skinsButton.onClick.AddListener(OnSkinsButtonClicked);
         _shopButton.onClick.AddListener(OnShopButtonClicked);
         _preferenceButton.onClick.AddListener(OnPreferenceButtonClicked);
+        _playButton.onClick.AddListener(OnPlayButtonClicked);
+        _levelCloseButton.onClick.AddListener(OnLevelCloseClicked);
     }
 
     private void OnDisable()
@@ -35,6 +41,8 @@ public class PresenterActivation : MonoBehaviour
         _skinsButton.onClick.RemoveListener(OnSkinsButtonClicked);
         _shopButton.onClick.RemoveListener(OnShopButtonClicked);
         _preferenceButton.onClick.RemoveListener(OnPreferenceButtonClicked);
+        _playButton.onClick.RemoveListener(OnPlayButtonClicked);
+        _levelCloseButton.onClick.RemoveListener(OnLevelCloseClicked);
     }
 
     private void OnHomeButtonClicked()
@@ -43,7 +51,7 @@ public class PresenterActivation : MonoBehaviour
         _shopPresenter.TryDeactivate();
         _homePresenter.TryActivate();
     }
-    
+
     private void OnSkinsButtonClicked()
     {
         _homePresenter.TryDeactivate();
@@ -60,5 +68,15 @@ public class PresenterActivation : MonoBehaviour
 
     private void OnPreferenceButtonClicked()
     {
+    }
+
+    private void OnPlayButtonClicked()
+    {
+        _levelPresenter.TryActivate();
+    }
+
+    private void OnLevelCloseClicked()
+    {
+        _levelPresenter.TryDeactivate();
     }
 }

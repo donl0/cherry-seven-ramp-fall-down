@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "level/Info list")]
-internal class LevelInfoList: ScriptableObject
+public class LevelInfoList: ScriptableObject
 {
     [SerializeField] private List<LevelInfo> _levels;
 

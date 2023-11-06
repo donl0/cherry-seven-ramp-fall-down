@@ -7,7 +7,11 @@ public class LevelView : BaseRenderView<Level>
     [SerializeField] private TMP_Text _name;
     [SerializeField] private Image _image;
 
+    [SerializeField] private Transform _partsContainer;
+    
     [SerializeField] private LevelInfoList _info;
+
+    public Transform PartsContainer => _partsContainer;
 
     public override void Render(Level item)
     {
