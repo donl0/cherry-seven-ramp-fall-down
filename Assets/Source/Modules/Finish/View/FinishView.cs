@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,10 +21,16 @@ internal class FinishView : BaseRenderView<FinishInfo>
     
     public override void Render(FinishInfo item)
     {
-        _flyScore.text = item.FlyScore.ToString();
-        _frontFlips.text = item.FrontFlips.ToString();
-        _backFlips.text = item.BackFlips.ToString();
-        _sideFlips.text = item.SideFlips.ToString();
-        _finalResult.text = item.FinalScore.ToString();
+        string flyScore = "Fly Score: " + item.FlyScore.ToString();
+        string frontFlips = "Front Flips:" + item.FrontFlips.ToString();
+        string backFlips = "Back Flips:" + item.BackFlips.ToString();
+        string sideFlips = "Side Flips:" + item.SideFlips.ToString();
+        string finalResult = "Final Result:" + item.FinalScore.ToString();
+
+        _flyScore.text = flyScore;
+        _frontFlips.text = frontFlips;
+        _backFlips.text = backFlips;
+        _sideFlips.text = sideFlips;
+        _finalResult.text = finalResult;
     }
 }
