@@ -1,11 +1,13 @@
 using System;
+using UnityEngine;
 using UnityEngine.Events;
 
+[Serializable]
 public class Score :SavedObject<Score>, IScore
 {
     private const string SaveKey = "MoneyBalance";
-
-    private int _value;
+    
+    [SerializeField] private int _value;
     
     public int Value => _value;
 

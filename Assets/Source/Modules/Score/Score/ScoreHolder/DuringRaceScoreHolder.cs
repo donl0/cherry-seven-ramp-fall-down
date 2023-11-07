@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class DuringRaceScoreHolder : ScoreHolder<IScore>
 {
     protected override void InitScore()
@@ -9,7 +11,6 @@ public class DuringRaceScoreHolder : ScoreHolder<IScore>
     {
         SavedObject<Score> globalScore = new Score();
         globalScore.Load();
-        
         globalScore.Merge((Score)_score);
         globalScore.Save();
     }

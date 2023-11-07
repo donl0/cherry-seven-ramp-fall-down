@@ -54,7 +54,9 @@
                   <e p="Icons" t="Include" />
                   <e p="Level" t="Include" />
                   <e p="Main Menu Buttons" t="Include" />
-                  <e p="Money" t="Include" />
+                  <e p="Money" t="Include">
+                    <e p="Main Menu Buttons" t="Include" />
+                  </e>
                 </e>
               </e>
             </e>
@@ -303,6 +305,9 @@
                 <e p="Flip.cs" t="Include" />
                 <e p="IScoreConvention.cs" t="Include" />
               </e>
+              <e p="Presenter" t="Include">
+                <e p="ScorePresenter.cs" t="Include" />
+              </e>
               <e p="Score" t="Include">
                 <e p="Model" t="Include">
                   <e p="IScore.cs" t="Include" />
@@ -317,6 +322,9 @@
               </e>
               <e p="Score.asmdef" t="Include" />
               <e p="SO" t="Include" />
+              <e p="View" t="Include">
+                <e p="ScoreView.cs" t="Include" />
+              </e>
             </e>
             <e p="ScoreFlyActions" t="Include">
               <e p="Flip" t="Include">

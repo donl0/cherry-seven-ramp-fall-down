@@ -40,5 +40,6 @@ internal class FinishPresenter : MonoBehaviour
         FinishInfo finishInfo = new FinishInfo(_flyScore.CurrentProgress, _frontFlip.CurrentProgress, _backFlip.CurrentProgress, _sideFlip.CurrentProgress, _score.Value);
         
         _view.Render(finishInfo);
+        _score.SaveFinalResult();
     }
 }
