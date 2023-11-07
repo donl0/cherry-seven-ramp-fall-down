@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 138da7cd9148f8f45aff43403696bb2e, type: 3}
   m_Name: Front Flip Fropgress
   m_EditorClassIdentifier: 
-  _saveKey: 
+  _saveKey: FrontFlipProgress

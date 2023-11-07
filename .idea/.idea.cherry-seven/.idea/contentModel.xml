@@ -51,6 +51,7 @@
                 <e p="Car parts" t="Include" />
                 <e p="Positive Negative Sighns" t="Include" />
                 <e p="UI" t="Include">
+                  <e p="Icons" t="Include" />
                   <e p="Level" t="Include" />
                   <e p="Main Menu Buttons" t="Include" />
                   <e p="Money" t="Include" />
@@ -205,6 +206,10 @@
             <e p="Finish" t="Include">
               <e p="Finish.asmdef" t="Include" />
               <e p="FinishPresenter.cs" t="Include" />
+              <e p="View" t="Include">
+                <e p="FinishInfo.cs" t="Include" />
+                <e p="FinishView.cs" t="Include" />
+              </e>
             </e>
             <e p="Inventory" t="Include">
               <e p="Inventory.asmdef" t="Include" />
@@ -324,6 +329,7 @@
                 <e p="FlyScoring.cs" t="Include" />
                 <e p="IScorePresenter.cs" t="Include" />
                 <e p="IScoreStarter.cs" t="Include" />
+                <e p="SO" t="Include" />
                 <e p="View" t="Include">
                   <e p="FlyScoreView.cs" t="Include" />
                   <e p="IScoringView.cs" t="Include" />
