@@ -91,12 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Shop/presenter/BuyCarPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/SkinMainCarInteracter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/MainMenuCarPlacePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/ShopCarPlacePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/CarListCarPlacePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/View/CarPartView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCarListCircularAccess.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Shop/View/CarPriseView.cs" />
@@ -105,7 +99,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartWithCarType.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/LevelInfoList.cs" />
@@ -135,13 +128,20 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/View/ScoreView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Presenter/ScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car/Current Car/CurrentCarHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car builder/CarBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Current Car Placer/CurrentCarPlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/OnSkinChangedInteracter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/SkinMainCarInteracter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/CarMenuMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +200,7 @@
       <workItem from="1698699200223" duration="4795000" />
       <workItem from="1698933767919" duration="44961000" />
       <workItem from="1699203923779" duration="32503000" />
-      <workItem from="1699358969884" duration="9817000" />
+      <workItem from="1699358969884" duration="11535000" />
     </task>
     <servers />
   </component>
@@ -269,18 +269,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734093" />
-    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1699368013458">
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1699375121198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1699368013458" />
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1699375121198" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1698354087340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698354087340" />
-    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1699374475234">
+    <state x="627" y="253" width="666" height="592" key="find.popup" timestamp="1699375226301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1699374475234" />
+    <state x="627" y="253" width="666" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1699375226301" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1698359175986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -291,13 +291,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs</url>
-          <line>55</line>
+          <line>57</line>
           <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Score\Score\Model\Score.cs" initialLine="55">
             <startOffsets>
-              <option value="1048" />
+              <option value="1110" />
             </startOffsets>
             <endOffsets>
-              <option value="1076" />
+              <option value="1138" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />

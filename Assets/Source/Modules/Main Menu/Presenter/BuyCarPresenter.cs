@@ -14,25 +14,27 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
     [SerializeField] private GameObject _generalContainer;
     
     [SerializeField] private OnSkinChangedInteracter _changeListener;
-    [SerializeField] private CurrentCarHandler _currentCar;
 
     [SerializeField] private InventoryCarPartsHandler _partsHandler;
     [SerializeField] private OpenedCarListCircularAccess _openedCars;
     [SerializeField] private CarPriseList _carPrises;
 
     [SerializeField] private MainScoreHolder _scoreHolder;
-    
+
     [SerializeField] private Button _buyButton;
-    
+
     private CarPriseView _priseView;
 
     private CarPartWithCarType _carPartWithCarType;
 
+    private CurrentCarHandler _currentCar;
     private CarType _currentShownCar;
     
 
     private void Awake()
     {
+        _currentCar = new CurrentCarHandler();
+        _currentCar.Load();
         _carPartWithCarType = new CarPartWithCarType();
         InstantiateTemplates();
     }
@@ -42,7 +44,8 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
         base.Activate();
         _generalContainer.SetActive(true);
         Sub();
-        Render(_currentCar.Load());
+        _currentCar.Load();
+        Render(_currentCar.Car);
     }
 
     protected override void Deactivate()
@@ -107,14 +110,15 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
         if (_openedCars.CheckIfContains(car) == true)
             return false;
 
-        if (_scoreHolder.TrySpend(_carPrises.GetPrise(car)) == false)
-            return false;
-
         if (CheckInventoryContainsParts(car) == false)
             return false;
         
+        if (_scoreHolder.TrySpend(_carPrises.GetPrise(car)) == false)
+            return false;
+
         _openedCars.Add(car);
-        _currentCar.Changed(car);
+        _currentCar.ChangeCar(car);
+        _currentCar.Changed?.Invoke(car);
 
         return true;
     }

@@ -101,7 +101,6 @@
               <e p="CarTrigger.cs" t="Include" />
               <e p="Current Car" t="Include">
                 <e p="CurrentCarHandler.cs" t="Include" />
-                <e p="SO" t="Include" />
               </e>
             </e>
             <e p="Car Affector" t="Include">

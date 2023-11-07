@@ -22,6 +22,7 @@ public class Score :SavedObject<Score>, IScore
         CheckOnNegative(value);
 
         _value += value;
+        Changed?.Invoke();
     }
 
     public bool TrySpend(int value)
@@ -32,7 +33,8 @@ public class Score :SavedObject<Score>, IScore
             return false;
         
         _value -= value;
-
+        
+        Changed?.Invoke();
         return true;
     }
     

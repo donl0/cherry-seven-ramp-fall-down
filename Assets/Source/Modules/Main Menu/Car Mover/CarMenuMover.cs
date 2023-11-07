@@ -5,21 +5,24 @@ using UnityEngine.Events;
 internal class CarMenuMover: MonoBehaviour, ICarMenuMover
 {
     [SerializeField] private CarTypesListCircularAccess _carTypes;
-    [SerializeField] private CurrentCarHandler _progressCarType;
     [SerializeField] private CarPool _pool;
 
     [SerializeField] private Vector3 _leftPosition;
     [SerializeField] private Vector3 _rightPosition;
     [SerializeField] private Vector3 _middlePosition;
-    
+
     protected CarType CurrentCar;
 
     private Coroutine _moveMainCoroutine;
     private Coroutine _moveNextCoroutine;
-    
+
+    private CurrentCarHandler _progressCarType;
+
     public void Activate()
     {
-        CurrentCar = _progressCarType.Load();
+        _progressCarType = new CurrentCarHandler();
+        _progressCarType.Load();
+        CurrentCar = _progressCarType.Car;
         TryStopCoroutine(ref _moveNextCoroutine);
         TryStopCoroutine(ref _moveMainCoroutine);
     }

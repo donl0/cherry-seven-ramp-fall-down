@@ -1,21 +1,31 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(menuName = "current car handler")]
-public class CurrentCarHandler : ScriptableObject
+[Serializable]
+public class CurrentCarHandler : SavedObject<CurrentCarHandler>
 {
-    private CarType _car;
+    private const string SaveKey = "CurrentCar";
+    
+    [SerializeField] private CarType _car;
+
+    public CarType Car => _car;
 
     public UnityAction<CarType> Changed;
-    
-    public void Save(CarType car)
+
+    public CurrentCarHandler() : base(SaveKey)
+    {
+    }
+
+    public void ChangeCar(CarType car)
     {
         _car = car;
+        Save();
         Changed?.Invoke(car);
     }
 
-    public CarType Load()
+    protected override void OnLoad(CurrentCarHandler loadedObject)
     {
-        return _car;
+        _car = loadedObject._car;
     }
 }
