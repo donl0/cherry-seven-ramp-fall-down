@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class FlyScorePresenter : MonoBehaviour, IScorePresenter
 {
+    [SerializeField] private IntProgress _flyScoreProgress;
+    
     [SerializeField] private CarScoreStarter _scoreStarter;
     
     private readonly List<Flip> _currentRenderFlips = new List<Flip>();
@@ -124,7 +126,7 @@ public class FlyScorePresenter : MonoBehaviour, IScorePresenter
     public void AddFlyScore(float flyTime)
     {
         int score = _scoreConvention.ConvertFlyToScore(flyTime);
-
+        _flyScoreProgress.Add(score);
         _score.Add(score);
     }
 

@@ -17,4 +17,5 @@ public abstract class Progress : ScriptableObject
 
     public abstract void Load();
     public abstract void Save();
+    public abstract void ResetToZero();
 }

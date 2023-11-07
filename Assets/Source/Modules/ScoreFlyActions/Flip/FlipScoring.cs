@@ -4,6 +4,10 @@ using UnityEngine.Events;
 
 internal class FlipScoring : MonoBehaviour, IScoring
 {
+    [SerializeField] private IntProgress _backFlip;
+    [SerializeField] private IntProgress _frontFlip;
+    [SerializeField] private IntProgress _sideFlip;
+    
     [SerializeField] private Transform _car;
     
     private readonly List<Flip> _currentFlips = new List<Flip>();
@@ -64,6 +68,7 @@ internal class FlipScoring : MonoBehaviour, IScoring
 
         if (SideFlips >= 1f || SideFlips <= -1f)
         {
+            _sideFlip.Add();
             AfterDetectFlipAction(Flip.Side, DoBaseValuesSideFlips);
         }        
     }
@@ -74,10 +79,12 @@ internal class FlipScoring : MonoBehaviour, IScoring
 
         if (FrontBackFlips >=  1)
         {
+            _backFlip.Add();
             AfterDetectFlipAction(Flip.Back, DoBaseValuesFrontBackFlips);
         }
         else if (FrontBackFlips <= -1)
         {
+            _frontFlip.Add();
             AfterDetectFlipAction(Flip.Front, DoBaseValuesFrontBackFlips);
         }
     }

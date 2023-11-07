@@ -94,6 +94,7 @@
             <e p="Car" t="Include">
               <e p="Car.asmdef" t="Include" />
               <e p="Car.cs" t="Include" />
+              <e p="CarTrigger.cs" t="Include" />
               <e p="Current Car" t="Include">
                 <e p="CurrentCarHandler.cs" t="Include" />
                 <e p="SO" t="Include" />
@@ -176,7 +177,6 @@
                 </e>
               </e>
               <e p="Trigger" t="Include">
-                <e p="CarTrigger.cs" t="Include" />
                 <e p="InventoryCarPartHandlerTrigger.cs" t="Include" />
                 <e p="RaceScoreHandlerTrigger.cs" t="Include" />
               </e>
@@ -201,6 +201,10 @@
                   <e p="StringColor.cs" t="Include" />
                 </e>
               </e>
+            </e>
+            <e p="Finish" t="Include">
+              <e p="Finish.asmdef" t="Include" />
+              <e p="FinishPresenter.cs" t="Include" />
             </e>
             <e p="Inventory" t="Include">
               <e p="Inventory.asmdef" t="Include" />
@@ -309,6 +313,7 @@
             <e p="ScoreFlyActions" t="Include">
               <e p="Flip" t="Include">
                 <e p="FlipScoring.cs" t="Include" />
+                <e p="SO" t="Include" />
                 <e p="View" t="Include">
                   <e p="FlipScoreView.cs" t="Include" />
                 </e>
@@ -389,6 +394,7 @@
       <e p="cherry-seven.sln" t="IncludeFlat" />
       <e p="CherrySeven.csproj" t="IncludeRecursive" />
       <e p="Circle.csproj" t="IncludeRecursive" />
+      <e p="Finish.csproj" t="IncludeRecursive" />
       <e p="Inventory.csproj" t="IncludeRecursive" />
       <e p="Level.csproj" t="IncludeRecursive" />
       <e p="MainMenu.csproj" t="IncludeRecursive" />

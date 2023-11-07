@@ -25,4 +25,10 @@ public class IntProgress : Progress
     {
         PlayerPrefs.SetInt(SaveKey, _currentProgress);
     }
+
+    public override void ResetToZero()
+    {
+        _currentProgress = 0;
+        Save();
+    }
 }
