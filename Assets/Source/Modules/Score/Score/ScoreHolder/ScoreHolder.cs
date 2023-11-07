@@ -5,7 +5,7 @@ public abstract class ScoreHolder<T> :MonoBehaviour, IScoreHolder where T:IScore
 {
     protected T _score;
 
-    public int Value { get; }
+    public int Value => _score.Value;
     
     public event UnityAction<int> BalanceChanged;
 

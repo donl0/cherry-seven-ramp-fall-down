@@ -989,9 +989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45d8374d12942044b70c686470945d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flyScoreProgress: {fileID: 11400000, guid: e9977887d5600724fa99689c0c76263c, type: 2}
   _scoreStarter: {fileID: 649988260291922724}
-  _flyView: {fileID: 0}
-  _flipScoreView: {fileID: 0}
 --- !u!114 &3509660816818077328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,6 +1003,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04731320195a9574a9684dd27fd27371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _backFlip: {fileID: 11400000, guid: 25152bb0feafb6b4381d0ee86a551d05, type: 2}
+  _frontFlip: {fileID: 11400000, guid: 0264e94d847247046bc25e13b02a737c, type: 2}
+  _sideFlip: {fileID: 11400000, guid: d74c9386519627443b056a4d6027bbd0, type: 2}
   _car: {fileID: 3824116565113386717}
 --- !u!114 &5529679762727963461
 MonoBehaviour:

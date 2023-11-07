@@ -31,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Level/PlayableLevels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishFlowControw.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/IPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/IMainMenuPresenter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -85,9 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/CarPrefabs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/CarPriseList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/View/CarPartsView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Car Parts.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/View/CarPartsView.cs" />
@@ -103,7 +101,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Shop/View/CarPriseView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
@@ -128,14 +125,18 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car Affector/AtGroundedRotator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Progress/Progress.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipScoring.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/Finish.asmdef" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishFlowControw.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/ScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishView.cs" />
       </list>
     </option>
   </component>
@@ -194,7 +195,7 @@
       <workItem from="1698699200223" duration="4795000" />
       <workItem from="1698933767919" duration="44961000" />
       <workItem from="1699203923779" duration="32503000" />
-      <workItem from="1699358969884" duration="2281000" />
+      <workItem from="1699358969884" duration="5987000" />
     </task>
     <servers />
   </component>
@@ -263,10 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="31" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699302695953" />
-    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1699208567865">
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1699368013458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1699208567865" />
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1699368013458" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1698354087340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

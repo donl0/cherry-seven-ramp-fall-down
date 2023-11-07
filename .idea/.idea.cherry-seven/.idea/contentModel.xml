@@ -61,6 +61,7 @@
             <e p="Prefabs" t="Include">
               <e p="Car" t="Include" />
               <e p="Circle" t="Include" />
+              <e p="Finish" t="Include" />
               <e p="Main Menu" t="Include" />
               <e p="View" t="Include" />
             </e>
@@ -205,6 +206,8 @@
             </e>
             <e p="Finish" t="Include">
               <e p="Finish.asmdef" t="Include" />
+              <e p="FinishFlowControw.cs" t="Include" />
+              <e p="FinishPosition.cs" t="Include" />
               <e p="FinishPresenter.cs" t="Include" />
               <e p="View" t="Include">
                 <e p="FinishInfo.cs" t="Include" />

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameRoot : MonoBehaviour
@@ -15,10 +16,16 @@ public class GameRoot : MonoBehaviour
     private FollowObject _cameraFollower;
     private FlyScorePresenter _flyScorePresenter;
     private DuringRaceScoreHolder _raceScoreHandler;
+
+    [Header("Finish")] 
+    [SerializeField] private FinishFlowControw finish;
+    [SerializeField] private List<IntProgress> _progressesToReset;
     
     private void Start()
     {
+        ResetProgresses();
         InitCar();
+        InitFinish();
     }
 
     private void InitCar()
@@ -40,5 +47,19 @@ public class GameRoot : MonoBehaviour
         _cameraFollower = Extantions.GetComponentOrThrowNullException<FollowObject>(car, nameof(_cameraFollower));
         _flyScorePresenter = Extantions.GetComponentOrThrowNullException<FlyScorePresenter>(car, nameof(_flyScorePresenter));
         _raceScoreHandler = Extantions.GetComponentOrThrowNullException<DuringRaceScoreHolder>(car, nameof(_raceScoreHandler));
+    }
+
+    private void InitFinish()
+    {
+        finish.Init(_raceScoreHandler);
+        finish.Activate();
+    }
+
+    private void ResetProgresses()
+    {
+        foreach (var progress in _progressesToReset)
+        {
+            progress.ResetToZero();
+        }
     }
 }
