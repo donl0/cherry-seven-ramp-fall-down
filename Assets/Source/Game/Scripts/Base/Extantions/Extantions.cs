@@ -19,4 +19,23 @@ public static class Extantions
 
         return component;
     }
+    
+    public static bool TryGetNextEnumValue<T>(this T currentEnumValue, out T nextEnumValue) where T : Enum
+    {
+        Array enumValues = Enum.GetValues(typeof(T));
+        int currentIndex = Array.IndexOf(enumValues, currentEnumValue);
+
+        int nextIndex = currentIndex + 1;
+
+        if (nextIndex < enumValues.Length)
+        {
+            nextEnumValue = (T)enumValues.GetValue(nextIndex);
+            return true;
+        }
+        else
+        {
+            nextEnumValue = default(T);
+            return false;
+        }
+    }
 }

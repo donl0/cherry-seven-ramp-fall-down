@@ -5,7 +5,7 @@ using UnityEngine.Events;
 [Serializable]
 public class CurrentCarHandler : SavedObject<CurrentCarHandler>
 {
-    private const string SaveKey = "CurrentCar";
+    private const string SAVEKEY = "CurrentCar";
     
     [SerializeField] private CarType _car;
 
@@ -13,7 +13,7 @@ public class CurrentCarHandler : SavedObject<CurrentCarHandler>
 
     public UnityAction<CarType> Changed;
 
-    public CurrentCarHandler() : base(SaveKey)
+    public CurrentCarHandler() : base(SAVEKEY)
     {
     }
 

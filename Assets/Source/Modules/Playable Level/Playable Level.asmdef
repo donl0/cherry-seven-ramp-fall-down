@@ -1,0 +1,17 @@
+{
+    "name": "PlayableLevel",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f2d6051686a8bc84dac183a2c4b0e815",
+        "GUID:84b653a037b61964b8992f9a2cee0e48"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

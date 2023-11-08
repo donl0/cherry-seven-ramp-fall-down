@@ -209,7 +209,10 @@
               <e p="Finish.asmdef" t="Include" />
               <e p="FinishFlowControw.cs" t="Include" />
               <e p="FinishPosition.cs" t="Include" />
-              <e p="FinishPresenter.cs" t="Include" />
+              <e p="Presenter" t="Include">
+                <e p="FinishPresenter.cs" t="Include" />
+                <e p="IFinishPresenter.cs" t="Include" />
+              </e>
               <e p="View" t="Include">
                 <e p="FinishInfo.cs" t="Include" />
                 <e p="FinishView.cs" t="Include" />
@@ -287,6 +290,22 @@
                   <e p="WheelView.cs" t="Include" />
                 </e>
               </e>
+            </e>
+            <e p="Playable Level" t="Include">
+              <e p="Actor" t="Include">
+                <e p="Actor.cs" t="Include" />
+                <e p="HomeActor.cs" t="Include" />
+                <e p="LevelLoaderActor.cs" t="Include" />
+                <e p="NextLevelActor.cs" t="Include" />
+                <e p="RestartActor.cs" t="Include" />
+              </e>
+              <e p="Button" t="Include">
+                <e p="IHomeClickable.cs" t="Include" />
+                <e p="INextLevelClickable.cs" t="Include" />
+                <e p="IRestartable.cs" t="Include" />
+                <e p="ResturnButton.cs" t="Include" />
+              </e>
+              <e p="Playable Level.asmdef" t="Include" />
             </e>
             <e p="Progress" t="Include">
               <e p="IntProgress.cs" t="Include" />
@@ -417,6 +436,7 @@
       <e p="Movement.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
+      <e p="PlayableLevel.csproj" t="IncludeRecursive" />
       <e p="Progress.csproj" t="IncludeRecursive" />
       <e p="Save.csproj" t="IncludeRecursive" />
       <e p="Score.csproj" t="IncludeRecursive" />

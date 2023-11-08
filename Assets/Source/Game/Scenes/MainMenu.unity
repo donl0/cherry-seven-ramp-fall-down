@@ -1551,7 +1551,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81824dd255d63a742a40b833604a9a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentCar: {fileID: 11400000, guid: d350a3119410f8b418c2aca5e59a5df2, type: 2}
   _pool: {fileID: 111582001}
   _placePosition: {x: 0, y: 1, z: 0}
 --- !u!4 &798985327
@@ -1886,7 +1885,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interacter: {fileID: 1841033396}
-  _currentCarHandler: {fileID: 11400000, guid: d350a3119410f8b418c2aca5e59a5df2, type: 2}
 --- !u!114 &904519997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,7 +1898,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interacter: {fileID: 1841033397}
-  _currentCarHandler: {fileID: 11400000, guid: d350a3119410f8b418c2aca5e59a5df2, type: 2}
 --- !u!1 &945738604
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,8 +3683,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _placer: {fileID: 798985326}
-  _previousButton: {fileID: 1701014948}
-  _nextButton: {fileID: 1566551457}
+  _previousButton: {fileID: 1566551457}
+  _nextButton: {fileID: 1701014948}
   _mover: {fileID: 1841033397}
   _buyCarPresenter: {fileID: 1841033398}
 --- !u!114 &1841033394
@@ -3703,8 +3700,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _placer: {fileID: 798985326}
-  _previousButton: {fileID: 1701014948}
-  _nextButton: {fileID: 1566551457}
+  _previousButton: {fileID: 1566551457}
+  _nextButton: {fileID: 1701014948}
   _mover: {fileID: 1841033396}
 --- !u!114 &1841033395
 MonoBehaviour:
@@ -3732,7 +3729,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _carTypes: {fileID: 11400000, guid: 27711ff15c43de24c93926ca3aab81a9, type: 2}
-  _progressCarType: {fileID: 11400000, guid: d350a3119410f8b418c2aca5e59a5df2, type: 2}
   _pool: {fileID: 111582001}
   _leftPosition: {x: -10, y: 1, z: 0}
   _rightPosition: {x: 10, y: 1, z: 0}
@@ -3750,7 +3746,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _carTypes: {fileID: 11400000, guid: 9d01ced1315583a448c866ac6890a2b6, type: 2}
-  _progressCarType: {fileID: 11400000, guid: d350a3119410f8b418c2aca5e59a5df2, type: 2}
   _pool: {fileID: 111582001}
   _leftPosition: {x: -10, y: 1, z: 0}
   _rightPosition: {x: 10, y: 1, z: 0}
@@ -3774,7 +3769,6 @@ MonoBehaviour:
   _priseViewContainer: {fileID: 360084983}
   _generalContainer: {fileID: 677503080}
   _changeListener: {fileID: 904519997}
-  _currentCar: {fileID: 11400000, guid: d350a3119410f8b418c2aca5e59a5df2, type: 2}
   _partsHandler: {fileID: 1662374117}
   _openedCars: {fileID: 11400000, guid: 27711ff15c43de24c93926ca3aab81a9, type: 2}
   _carPrises: {fileID: 11400000, guid: c7f670dd74a5c774e97158ec8cdeedea, type: 2}
