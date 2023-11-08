@@ -1,10 +1,12 @@
+using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class AtGroundedRotator : MonoBehaviour
 {
-    [SerializeField] private float _rotationForce = 5f;
+    [SerializeField] private float _rotationForce = 1100000f;
 
     private Rigidbody _rigidbody;
 
@@ -30,14 +32,12 @@ public class AtGroundedRotator : MonoBehaviour
     private void OnCollisionExit(Collision other)
     {
         _isGrounded = false;
+        TryStopRotating();
     }
 
     private void StartRotate()
     {
-        if (_rotating != null)
-        {
-            StopCoroutine(_rotating);
-        }
+        TryStopRotating();
 
         _rotating = StartCoroutine(TryRotating());
     }
@@ -56,6 +56,8 @@ public class AtGroundedRotator : MonoBehaviour
             }
             yield return null;
         }
+
+        _rotating = null;
     }
 
     private void Rotate()
@@ -63,7 +65,8 @@ public class AtGroundedRotator : MonoBehaviour
         Vector3 rotationAxis = _playerTransform.forward;
         
         float dot = Vector3.Dot(Vector3.up, _playerTransform.up);
-        _rigidbody.AddTorque(rotationAxis * _rotationForce * dot);
+
+        _rigidbody.AddTorque(rotationAxis * _rotationForce * dot * Time.deltaTime);
     }
 
     private bool IsOverturned()
@@ -77,5 +80,14 @@ public class AtGroundedRotator : MonoBehaviour
             return true;
 
         return false;
+    }
+
+    private void TryStopRotating()
+    {
+        if (_rotating != null)
+        {
+            StopCoroutine(_rotating);
+            _rotating = null;
+        }
     }
 }
