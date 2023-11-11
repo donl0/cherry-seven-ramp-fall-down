@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5666bdb20b023504388735a02300e12d, type: 3}
   m_Name: Playable Levels
   m_EditorClassIdentifier: 
-  _levels: 02000000
+  _levels: 0200000003000000

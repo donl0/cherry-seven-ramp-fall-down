@@ -3786,13 +3786,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970087d522229544dba67b9a554b7e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _partsRenderer: {fileID: 1989001211}
   _playableLevels: {fileID: 11400000, guid: a563b6923cff6c645ba332f386b9b9b0, type: 2}
   _info: {fileID: 11400000, guid: dfea3ebe6e4240e4788fdf05325228e6, type: 2}
   _levelViewTemplate: {fileID: 2909964440575381807, guid: b9b176e5f07871f43a71f5ead8c10884,
     type: 3}
   _mainScreen: {fileID: 24619273}
   _levelContainer: {fileID: 2061772257}
+  _partsHandler: {fileID: 1662374117}
 --- !u!114 &1841033400
 MonoBehaviour:
   m_ObjectHideFlags: 0

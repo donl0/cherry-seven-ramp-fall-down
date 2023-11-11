@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BoostCirclePresenter : BaseCirclePresenter<Car, InsideCircleViewItemName>
 {
-    [SerializeField] private Vector3 _forceDirection;
-    [SerializeField] private float _forse;
+    [SerializeField] private Vector3 _forceDirection = new Vector3(0, 0, 1f);
+    [SerializeField] private float _forse = 800f;
 
     protected override CircleEffector<Car> InitEffector()
     {

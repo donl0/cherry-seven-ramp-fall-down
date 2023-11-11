@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 330722479649545480}
   - component: {fileID: 374584617531124313}
   - component: {fileID: 2909964440575381807}
+  - component: {fileID: 7542256088358892342}
   m_Layer: 5
   m_Name: Level View template
   m_TagString: Untagged
@@ -218,6 +219,22 @@ MonoBehaviour:
   _partsContainer: {fileID: 8088120233627145386}
   _enter: {fileID: 8990881553354647047}
   _info: {fileID: 11400000, guid: dfea3ebe6e4240e4788fdf05325228e6, type: 2}
+  _partsRenderer: {fileID: 7542256088358892342}
+--- !u!114 &7542256088358892342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2812970079817779693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bab0fe95f69cc349b9035968f21b3de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partViewTemplate: {fileID: 3876573415383117067, guid: e73cc596fd4ffb7469de365eb6687f38,
+    type: 3}
+  _partsHandler: {fileID: 0}
 --- !u!1 &5104016860344107876
 GameObject:
   m_ObjectHideFlags: 0

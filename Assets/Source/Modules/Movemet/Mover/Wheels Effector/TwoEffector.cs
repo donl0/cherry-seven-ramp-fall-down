@@ -1,6 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-internal class AWDEffector : IWheelsEffector
+internal class TwoEffector : IWheelsEffector
 {
     private readonly WheelCollider[] _front;
     private readonly WheelCollider[] _rear;
@@ -8,7 +8,7 @@ internal class AWDEffector : IWheelsEffector
     private readonly float _maxAngle;
     private readonly float _torque;
 
-    public AWDEffector(WheelCollider[] front, WheelCollider[] rear, float maxAngle, float torque)
+    public TwoEffector(WheelCollider[] front, WheelCollider[] rear, float maxAngle, float torque)
     {
         _front = front;
         _rear = rear;
@@ -26,10 +26,6 @@ internal class AWDEffector : IWheelsEffector
 
     public void AccelerateWheels(float value)
     {
-        foreach (var wheel in _rear)
-        {
-            wheel.motorTorque = value * _torque;
-        }
         foreach (var wheel in _front)
         {
             wheel.motorTorque = value * _torque;

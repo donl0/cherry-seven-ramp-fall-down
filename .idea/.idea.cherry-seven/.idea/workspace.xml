@@ -28,6 +28,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/65/a7e34d5d/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/a3/68d49488/UnityAction`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Add Remove Score/ChangeScoreTypeEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Presenter/ScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,9 +60,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Boost/CircleBoostEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Affector/Car Part/CarPartEffector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/CarPrise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/View/ScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/InventoryCarPartHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/CarPrefabs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Button/ResturnButton.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,10 +83,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/GetComponentOrThrowNullException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/41/6c76fb18/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/View/BaseRenderView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/605BF8B3-1FCB-444B-8517-6DA963870AA7/2b/70f128df/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCarListCircularAccess.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car Affector/AtGroundedRotator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/IMainCarInteracter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
@@ -93,23 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Loader/ILevelSharer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Loader/LevelLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelsPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Loader/IDataSharer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/View/LevelView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Sharer/IDataSharer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Progress/Progress.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Flip/FlipScoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/Finish.asmdef" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishFlowControw.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/View/ScoreView.cs" />
@@ -127,7 +112,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car/Current Car/CurrentCarHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/BaseFinishActor.cs" />
@@ -143,7 +127,25 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Actor/LevelLoaderActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Actor/NextLevelActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Button/ResturnButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Input/IMovementInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Input/MovementPcInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Affector/ForwardAffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Affector/ForwardEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Effector/ForwardEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car Affector/AtGroundedRotator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/AWDEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/TwoEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/CarScoreStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/From ground fall stabilizator/FromGroundedRotator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/CarPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/View/LevelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelPresenter.cs" />
       </list>
     </option>
   </component>
@@ -177,10 +179,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22596">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="40524">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="22596" />
+      <option name="pid" value="40524" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -202,7 +204,9 @@
       <workItem from="1698699200223" duration="4795000" />
       <workItem from="1698933767919" duration="44961000" />
       <workItem from="1699203923779" duration="32503000" />
-      <workItem from="1699358969884" duration="21850000" />
+      <workItem from="1699358969884" duration="22812000" />
+      <workItem from="1699543972257" duration="8110000" />
+      <workItem from="1699635653021" duration="13535000" />
     </task>
     <servers />
   </component>
@@ -219,58 +223,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="345" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1698257691206" />
-    <state width="486" height="464" key="DebuggerActiveHint" timestamp="1699373787745">
+    <state width="486" height="464" key="DebuggerActiveHint" timestamp="1699739913258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="486" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1699373787745" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1699373734092">
+    <state width="486" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1699739913258" />
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1699373734092">
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1699373734092">
+    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1699373734092">
+    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.1.bottom" timestamp="1699373734092">
+    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.1.bottom" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.1.center" timestamp="1699373734092">
+    <state width="1877" height="171" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.1.center" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.1.left" timestamp="1699373734092">
+    <state width="1877" height="171" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.1.left" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.1.right" timestamp="1699373734092">
+    <state width="1877" height="171" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.1.right" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734092" />
-    <state width="1877" height="277" key="GridCell.Tab.2.bottom" timestamp="1699373734093">
+    <state width="1877" height="171" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.2.bottom" timestamp="1699739782721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734093" />
-    <state width="1877" height="277" key="GridCell.Tab.2.center" timestamp="1699373734093">
+    <state width="1877" height="171" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782721" />
+    <state width="1877" height="171" key="GridCell.Tab.2.center" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734093" />
-    <state width="1877" height="277" key="GridCell.Tab.2.left" timestamp="1699373734093">
+    <state width="1877" height="171" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.2.left" timestamp="1699739782720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734093" />
-    <state width="1877" height="277" key="GridCell.Tab.2.right" timestamp="1699373734093">
+    <state width="1877" height="171" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782720" />
+    <state width="1877" height="171" key="GridCell.Tab.2.right" timestamp="1699739782721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699373734093" />
+    <state width="1877" height="171" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699739782721" />
     <state x="788" y="205" key="RiderGenerateDialog" timestamp="1699390850614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -292,17 +296,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs</url>
-          <line>57</line>
-          <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Score\Score\Model\Score.cs" initialLine="55">
+          <url>file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs</url>
+          <line>34</line>
+          <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Car parts\Renderer\CarPartsRenderer.cs" initialLine="23">
             <startOffsets>
-              <option value="1110" />
+              <option value="900" />
             </startOffsets>
             <endOffsets>
-              <option value="1138" />
+              <option value="922" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
