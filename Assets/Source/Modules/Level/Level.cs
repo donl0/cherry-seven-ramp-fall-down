@@ -2,5 +2,6 @@ public enum Level
 {
     MainMenu,
     education,
-    firtLevel
+    firtLevel,
+    UnevenLevel
 }

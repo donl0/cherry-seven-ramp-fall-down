@@ -6,7 +6,7 @@ public class MoveController : MonoBehaviour, IFlowControl
 {
     private IMovementInput _input;
     private ICarMover _carMover;
-
+    
     private bool _isActive = false;
     
     private void Awake()
@@ -28,7 +28,6 @@ public class MoveController : MonoBehaviour, IFlowControl
         
         if (horizontalAffection != 0)
             _carMover.AffectHorizontal(horizontalAffection);
-
     }
 
     public void Activate()

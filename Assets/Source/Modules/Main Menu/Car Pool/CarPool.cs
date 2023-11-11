@@ -18,7 +18,7 @@ internal class CarPool: MonoBehaviour , IPool<CarType>
     public GameObject GetObject(CarType value)
     {
         var result = _carPrefab[value];
-
+        
         return result;
     }
 
@@ -38,6 +38,7 @@ internal class CarPool: MonoBehaviour , IPool<CarType>
         {
             Destroy(prefab.GetComponentInChildren<Camera>().gameObject);
             prefab.GetComponentInChildren<Rigidbody>().useGravity = false;
+            prefab.GetComponentInChildren<Rigidbody>().interpolation = RigidbodyInterpolation.None;
             prefab.GetComponentInChildren<MoveController>().Activate();
         }
     }

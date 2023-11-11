@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-internal class CarScoreStarter : MonoBehaviour, IScoreStarter
+public class CarScoreStarter : MonoBehaviour, IScoreStarter
 {
     public UnityAction ScoreStarted { get; set; }
     public UnityAction ScoreEnded { get; set; }

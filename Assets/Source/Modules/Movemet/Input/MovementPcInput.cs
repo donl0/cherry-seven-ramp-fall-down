@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MovementPcInput : MonoBehaviour, IMovementInput
 {
@@ -11,6 +12,7 @@ public class MovementPcInput : MonoBehaviour, IMovementInput
     
     public float Vertical => _vertical;
     public float Horizontal => _horizontal;
+    public UnityAction ForwardPressed { get; set; }
 
     public bool ButtonPressed => _buttonPressed;
 
@@ -20,5 +22,10 @@ public class MovementPcInput : MonoBehaviour, IMovementInput
         _horizontal = Input.GetAxis(_horizontalString);
 
         _buttonPressed = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.S);
+
+        if (Input.GetKeyDown(KeyCode.W) == true)
+        {
+            ForwardPressed?.Invoke();
+        }
     }
 }

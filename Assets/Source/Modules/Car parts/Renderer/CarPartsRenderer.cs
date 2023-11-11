@@ -9,12 +9,24 @@ public class CarPartsRenderer : BaseRenderView<CarType>
 
     private const int _partsCount = 3;
     
-    private readonly List<CarPartView> _partsView = new List<CarPartView>();
+    private List<CarPartView> _partsView;
     private CarPartWithCarType _carPartWithCarType;
+
+    public void Init(Transform container, InventoryCarPartsHandler partsHandler)
+    {
+        _partsHandler = partsHandler;
+        Init(container);
+    }
 
     public void Init(Transform container)
     {
+        BaseInit(container);
+    }
+
+    public void BaseInit(Transform container)
+    {
         _carPartWithCarType = new CarPartWithCarType();
+        _partsView = new List<CarPartView>();
         CreateParts(container);
     }
 
