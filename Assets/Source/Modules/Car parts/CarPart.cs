@@ -1,4 +1,9 @@
 public enum CarPart
 {
-    cherrySevenEngine
+    cherrySevenEngine,
+    cherryDayDrink,
+    shaurma,
+    animeFigure,
+    cocaCola,
+    wheel
 }

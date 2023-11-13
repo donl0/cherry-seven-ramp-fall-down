@@ -21,11 +21,13 @@ public class CarPartWithCarType
         });
         _carParts.Add(CarType.cherrySeven, new List<CarPart>()
         {
-            CarPart.cherrySevenEngine
+            CarPart.shaurma,
+            CarPart.cherryDayDrink
         });
         _carParts.Add(CarType.niisan, new List<CarPart>()
         {
-            CarPart.cherrySevenEngine
+            CarPart.animeFigure,
+            CarPart.cocaCola
         });
     }
 

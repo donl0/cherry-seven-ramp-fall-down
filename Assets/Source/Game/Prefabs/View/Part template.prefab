@@ -288,7 +288,7 @@ MonoBehaviour:
   _partIcon: {fileID: 8637599625346088405}
   _havingIcon: {fileID: 6517647833543620654}
   _partWithSprite: {fileID: 11400000, guid: 3c76df4e2cb981740a235fbbbfe00db6, type: 2}
-  _partInInventorySprite: {fileID: 21300000, guid: ed7600f97758c134f9273d47501f2b31,
+  _partInInventorySprite: {fileID: 21300000, guid: 59fa33a748862f044bf78f4c9ca5a774,
     type: 3}
   _partNotInInventorySprite: {fileID: 21300000, guid: a58a8030bddb28b429ae34ebb288e665,
     type: 3}

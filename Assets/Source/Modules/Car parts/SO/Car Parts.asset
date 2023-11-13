@@ -15,3 +15,13 @@ MonoBehaviour:
   _items:
   - _itemName: 0
     _sprite: {fileID: 21300000, guid: c2eae606a0bccbb45a35527abc0a055b, type: 3}
+  - _itemName: 1
+    _sprite: {fileID: 21300000, guid: 3ca59f7e504373b49936da3bcac749bd, type: 3}
+  - _itemName: 2
+    _sprite: {fileID: 21300000, guid: 5aab712939ac6e64c8cd8939dcb0da9d, type: 3}
+  - _itemName: 3
+    _sprite: {fileID: 21300000, guid: 287c24a9c3e2b434c8ecf071da3a48cd, type: 3}
+  - _itemName: 4
+    _sprite: {fileID: 21300000, guid: 2573f9c0fa69071428b2beca8ae3b2be, type: 3}
+  - _itemName: 5
+    _sprite: {fileID: 21300000, guid: 374202fe09c87794ea868fa1dbe67ab8, type: 3}

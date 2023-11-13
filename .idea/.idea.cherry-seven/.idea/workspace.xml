@@ -95,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Presenter/ScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Current Car Placer/CurrentCarPlacer.cs" />
@@ -134,7 +132,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/CarScoreStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/From ground fall stabilizator/FromGroundedRotator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/CarPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/View/LevelView.cs" />
@@ -145,6 +142,9 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car builder/CarBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/CarType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/CarPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartWithCarType.cs" />
       </list>
     </option>
@@ -207,7 +207,7 @@
       <workItem from="1699358969884" duration="22812000" />
       <workItem from="1699543972257" duration="8110000" />
       <workItem from="1699635653021" duration="14882000" />
-      <workItem from="1699828011084" duration="5627000" />
+      <workItem from="1699828011084" duration="11103000" />
     </task>
     <servers />
   </component>
