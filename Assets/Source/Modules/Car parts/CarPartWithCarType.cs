@@ -19,6 +19,14 @@ public class CarPartWithCarType
         {
             CarPart.cherrySevenEngine
         });
+        _carParts.Add(CarType.cherrySeven, new List<CarPart>()
+        {
+            CarPart.cherrySevenEngine
+        });
+        _carParts.Add(CarType.niisan, new List<CarPart>()
+        {
+            CarPart.cherrySevenEngine
+        });
     }
 
     public List<CarPart> GetParts(CarType car)

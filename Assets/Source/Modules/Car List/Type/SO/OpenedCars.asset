@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cd9c135ea4eff48801aa352208b674, type: 3}
   m_Name: OpenedCars
   m_EditorClassIdentifier: 
-  Cars: 0000000001000000
+  Cars: 00000000

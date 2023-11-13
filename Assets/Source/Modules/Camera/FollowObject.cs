@@ -4,7 +4,7 @@ public class FollowObject : MonoBehaviour, IFlowControl
 {
     [SerializeField] private Transform _target;
     [SerializeField] private Vector3 _offset;
-
+    
     private bool _isActive = false;
     
     private void Update()

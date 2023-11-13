@@ -20,7 +20,7 @@ public class MovementPcInput : MonoBehaviour, IMovementInput
     {
         _vertical = Input.GetAxis(_verticalString);
         _horizontal = Input.GetAxis(_horizontalString);
-
+            
         _buttonPressed = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.S);
 
         if (Input.GetKeyDown(KeyCode.W) == true)
