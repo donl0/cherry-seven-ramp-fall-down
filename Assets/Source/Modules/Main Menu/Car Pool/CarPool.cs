@@ -27,6 +27,7 @@ internal class CarPool: MonoBehaviour , IPool<CarType>
         foreach (var car in _cars.Cars)
         {
             var spawned = Instantiate(car.Prefab, _cotainer);
+            spawned.transform.rotation = transform.rotation;
             _carPrefab.Add(car.Type, spawned);
             spawned.SetActive(false);
         }
