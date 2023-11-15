@@ -22,12 +22,12 @@ public class CarPartWithCarType
         _carParts.Add(CarType.cherrySeven, new List<CarPart>()
         {
             CarPart.shaurma,
-            CarPart.cherryDayDrink
+            // CarPart.cherryDayDrink
         });
         _carParts.Add(CarType.niisan, new List<CarPart>()
         {
             CarPart.animeFigure,
-            CarPart.cocaCola
+            // CarPart.cocaCola
         });
     }
 

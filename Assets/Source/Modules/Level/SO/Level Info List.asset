@@ -15,9 +15,9 @@ MonoBehaviour:
   _levels:
   - _name: Infinity Steps
     _sprite: {fileID: 21300000, guid: fdb7ea07ef0cbfa42ba37502a47f6941, type: 3}
-    _partsOfCar: 3
+    _partsOfCar: 4
     _level: 2
   - _name: Uneven Race
     _sprite: {fileID: 21300000, guid: fd2abac24b1f8404b88524844cf5985a, type: 3}
-    _partsOfCar: 4
+    _partsOfCar: 3
     _level: 3

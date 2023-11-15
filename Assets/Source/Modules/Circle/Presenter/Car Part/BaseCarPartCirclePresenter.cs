@@ -1,9 +1,9 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CarPartCirclePresenter : BaseCirclePresenter<InventoryCarPartsHandler, CarPart>
+internal abstract class BaseCarPartCirclePresenter<T, B> : BaseCirclePresenter<InventoryCarPartsHandler, CarPart> where T:BaseAddScoreCirclePresenter<B>
 {
     [SerializeField] private CarPart _carPart;
-    [SerializeField] private AddScoreCirclePresenter _ifIsCollectedPresenter;
+    [SerializeField] private T ifIsCollectedPresenter;
 
     private string _saveKey;
     
@@ -16,7 +16,7 @@ public class CarPartCirclePresenter : BaseCirclePresenter<InventoryCarPartsHandl
         _saveKey = _carPart.ToString();
         
         InitSaveAssistance();
-        TryEnableAnother(_ifIsCollectedPresenter);
+        TryEnableAnother(ifIsCollectedPresenter);
     }
 
     private void InitSaveAssistance()
@@ -25,12 +25,12 @@ public class CarPartCirclePresenter : BaseCirclePresenter<InventoryCarPartsHandl
         _partSaveAssistance.Load();
     }
 
-    private bool TryEnableAnother(AddScoreCirclePresenter presenter)
+    private bool TryEnableAnother(T presenterUI)
     {
         if (_partSaveAssistance.IsCollected == true)
         {
             DisableSystem();
-            ActivateAnother(presenter);
+            ActivateAnother(presenterUI);
 
             return false;
         }
@@ -38,10 +38,10 @@ public class CarPartCirclePresenter : BaseCirclePresenter<InventoryCarPartsHandl
         return true;
     }
 
-    private void ActivateAnother(AddScoreCirclePresenter presenter)
+    private void ActivateAnother(T presenterUI)
     {
-        presenter.gameObject.SetActive(true);
-        presenter.enabled = true;
+        presenterUI.gameObject.SetActive(true);
+        presenterUI.enabled = true;
     }
 
     protected override void OnEnter(InventoryCarPartsHandler value)

@@ -1,3 +1,3 @@
-internal class SimpleActionSpriteCircleView : BaseSpriteView<InsideCircleViewItemName, SimpleActionItemSprite>
+internal class SimpleActionSpriteCircleView : BaseSpriteView<Boost, SimpleActionItemSprite>
 {
 }

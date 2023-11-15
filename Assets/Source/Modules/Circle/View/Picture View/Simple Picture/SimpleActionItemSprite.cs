@@ -1,7 +1,6 @@
 using System;
 
 [Serializable]
-internal class SimpleActionItemSprite: BaseItemSprite<InsideCircleViewItemName>
+internal class SimpleActionItemSprite: ItemSprite<Boost>
 {
 }
-
