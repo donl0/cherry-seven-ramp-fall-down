@@ -75,7 +75,7 @@ MonoBehaviour:
   _renderItem:
     String: +1000\nPoints
     Color: {r: 0.21590436, g: 1, b: 0, a: 1}
-  _amount: 50000
+  _amount: 1000
 --- !u!114 &3427762282606833633
 MonoBehaviour:
   m_ObjectHideFlags: 0
