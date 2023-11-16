@@ -79,13 +79,13 @@ internal class FlipScoring : MonoBehaviour, IScoring
 
         if (FrontBackFlips >=  1)
         {
-            _backFlip.Add();
-            AfterDetectFlipAction(Flip.Back, DoBaseValuesFrontBackFlips);
+            _frontFlip.Add();
+            AfterDetectFlipAction(Flip.Front, DoBaseValuesFrontBackFlips);
         }
         else if (FrontBackFlips <= -1)
         {
-            _frontFlip.Add();
-            AfterDetectFlipAction(Flip.Front, DoBaseValuesFrontBackFlips);
+            _backFlip.Add();
+            AfterDetectFlipAction(Flip.Back, DoBaseValuesFrontBackFlips);
         }
     }
 

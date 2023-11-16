@@ -1,15 +1,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-internal class CarPool: MonoBehaviour , IPool<CarType>
+public class CarPool: MonoBehaviour , IPool<CarType>
 {
     [SerializeField] private CarPrefabs _cars;
     [SerializeField] private Transform _cotainer;
+    [SerializeField] private InputDecider _inputDecider;
     
+    private IMovementInput _input;
     private Dictionary<CarType, GameObject> _carPrefab = new Dictionary<CarType, GameObject>();
     
     private void Awake()
     {
+        _input = _inputDecider.Decide();
+        _input.Enable();
         InitCars();
 
         SetCarProperties();
@@ -40,6 +44,7 @@ internal class CarPool: MonoBehaviour , IPool<CarType>
             Destroy(prefab.GetComponentInChildren<Camera>().gameObject);
             prefab.GetComponentInChildren<Rigidbody>().useGravity = false;
             prefab.GetComponentInChildren<Rigidbody>().interpolation = RigidbodyInterpolation.None;
+            prefab.GetComponentInChildren<MoveController>().Init(_input);
             prefab.GetComponentInChildren<MoveController>().Activate();
         }
     }

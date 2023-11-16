@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MovementPcInput : MonoBehaviour, IMovementInput
+public class PcInput : MonoBehaviour, IMovementInput
 {
     private const string _horizontalString = "Horizontal";
     private const string _verticalString = "Vertical";
@@ -27,5 +27,15 @@ public class MovementPcInput : MonoBehaviour, IMovementInput
         {
             ForwardPressed?.Invoke();
         }
+    }
+    
+    public void Enable()
+    {
+        enabled = true;
+    }
+
+    public void Disable()
+    {
+        enabled = false;
     }
 }

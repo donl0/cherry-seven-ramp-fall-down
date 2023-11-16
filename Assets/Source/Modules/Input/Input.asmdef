@@ -1,9 +1,8 @@
 {
-    "name": "Movement",
+    "name": "Input",
     "rootNamespace": "",
     "references": [
-        "GUID:84b653a037b61964b8992f9a2cee0e48",
-        "GUID:6834963a374d4b94eb9ac82daf6f7522"
+        "GUID:d3c0dc0fc27cdad479e0928feddc1a59"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
