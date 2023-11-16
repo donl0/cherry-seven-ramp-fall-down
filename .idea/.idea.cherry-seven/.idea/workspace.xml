@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc0f367-da02-47e5-807a-aad01beb9f80" name="Default Changelist" comment="" />
+    <list default="true" id="adc0f367-da02-47e5-807a-aad01beb9f80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/JeepPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/JeepPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/SI-FI car.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/SI-FI car.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/Car Prefabs.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/Car Prefabs.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/SO/Car Prises.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/SO/Car Prises.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/All cars.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/All cars.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car parts/View/CarPartView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car parts/View/CarPartView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/MainMenuCarPlacePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/cc/3b609da9/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCircleGameObjectPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/BaseCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/IScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,22 +73,21 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/IPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/IMainMenuPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringWithColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/CarPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCirclePresenterUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/CarMenuMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car builder/ICarBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/InsideCircleViewItemName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenterUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/View/String View/StringCircleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/ICarMenuMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KnowledgeIsPower/Assets/CodeBase/Infrastructure/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CarPartCirclePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Car Part/CarPartCirclePresenterUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/RaceScoreHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E66F217A-64A7-47D4-8B47-8F0D70978704/16/872cb094/EventDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Button/IRestartable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,11 +96,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Prise/CarPrise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/View/ScoreView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/BoostList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/InventoryCarPartHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/CarPrefabs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Button/ResturnButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Button/RestartButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/91/1f822907/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,6 +115,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartSaveAssistance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/Boost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/GetComponentOrThrowNullException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesList.cs" root0="FORCE_HIGHLIGHTING" />
@@ -95,15 +131,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Current Car Placer/CurrentCarPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/OnSkinChangedInteracter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/SkinMainCarInteracter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/CarMenuMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/IScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car/Current Car/CurrentCarHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Finish/FinishPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" />
@@ -133,7 +166,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/CarScoreStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/From ground fall stabilizator/FromGroundedRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/DatasPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Level/View/LevelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Input/MovementPcInput.cs" />
@@ -141,15 +173,22 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car builder/CarBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/CarType.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Pool/CarPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartWithCarType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/CarType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/View/CarPartView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2XDCgh75Tw89HTIai85XIYDWzO5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -216,6 +255,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -292,24 +343,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698359175986" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/Renderer/CarPartsRenderer.cs</url>
-          <line>34</line>
-          <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Car parts\Renderer\CarPartsRenderer.cs" initialLine="23">
-            <startOffsets>
-              <option value="900" />
-            </startOffsets>
-            <endOffsets>
-              <option value="922" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

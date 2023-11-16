@@ -22,12 +22,6 @@ public class MainScoreHolder :ScoreHolder<Score>
         _totalMoneyProgress.Add(_score.Value);
         _totalMoneyProgress.Save();
     }
-    
-    public override bool TrySpend(int value)
-    {
-        base.TrySpend(value);
-        return _score.TrySpend(value);
-    }
 
     protected override void InitScore()
     {

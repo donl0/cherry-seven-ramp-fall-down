@@ -18,7 +18,7 @@ public class CarPartView : BaseRenderView<CarPart>
     {
         _partsHandler = partsHandler;
     }
-    
+
     public override void Render(CarPart item)
     {
         Sprite partSprite = _partWithSprite.TakeObject(item);

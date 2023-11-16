@@ -7,6 +7,8 @@ public class CarPartsRenderer : BaseRenderView<CarType>
     [SerializeField] private CarPartView _partViewTemplate;
     [SerializeField] private InventoryCarPartsHandler _partsHandler;
 
+    [SerializeField] private GameObject _container;
+    
     private const int _partsCount = 3;
     
     private List<CarPartView> _partsView;
@@ -28,6 +30,16 @@ public class CarPartsRenderer : BaseRenderView<CarType>
         _carPartWithCarType = new CarPartWithCarType();
         _partsView = new List<CarPartView>();
         CreateParts(container);
+    }
+
+    public void Show()
+    {
+        _container.SetActive(true);
+    }
+
+    public void Hide()
+    {
+        _container.SetActive(false);
     }
 
     public override void Render(CarType car)

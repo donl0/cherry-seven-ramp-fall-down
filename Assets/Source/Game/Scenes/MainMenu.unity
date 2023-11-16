@@ -2670,7 +2670,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.05
+  m_fontSize: 60.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3866,6 +3866,7 @@ MonoBehaviour:
   _partViewTemplate: {fileID: 3876573415383117067, guid: e73cc596fd4ffb7469de365eb6687f38,
     type: 3}
   _partsHandler: {fileID: 1662374117}
+  _container: {fileID: 1410953339}
 --- !u!1 &2061772256
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,3 +3992,4 @@ MonoBehaviour:
   _partViewTemplate: {fileID: 3876573415383117067, guid: e73cc596fd4ffb7469de365eb6687f38,
     type: 3}
   _partsHandler: {fileID: 1662374117}
+  _container: {fileID: 1410953339}
