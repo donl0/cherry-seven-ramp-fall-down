@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-internal class BasePlatformDecider:IPlatformDecider
+internal class BasePlatformDecider : IPlatformDecider
 {
     public Platform Take()
     {
@@ -10,3 +10,4 @@ internal class BasePlatformDecider:IPlatformDecider
             return Platform.PC;
     }
 }
+

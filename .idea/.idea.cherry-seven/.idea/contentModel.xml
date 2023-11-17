@@ -4,6 +4,7 @@
     <e p="C:\Users\danii\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\danii\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_cherry-seven.1324657507.00" t="ExcludeRecursive" />
     <e p="D:\UnityProjects\cherry-seven" t="IncludeRecursive">
+      <e p="Agava.WebUtility.Samples.Playtesting.csproj" t="IncludeRecursive" />
       <e p="Agava.YandexGames.Samples.Playtesting.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -29,7 +30,34 @@
           <e p="Prefabs" t="Include" />
           <e p="Textures" t="Include" />
         </e>
+        <e p="Graphy - Ultimate Stats Monitor" t="Include">
+          <e p="Editor" t="Include" />
+          <e p="Font" t="Include">
+            <e p="Northwest-Bold" t="Include" />
+            <e p="Roboto" t="Include" />
+          </e>
+          <e p="Prefab" t="Include" />
+          <e p="Runtime" t="Include">
+            <e p="Advanced" t="Include" />
+            <e p="Audio" t="Include" />
+            <e p="Fps" t="Include" />
+            <e p="Graph" t="Include" />
+            <e p="Ram" t="Include" />
+            <e p="Shader" t="Include" />
+            <e p="UI" t="Include" />
+            <e p="Util" t="Include" />
+          </e>
+          <e p="Shaders" t="Include" />
+        </e>
         <e p="Samples" t="Include">
+          <e p="Web Utility" t="Include">
+            <e p="3.1.0" t="Include">
+              <e p="Playtesting Sample" t="Include">
+                <e p="Agava.WebUtility.Samples.Playtesting.asmdef" t="Include" />
+                <e p="PlaytestingCanvas.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Yandex Games" t="Include">
             <e p="16.0.0" t="Include">
               <e p="Playtesting Sample" t="Include">
@@ -57,11 +85,10 @@
         <e p="Source" t="Include">
           <e p="Game" t="Include">
             <e p="Animation" t="Include">
-              <e p="Boost" t="Include">
-                <e p="Baks" t="Include" />
-              </e>
+              <e p="Boost" t="Include" />
             </e>
             <e p="Art" t="Include">
+              <e p="Joystick" t="Include" />
               <e p="Materials" t="Include">
                 <e p="Car" t="Include" />
                 <e p="Fall Guys" t="Include">
@@ -72,7 +99,10 @@
                 <e p="Boost" t="Include">
                   <e p="Gold" t="Include" />
                   <e p="Gold Take" t="Include" />
-                  <e p="Push" t="Include" />
+                  <e p="Push" t="Include">
+                    <e p="Lightning" t="Include" />
+                    <e p="UI" t="Include" />
+                  </e>
                 </e>
                 <e p="Car" t="Include">
                   <e p="Cherry seven" t="Include">
@@ -110,6 +140,9 @@
                 <e p="UI" t="Include" />
               </e>
               <e p="Finish" t="Include" />
+              <e p="Input" t="Include">
+                <e p="Joystick" t="Include" />
+              </e>
               <e p="Main Menu" t="Include" />
               <e p="UI" t="Include" />
               <e p="View" t="Include" />
@@ -135,7 +168,7 @@
                   <e p="BaseRenderView.cs" t="Include" />
                 </e>
               </e>
-              <e p="Root" t="Include">
+              <e p="Level Root" t="Include">
                 <e p="CherrySeven.asmdef" t="Include" />
                 <e p="GameRoot.cs" t="Include" />
               </e>
@@ -285,9 +318,29 @@
             <e p="From ground fall stabilizator" t="Include">
               <e p="FromGroundedRotator.cs" t="Include" />
             </e>
+            <e p="Input" t="Include">
+              <e p="IMovementInput.cs" t="Include" />
+              <e p="Input.asmdef" t="Include" />
+              <e p="JoystickInput.cs" t="Include" />
+              <e p="PcInput.cs" t="Include" />
+            </e>
+            <e p="Input Decider" t="Include">
+              <e p="BasePlatformDecider.cs" t="Include" />
+              <e p="InputDecider.asmdef" t="Include" />
+              <e p="InputDecider.cs" t="Include" />
+              <e p="IPlatformDecider.cs" t="Include" />
+              <e p="Platform.cs" t="Include" />
+              <e p="YandexPlatformDecider.cs" t="Include" />
+            </e>
             <e p="Inventory" t="Include">
               <e p="Inventory.asmdef" t="Include" />
               <e p="Inventory.cs" t="Include" />
+            </e>
+            <e p="Joystick" t="Include">
+              <e p="FloatingJoystick.cs" t="Include" />
+              <e p="Joystick.asmdef" t="Include" />
+              <e p="Joystick.cs" t="Include" />
+              <e p="RaycastTarget.cs" t="Include" />
             </e>
             <e p="Level" t="Include">
               <e p="Level.asmdef" t="Include" />
@@ -315,10 +368,7 @@
                 </e>
                 <e p="SkinCarMover.cs" t="Include" />
               </e>
-              <e p="Car Pool" t="Include">
-                <e p="CarPool.cs" t="Include" />
-                <e p="IPool.cs" t="Include" />
-              </e>
+              <e p="Car Pool" t="Include" />
               <e p="Current Car Placer" t="Include">
                 <e p="CurrentCarPlacer.cs" t="Include" />
                 <e p="ICurrentCarPlacer.cs" t="Include" />
@@ -339,10 +389,6 @@
               <e p="View" t="Include" />
             </e>
             <e p="Movemet" t="Include">
-              <e p="Input" t="Include">
-                <e p="IMovementInput.cs" t="Include" />
-                <e p="MovementPcInput.cs" t="Include" />
-              </e>
               <e p="MoveController.cs" t="Include" />
               <e p="Movement.asmdef" t="Include" />
               <e p="Mover" t="Include">
@@ -376,6 +422,11 @@
                 <e p="RestartButton.cs" t="Include" />
               </e>
               <e p="Playable Level.asmdef" t="Include" />
+            </e>
+            <e p="Pool" t="Include">
+              <e p="CarPool.cs" t="Include" />
+              <e p="IPool.cs" t="Include" />
+              <e p="Pool.asmdef" t="Include" />
             </e>
             <e p="Progress" t="Include">
               <e p="IntProgress.cs" t="Include" />
@@ -507,13 +558,17 @@
       <e p="CherrySeven.csproj" t="IncludeRecursive" />
       <e p="Circle.csproj" t="IncludeRecursive" />
       <e p="Finish.csproj" t="IncludeRecursive" />
+      <e p="Input.csproj" t="IncludeRecursive" />
+      <e p="InputDecider.csproj" t="IncludeRecursive" />
       <e p="Inventory.csproj" t="IncludeRecursive" />
+      <e p="Joystick.csproj" t="IncludeRecursive" />
       <e p="Level.csproj" t="IncludeRecursive" />
       <e p="MainMenu.csproj" t="IncludeRecursive" />
       <e p="Movement.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="PlayableLevel.csproj" t="IncludeRecursive" />
+      <e p="Pool.csproj" t="IncludeRecursive" />
       <e p="Progress.csproj" t="IncludeRecursive" />
       <e p="Save.csproj" t="IncludeRecursive" />
       <e p="Score.csproj" t="IncludeRecursive" />
