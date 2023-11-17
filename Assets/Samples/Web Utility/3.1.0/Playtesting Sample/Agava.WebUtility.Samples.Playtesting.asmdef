@@ -1,9 +1,8 @@
 {
-    "name": "InputDecider",
+    "name": "Agava.WebUtility.Samples.Playtesting",
     "rootNamespace": "",
     "references": [
-        "GUID:6834963a374d4b94eb9ac82daf6f7522",
-        "Agava.WebUtility"
+        "GUID:8f22d867f50f3884892cfde18442bbf9"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

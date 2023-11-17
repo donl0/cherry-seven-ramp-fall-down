@@ -7,7 +7,7 @@ public class InputDecider : MonoBehaviour
 
     public IMovementInput Decide()
     {
-        IPlatformDecider platformDecider = new BasePlatformDecider();
+        IPlatformDecider platformDecider = new YandexPlatformDecider();
 
         if (platformDecider.Take() == Platform.Mobile)
             return _mobileInput;
