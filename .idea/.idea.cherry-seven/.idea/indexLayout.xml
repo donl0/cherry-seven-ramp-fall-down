@@ -3,6 +3,7 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Library/PackageCache/com.agava.webutility@32d39130ea</Path>
       <Path>Library/PackageCache/com.agava.yandexgames@faf20595c0</Path>
       <Path>Library/PackageCache/com.unity.2d.animation@9.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.aseprite@1.0.0</Path>
@@ -35,6 +36,7 @@
       <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Builed</Path>
+      <Path>Buileds</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>

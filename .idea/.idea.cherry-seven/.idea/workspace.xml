@@ -20,15 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adc0f367-da02-47e5-807a-aad01beb9f80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Changelog.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Font.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/GUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/BasePlatformDecider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/BasePlatformDecider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/SkinMainCarInteracter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/MainMenuCarPlacePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/DuringRaceScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Web Utility/3.1.0/Playtesting Sample/PlaytestingCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/cc/3b609da9/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Change Score/DecreaseScoreCircleGameObjectPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/IFlowControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,14 +92,18 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/LevelPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/View/ScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/BoostList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Yandex/SDKReadySetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Finish/View/FinishView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Yandex/SDKInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Trigger/InventoryCarPartHandlerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Car Prefab/SO/CarPrefabs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Button/RestartButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.agava.yandexgames@faf20595c0/Runtime/PlayerAccount/PlayerAccount.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/91/1f822907/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.agava.webutility@32d39130ea/Runtime/Device.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Current Car Placer/ICurrentCarPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/IScoring.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,6 +113,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/CarListCarPlacePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/ScoreFlyActions/Fly/FlyScoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartSaveAssistance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.agava.yandexgames@faf20595c0/Runtime/Tools/ReviewPopup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/Boost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/GetComponentOrThrowNullException.cs" root0="FORCE_HIGHLIGHTING" />
@@ -122,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car builder/CarBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Root/GameRoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/CarType.cs" />
@@ -173,6 +181,7 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Simple Picture/BaseSpriteView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/InputDecider.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/BasePlatformDecider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/InputDecider.cs" />
       </list>
     </option>
   </component>

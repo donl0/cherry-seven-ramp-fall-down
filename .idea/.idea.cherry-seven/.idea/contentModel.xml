@@ -4,6 +4,7 @@
     <e p="C:\Users\danii\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\danii\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_cherry-seven.1324657507.00" t="ExcludeRecursive" />
     <e p="D:\UnityProjects\cherry-seven" t="IncludeRecursive">
+      <e p="Agava.WebUtility.Samples.Playtesting.csproj" t="IncludeRecursive" />
       <e p="Agava.YandexGames.Samples.Playtesting.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -29,8 +30,87 @@
           <e p="Prefabs" t="Include" />
           <e p="Textures" t="Include" />
         </e>
-        <e p="Graphy - Ultimate Stats Monitor" t="Include" />
+        <e p="Graphy - Ultimate Stats Monitor" t="Include">
+          <e p="Changelog.txt" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="GraphyDebuggerEditor.cs" t="Include" />
+            <e p="GraphyEditorStyle.cs" t="Include" />
+            <e p="GraphyManagerEditor.cs" t="Include" />
+            <e p="GraphyMenuItem.cs" t="Include" />
+            <e p="Tayx.Graphy.Editor.asmdef" t="Include" />
+          </e>
+          <e p="Font" t="Include">
+            <e p="Northwest-Bold" t="Include">
+              <e p="ERIC-TIRADO-NORTHWEST-LICENSE.txt" t="Include" />
+            </e>
+            <e p="Roboto" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+          <e p="GUI" t="Include" />
+          <e p="Materials" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="Prefab" t="Include">
+            <e p="Internal" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Advanced" t="Include">
+              <e p="G_AdvancedData.cs" t="Include" />
+            </e>
+            <e p="Audio" t="Include">
+              <e p="G_AudioGraph.cs" t="Include" />
+              <e p="G_AudioManager.cs" t="Include" />
+              <e p="G_AudioMonitor.cs" t="Include" />
+              <e p="G_AudioText.cs" t="Include" />
+            </e>
+            <e p="Fps" t="Include">
+              <e p="G_FpsGraph.cs" t="Include" />
+              <e p="G_FpsManager.cs" t="Include" />
+              <e p="G_FpsMonitor.cs" t="Include" />
+              <e p="G_FpsText.cs" t="Include" />
+            </e>
+            <e p="Graph" t="Include">
+              <e p="G_Graph.cs" t="Include" />
+            </e>
+            <e p="GraphyDebugger.cs" t="Include" />
+            <e p="GraphyManager.cs" t="Include" />
+            <e p="Ram" t="Include">
+              <e p="G_RamGraph.cs" t="Include" />
+              <e p="G_RamManager.cs" t="Include" />
+              <e p="G_RamMonitor.cs" t="Include" />
+              <e p="G_RamText.cs" t="Include" />
+            </e>
+            <e p="Shader" t="Include">
+              <e p="G_GraphShader.cs" t="Include" />
+            </e>
+            <e p="Tayx.Graphy.asmdef" t="Include" />
+            <e p="UI" t="Include">
+              <e p="G_SafeArea.cs" t="Include" />
+              <e p="IModifiableState.cs" t="Include" />
+              <e p="IMovable.cs" t="Include" />
+            </e>
+            <e p="Util" t="Include">
+              <e p="G_ExtensionMethods.cs" t="Include" />
+              <e p="G_FloatString.cs" t="Include" />
+              <e p="G_Intstring.cs" t="Include" />
+              <e p="G_Singleton.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="GraphMobile.shader" t="Include" />
+            <e p="GraphStandard.shader" t="Include" />
+          </e>
+          <e p="Textures" t="Include" />
+        </e>
         <e p="Samples" t="Include">
+          <e p="Web Utility" t="Include">
+            <e p="3.1.0" t="Include">
+              <e p="Playtesting Sample" t="Include">
+                <e p="Agava.WebUtility.Samples.Playtesting.asmdef" t="Include" />
+                <e p="PlaytestingCanvas.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Yandex Games" t="Include">
             <e p="16.0.0" t="Include">
               <e p="Playtesting Sample" t="Include">
@@ -303,6 +383,7 @@
               <e p="InputDecider.cs" t="Include" />
               <e p="IPlatformDecider.cs" t="Include" />
               <e p="Platform.cs" t="Include" />
+              <e p="YandexPlatformDecider.cs" t="Include" />
             </e>
             <e p="Inventory" t="Include">
               <e p="Inventory.asmdef" t="Include" />
@@ -548,6 +629,8 @@
       <e p="Sharer.csproj" t="IncludeRecursive" />
       <e p="Shop.csproj" t="IncludeRecursive" />
       <e p="SpawnPosition.csproj" t="IncludeRecursive" />
+      <e p="Tayx.Graphy.csproj" t="IncludeRecursive" />
+      <e p="Tayx.Graphy.Editor.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
     </e>
   </component>
