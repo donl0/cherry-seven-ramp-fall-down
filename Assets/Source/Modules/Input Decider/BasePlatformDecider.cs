@@ -12,15 +12,3 @@ internal class BasePlatformDecider:IPlatformDecider
             return Platform.PC;
     }
 }
-
-internal class YandexPlatformDecider:IPlatformDecider
-{
-    public Platform Take()
-    {
-        Device.IsMobile 
-        if (Application.platform == RuntimePlatform.Android)
-            return Platform.Mobile;
-        else
-            return Platform.PC;
-    }
-}
