@@ -2,7 +2,8 @@
     "name": "InputDecider",
     "rootNamespace": "",
     "references": [
-        "GUID:6834963a374d4b94eb9ac82daf6f7522"
+        "GUID:6834963a374d4b94eb9ac82daf6f7522",
+        "Agava.YandexGames"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
