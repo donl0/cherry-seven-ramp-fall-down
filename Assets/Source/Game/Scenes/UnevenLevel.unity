@@ -137,7 +137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &11234479
 Transform:
@@ -171,7 +171,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &76065425
 Transform:
@@ -199,10 +199,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 11234479}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: m_Name
       value: Boost Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -259,6 +269,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -278,10 +293,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -338,6 +368,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -357,10 +392,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1715998785}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -417,6 +462,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -436,10 +486,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -495,6 +560,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -613,10 +683,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 628356458}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: m_Name
       value: Boost Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -673,6 +753,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -726,10 +811,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -786,6 +886,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -805,10 +910,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -864,6 +984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1118,10 +1243,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -1178,6 +1318,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1197,10 +1342,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -1257,6 +1417,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1276,10 +1441,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -1335,6 +1515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1433,10 +1618,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 668330548}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -1493,6 +1688,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1518,7 +1718,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &490179358
 Transform:
@@ -1802,6 +2002,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 11234479}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2198783050699232504, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: _forceDirection.x
@@ -1811,6 +2016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boost Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -1866,6 +2076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2021,10 +2236,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 668330548}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -2081,6 +2306,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2100,10 +2330,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -2160,6 +2405,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2179,10 +2429,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -2239,6 +2504,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2264,7 +2534,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &628356458
 Transform:
@@ -2292,6 +2562,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76065425}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2198783050699232504, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: _forceDirection.x
@@ -2301,6 +2576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boost Circle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -2357,6 +2637,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2382,7 +2667,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &668330548
 Transform:
@@ -2409,10 +2694,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -2468,6 +2768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2582,10 +2887,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -2642,6 +2962,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2661,6 +2986,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 628356458}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2198783050699232504, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: _forceDirection.x
@@ -2670,6 +3000,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boost Circle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -2726,6 +3061,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2745,10 +3085,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -2805,6 +3160,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2824,10 +3184,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -2884,6 +3259,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2903,10 +3283,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 490179358}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -2962,6 +3352,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3216,10 +3611,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -3276,6 +3686,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3295,10 +3710,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -3355,6 +3785,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3374,10 +3809,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1309930112}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -3434,6 +3879,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3489,10 +3939,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -3548,6 +4013,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3827,7 +4297,22 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2569720993237565684, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728881347231271054, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2796256626417621922, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600248288739466983, guid: 1b449f626bf1fda4b959f2494cdcfd59,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -3847,7 +4332,27 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7541500247247612680, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7661207749958290381, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981446379866755327, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224209048365820621, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379302502400135482, guid: 1b449f626bf1fda4b959f2494cdcfd59,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4097,10 +4602,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -4157,6 +4677,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4182,7 +4707,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1037944138
 Transform:
@@ -4210,10 +4735,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -4270,6 +4810,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4289,10 +4834,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -4348,6 +4908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5048,6 +5613,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 11234479}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2198783050699232504, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: _forceDirection.x
@@ -5057,6 +5627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boost Circle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -5112,6 +5687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5219,10 +5799,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -5279,6 +5874,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5298,10 +5898,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -5358,6 +5973,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5377,10 +5997,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -5437,6 +6072,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5456,10 +6096,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1715998785}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -5516,6 +6166,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5541,7 +6196,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1309930112
 Transform:
@@ -5568,10 +6223,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76065425}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: m_Name
       value: Boost Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -5628,6 +6293,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5647,10 +6317,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -5707,6 +6392,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5726,10 +6416,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1309930112}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -5786,6 +6486,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5805,6 +6510,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 76065425}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2198783050699232504, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: _forceDirection.x
@@ -5814,6 +6524,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boost Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -5869,6 +6584,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6044,7 +6764,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1626593972
 Transform:
@@ -6095,10 +6815,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 490179358}
     m_Modifications:
+    - target: {fileID: 976321726903950887, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
       propertyPath: m_Name
       value: Decrease Score Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875280754310737977, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8378746662895283770, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
         type: 3}
@@ -6155,6 +6885,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733281785433242795, guid: ae3509c7bdbdf734b861df79f7dd0cdd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6180,7 +6915,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1715998785
 Transform:
@@ -6489,7 +7224,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1761554926
 Transform:
@@ -6746,10 +7481,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -6806,6 +7556,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6825,10 +7580,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -6885,6 +7655,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6904,6 +7679,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 628356458}
     m_Modifications:
+    - target: {fileID: 1098623146138051204, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2198783050699232504, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
       propertyPath: _forceDirection.x
@@ -6913,6 +7693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boost Circle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691618976939297946, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8571697184323621529, guid: a5b95c769605b414f906b59f7cb378c4,
         type: 3}
@@ -6968,6 +7753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899492321782693896, guid: a5b95c769605b414f906b59f7cb378c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7341,10 +8131,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626593972}
     m_Modifications:
+    - target: {fileID: 1535351194487057081, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
       propertyPath: m_Name
       value: Add Score Circle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820522620444270856, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583210394461580698, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3363335816805187339, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
         type: 3}
@@ -7400,6 +8205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298045319821299478, guid: 1b58078fca8c5e741bc03ba9e271b1b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7635,7 +8445,22 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2569720993237565684, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728881347231271054, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2796256626417621922, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600248288739466983, guid: 1b449f626bf1fda4b959f2494cdcfd59,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -7655,7 +8480,27 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7541500247247612680, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7661207749958290381, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981446379866755327, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224209048365820621, guid: 1b449f626bf1fda4b959f2494cdcfd59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379302502400135482, guid: 1b449f626bf1fda4b959f2494cdcfd59,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
