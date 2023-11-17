@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adc0f367-da02-47e5-807a-aad01beb9f80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Changelog.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Font.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/GUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphy - Ultimate Stats Monitor/package.json.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/BasePlatformDecider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/BasePlatformDecider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/InputDecider.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/InputDecider.asmdef" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +239,7 @@
       <workItem from="1699635653021" duration="14882000" />
       <workItem from="1699828011084" duration="17795000" />
       <workItem from="1700062549776" duration="9067000" />
-      <workItem from="1700212140815" duration="438000" />
+      <workItem from="1700212140815" duration="748000" />
     </task>
     <servers />
   </component>
