@@ -11,8 +11,12 @@ public class MoveController : MonoBehaviour, IFlowControl
     
     private void Awake()
     {
-        _input = GetComponent<IMovementInput>();
         _carMover = GetComponent<ICarMover>();
+    }
+
+    public void Init(IMovementInput input)
+    {
+        _input = input;
     }
 
     private void LateUpdate()

@@ -2,11 +2,11 @@ using System;
 using TMPro;
 using UnityEngine;
 
-internal class StringCircleView : BaseCircleView<StringColor>
+internal class StringCircleView : BaseCircleView<StringWithColor>
 {
     [SerializeField] private TMP_Text _text;
     
-    public override void Render(StringColor item)
+    public override void Render(StringWithColor item)
     {
         base.Render(item);
 

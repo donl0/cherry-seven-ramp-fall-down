@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef5347cee045c64bb3c6d7a14f02a56, type: 3}
+  m_Name: Boost List
+  m_EditorClassIdentifier: 
+  _items:
+  - _itemName: 0
+    _view: {fileID: 7725201736776390416, guid: 6b8362ff0ecd29846a1f57fd59f65f5b, type: 3}
+  - _itemName: 1
+    _view: {fileID: 8737328044350950977, guid: 4ccaa452d2e09584292a6fb9202fd32f, type: 3}
+  - _itemName: 2
+    _view: {fileID: 220572384185325084, guid: e35253b2cb0b0064a9611e7988eca614, type: 3}

@@ -75,7 +75,15 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
 
     private void Render(CarType car)
     {
-        _carPartsRenderer.Render(car);
+        if (_carPartWithCarType.GetParts(car).Count == 0 || _openedCars.CheckIfContains(car))
+        {
+            _carPartsRenderer.Hide();
+        }
+        else
+        {
+            _carPartsRenderer.Show();
+            _carPartsRenderer.Render(car);
+        }
         
         RenderPrise(car);
     }

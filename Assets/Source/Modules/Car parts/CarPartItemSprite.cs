@@ -1,6 +1,7 @@
 using System;
 
 [Serializable]
-public class CarPartItemSprite: BaseItemSprite<CarPart>
+public class CarPartItemSprite: ItemSprite<CarPart>
 {
 }
+
