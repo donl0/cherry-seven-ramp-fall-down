@@ -167,8 +167,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 6183230263066986375, guid: a7cc61e1a592dc341bbff2e2a910af2d,
+        type: 3}
+      propertyPath: SubModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2428605451891983221, guid: a7cc61e1a592dc341bbff2e2a910af2d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7cc61e1a592dc341bbff2e2a910af2d, type: 3}
