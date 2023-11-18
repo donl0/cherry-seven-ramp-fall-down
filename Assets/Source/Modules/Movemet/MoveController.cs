@@ -19,7 +19,7 @@ public class MoveController : MonoBehaviour, IFlowControl
         _input = input;
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         if (_isActive == false)
             return;
