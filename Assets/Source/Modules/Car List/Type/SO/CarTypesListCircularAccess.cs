@@ -2,6 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine;
+using UnityEngine.Events;
+
+#if UNITY_WEBGL || !UNITY_EDITOR
+using PlayerPrefs = Agava.YandexGames.Utility.PlayerPrefs;
+#endif
 
 [CreateAssetMenu(menuName = "car/car types list/list")]
 public class CarTypesListCircularAccess : CarTypesList
@@ -9,8 +14,9 @@ public class CarTypesListCircularAccess : CarTypesList
     [SerializeField] protected List<CarType> Cars;
 
     public override ReadOnlyCollection<CarType> CarTypes => new ReadOnlyCollection<CarType>(Cars);
-
-    public int Lenght => Cars.Count;
+    
+    public override int CurrentProgress => Cars.Count;
+    public override event UnityAction Updated;
 
     public CarType GetNextTypeCircular(CarType current)
     {
@@ -20,7 +26,7 @@ public class CarTypesListCircularAccess : CarTypesList
 
         return Cars[nextIndex];
     }
-    
+
     public CarType GetPreviousTypeCircular(CarType current)
     {
         int currentIndex = GetIndex(current);
@@ -38,5 +44,17 @@ public class CarTypesListCircularAccess : CarTypesList
             throw new InvalidOperationException($"Element doesnt found");
 
         return currentIndex;
+    }
+
+    public override void Load()
+    {
+    }
+
+    public override void Save()
+    {
+    }
+
+    public override void ResetToZero()
+    {
     }
 }

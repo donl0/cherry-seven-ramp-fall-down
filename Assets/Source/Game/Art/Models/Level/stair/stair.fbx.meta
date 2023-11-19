@@ -3,17 +3,7 @@ guid: cb11c3174062b3f4d8059ce753353a8b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: two_color
-    second: {fileID: 2100000, guid: 2845b3115be4eb9409aba4b9a789175b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: white_rad_lines
-    second: {fileID: 2100000, guid: a0f609c1040c2884e9fc7c0051494d2d, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -9,7 +9,6 @@ public class CarPartWithCarType
     {
         _carParts.Add(CarType.police, new List<CarPart>()
         {
-            CarPart.cherrySevenEngine
         });
         _carParts.Add(CarType.police2, new List<CarPart>()
         {

@@ -263,7 +263,7 @@
                 <e p="SO" t="Include">
                   <e p="CarTypesList.cs" t="Include" />
                   <e p="CarTypesListCircularAccess.cs" t="Include" />
-                  <e p="OpenedCarListCircularAccess.cs" t="Include" />
+                  <e p="OpenedCars.cs" t="Include" />
                 </e>
               </e>
             </e>
@@ -302,6 +302,7 @@
               <e p="Boost" t="Include">
                 <e p="Boost.cs" t="Include" />
                 <e p="BoostList.cs" t="Include" />
+                <e p="BoostRotator.cs" t="Include" />
                 <e p="ItemBoost.cs" t="Include" />
                 <e p="ItemPart.cs" t="Include" />
                 <e p="PartList.cs" t="Include" />

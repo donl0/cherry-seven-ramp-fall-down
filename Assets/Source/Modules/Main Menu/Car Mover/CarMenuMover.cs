@@ -38,7 +38,7 @@ internal class CarMenuMover: MonoBehaviour, ICarMenuMover
     {
         if ((_moveNextCoroutine != null) || (_moveMainCoroutine != null))
             return;
-        if (_carTypes.Lenght < 2) 
+        if (_carTypes.CurrentProgress < 2) 
             return;
 
         MoveMainCarLeft();
@@ -52,7 +52,7 @@ internal class CarMenuMover: MonoBehaviour, ICarMenuMover
     {
         if ((_moveNextCoroutine != null) || (_moveMainCoroutine != null))
             return;
-        if (_carTypes.Lenght < 2) 
+        if (_carTypes.CurrentProgress < 2) 
             return;
 
         MoveMainCarRight();

@@ -23,7 +23,10 @@ public abstract class SavedObject<T> where T : class
     public void Load()
     {
         if (PlayerPrefs.HasKey(_guid) == false)
+        {
+            OnFirstLoad();
             return;
+        }
 
         var jsonString = PlayerPrefs.GetString(_guid);
         var loadedObject = JsonUtility.FromJson(jsonString, typeof(T));
@@ -32,6 +35,10 @@ public abstract class SavedObject<T> where T : class
     }
 
     public virtual void Merge(T mergeWith)
+    {
+    }
+
+    protected virtual void OnFirstLoad()
     {
     }
 

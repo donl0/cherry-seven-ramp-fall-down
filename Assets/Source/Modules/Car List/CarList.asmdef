@@ -1,3 +1,17 @@
 {
-	"name": "CarList"
+    "name": "CarList",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4481203ca738ee94b807eceaec3e7503",
+        "Agava.YandexGames"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

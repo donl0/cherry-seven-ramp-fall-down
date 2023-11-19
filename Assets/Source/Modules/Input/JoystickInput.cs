@@ -21,6 +21,9 @@ public class JoystickInput : MonoBehaviour, IMovementInput
     {
         _horizontal = _joystick.Direction.x;
         _vertical = _joystick.Direction.y;
+
+        TryRoundToOne(ref _vertical);
+        TryRoundToZero(ref _horizontal);
     }
     
     public void Enable()
@@ -33,6 +36,33 @@ public class JoystickInput : MonoBehaviour, IMovementInput
     {
         _joystick.gameObject.SetActive(false);
         gameObject.SetActive(false);
+    }
 
+    private bool TryRoundToOne(ref float value)
+    {
+        float range = 0.03f;
+        float target = 1f;
+        return TryRoundToTarget(ref value, target, range);
+    }
+
+    private bool TryRoundToZero(ref float value)
+    {
+        float range = 0.11f;
+        float target = 0;
+        return TryRoundToTarget(ref value, target, range);
+    }
+    
+    private bool TryRoundToTarget(ref float value, float target, float range)
+    {
+        float lowerBound = target - range;
+        float upperBound = target + range;
+
+        if (value >= lowerBound && value <= upperBound)
+        {
+            value = target;
+            return true;
+        }
+        
+        return false;
     }
 }

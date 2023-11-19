@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class CurrentCarHandler : SavedObject<CurrentCarHandler>
 {
     private const string SAVEKEY = "CurrentCar";
+    private const CarType STARTCAR = CarType.niisan;
     
     [SerializeField] private CarType _car;
 
@@ -27,5 +28,12 @@ public class CurrentCarHandler : SavedObject<CurrentCarHandler>
     protected override void OnLoad(CurrentCarHandler loadedObject)
     {
         _car = loadedObject._car;
+    }
+
+    protected override void OnFirstLoad()
+    {
+        base.OnFirstLoad();
+
+        _car = STARTCAR;
     }
 }

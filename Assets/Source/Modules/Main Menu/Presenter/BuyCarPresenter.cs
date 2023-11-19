@@ -16,7 +16,7 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
     [SerializeField] private OnSkinChangedInteracter _changeListener;
 
     [SerializeField] private InventoryCarPartsHandler _partsHandler;
-    [SerializeField] private OpenedCarListCircularAccess _openedCars;
+    [SerializeField] private OpenedCars _openedCars;
     [SerializeField] private CarPriseList _carPrises;
 
     [SerializeField] private MainScoreHolder _scoreHolder;
@@ -35,6 +35,7 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
     {
         _currentCar = new CurrentCarHandler();
         _currentCar.Load();
+        _openedCars.Load();
         _carPartWithCarType = new CarPartWithCarType();
         InstantiateTemplates();
     }
@@ -125,6 +126,7 @@ internal class BuyCarPresenter : BaseMainMenuPresenter
             return false;
 
         _openedCars.Add(car);
+        _openedCars.Save();
         _currentCar.ChangeCar(car);
         _currentCar.Changed?.Invoke(car);
 

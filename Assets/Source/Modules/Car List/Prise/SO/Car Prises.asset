@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Car Prises
   m_EditorClassIdentifier: 
   _carPrises:
-  - _price: 10000
-    _car: 5
+  - _price: 10
+    _car: 0
   - _price: 20000
     _car: 1
   - _price: 100
