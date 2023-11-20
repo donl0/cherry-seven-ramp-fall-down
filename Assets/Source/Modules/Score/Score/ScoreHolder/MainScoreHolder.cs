@@ -33,10 +33,4 @@ public class MainScoreHolder :ScoreHolder<Score>
         base.OnMoneyChanged();
         _score.Save();
     }
-
-    [ContextMenu("Save")]
-    public void Save()
-    {
-        _score.Add(0);
-    }
 }
