@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-#if UNITY_WEBGL || !UNITY_EDITOR
-    using PlayerPrefs = Agava.YandexGames.Utility.PlayerPrefs;
-#endif
+//#if UNITY_WEBGL || !UNITY_EDITOR
+//     using PlayerPrefs = Agava.YandexGames.Utility.PlayerPrefs;
+// #endif
 
 [CreateAssetMenu(fileName = "IntProgress", menuName = "Progress/IntProgress", order = 51)]
 public class IntProgress : Progress

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-internal class CarMover : MonoBehaviour, ICarMover
+public class CarMover : MonoBehaviour, ICarMover
 {
     [SerializeField] private WheelCollider[] _frontWheels;
     [SerializeField] private WheelCollider[] _rearWheels;
@@ -14,7 +14,6 @@ internal class CarMover : MonoBehaviour, ICarMover
     [Header("Physics")]
     [SerializeField] private Transform _centreOfMass;
 
-    [SerializeField] private float _torque;
     [SerializeField] private float _maxAngle;
 
     [SerializeField] private float _rotationSpeed = 10f;
@@ -29,7 +28,6 @@ internal class CarMover : MonoBehaviour, ICarMover
     
     private void Awake()
     {
-        InitEffector();
         InitView();
         TrySetCentreOfMass();
         InitPreference();
@@ -38,6 +36,16 @@ internal class CarMover : MonoBehaviour, ICarMover
     private void Update()
     {
         _wheelView.Render();
+    }
+
+    public void InitEffector(float torque)
+    {
+        _wheelsEffector = new AWDEffector(_frontWheels, _rearWheels, _maxAngle, torque);
+    }
+
+    public void SetRotationSpeed(float value)
+    {
+        _rotationSpeed = value;
     }
 
     public void AffectHorizontal(float value)
@@ -68,7 +76,8 @@ internal class CarMover : MonoBehaviour, ICarMover
     {
         _car.angularVelocity = Vector3.Lerp(_car.angularVelocity, lerpTo, _lerpRotationSpeed * Time.deltaTime);
     }
-    
+
+
     private bool CheckIfCollision()
     {
         Collider[] colliders = Physics.OverlapSphere(_car.transform.position, _radiusNotFlip, _MoveMask);
@@ -77,11 +86,6 @@ internal class CarMover : MonoBehaviour, ICarMover
             return true;
         
         return false;
-    }
-
-    private void InitEffector()
-    {
-        _wheelsEffector = new AWDEffector(_frontWheels, _rearWheels, _maxAngle, _torque);
     }
 
     private void InitView()

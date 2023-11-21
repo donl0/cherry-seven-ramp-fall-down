@@ -4,9 +4,9 @@ using System.Collections.ObjectModel;
 using UnityEngine;
 using UnityEngine.Events;
 
-#if UNITY_WEBGL || !UNITY_EDITOR
-using PlayerPrefs = Agava.YandexGames.Utility.PlayerPrefs;
-#endif
+//#if UNITY_WEBGL || !UNITY_EDITOR
+//using PlayerPrefs = Agava.YandexGames.Utility.PlayerPrefs;
+//#endif
 
 [CreateAssetMenu(menuName = "car/car types list/list")]
 public class CarTypesListCircularAccess : CarTypesList

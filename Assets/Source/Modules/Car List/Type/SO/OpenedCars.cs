@@ -1,11 +1,9 @@
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
 using UnityEngine;
 
-#if UNITY_WEBGL || !UNITY_EDITOR
-using PlayerPrefs = Agava.YandexGames.Utility.PlayerPrefs;
-#endif
+//#if UNITY_WEBGL || !UNITY_EDITOR
+//using PlayerPrefs = Agava.YandexGames.Utility.PlayerPrefs;
+//#endif
 
 [CreateAssetMenu(menuName = "car/car types list/opened list")]
 public class OpenedCars : CarTypesListCircularAccess
@@ -32,13 +30,10 @@ public class OpenedCars : CarTypesListCircularAccess
     {
         if (PlayerPrefs.HasKey(SaveKey) == false)
         {
-            Debug.Log("FALSE");
             Cars = new List<CarType>() {STARTCAR};
             return;
         }
         
-        Debug.Log("TRUE");
-
         var json = PlayerPrefs.GetString(SaveKey);
         Cars = JsonUtility.FromJson<DataTransfer>(json).Cars;
     }
