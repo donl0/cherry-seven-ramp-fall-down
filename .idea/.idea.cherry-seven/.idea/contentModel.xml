@@ -198,6 +198,7 @@
               </e>
               <e p="Main Menu" t="Include" />
               <e p="UI" t="Include" />
+              <e p="Upgrades" t="Include" />
               <e p="View" t="Include" />
             </e>
             <e p="Scenes" t="Include" />
@@ -561,7 +562,30 @@
               <e p="SpawnPosition.cs" t="Include" />
             </e>
             <e p="Upgrade" t="Include">
+              <e p="Executor" t="Include">
+                <e p="IUpgradeSetter.cs" t="Include" />
+                <e p="UpgradeAccelerationSetter.cs" t="Include" />
+                <e p="UpgradeListExecutor.cs" t="Include" />
+                <e p="UpgradeRotationnSetter.cs" t="Include" />
+                <e p="UpgradeSetter.cs" t="Include" />
+                <e p="UpgradeSuspensionSetter.cs" t="Include" />
+              </e>
+              <e p="ILevelContainer.cs" t="Include" />
               <e p="Levels.cs" t="Include" />
+              <e p="Upgrade Info" t="Include">
+                <e p="DS" t="Include">
+                  <e p="AccelerationUpgradeDS.cs" t="Include" />
+                  <e p="RotationUpgradeDS.cs" t="Include" />
+                  <e p="SuspensionUpgradeDS.cs" t="Include" />
+                  <e p="UpgradeDS.cs" t="Include" />
+                </e>
+                <e p="List" t="Include">
+                  <e p="UpgradeAccelerationList.cs" t="Include" />
+                  <e p="UpgradeInfoList.cs" t="Include" />
+                  <e p="UpgradeRotationList.cs" t="Include" />
+                  <e p="UpgradeSuspensionList.cs" t="Include" />
+                </e>
+              </e>
               <e p="Upgrade.asmdef" t="Include" />
               <e p="Upgrade.cs" t="Include" />
               <e p="UpgradeType.cs" t="Include" />

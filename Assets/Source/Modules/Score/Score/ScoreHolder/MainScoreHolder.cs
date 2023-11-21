@@ -15,7 +15,15 @@ public class MainScoreHolder :ScoreHolder<Score>
         base.OnDisable();
         _score.Save();
     }
-    
+
+    public bool IsEnough(int value)
+    {
+        if (_score.Value >= value)
+            return true;
+
+        return false;
+    }
+
     public override void Add(int value)
     {
         base.Add(value);

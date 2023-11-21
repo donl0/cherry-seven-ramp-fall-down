@@ -16,7 +16,8 @@ public class GameRoot : MonoBehaviour
     private FollowObject _cameraFollower;
     private FlyScorePresenter _flyScorePresenter;
     private DuringRaceScoreHolder _raceScoreHandler;
-
+    private UpgradeListExecutor _upgradeExecutor;
+    
     [Header("Finish")] 
     [SerializeField] private FinishFlowControw finish;
     [SerializeField] private List<IntProgress> _progressesToReset;
@@ -41,6 +42,8 @@ public class GameRoot : MonoBehaviour
         _cameraFollower.Activate();
 
         InitScore();
+        
+        _upgradeExecutor.Set();
     }
 
     private void InitInput()
@@ -62,6 +65,7 @@ public class GameRoot : MonoBehaviour
         _cameraFollower = Extantions.GetComponentOrThrowNullException<FollowObject>(car, nameof(_cameraFollower));
         _flyScorePresenter = Extantions.GetComponentOrThrowNullException<FlyScorePresenter>(car, nameof(_flyScorePresenter));
         _raceScoreHandler = Extantions.GetComponentOrThrowNullException<DuringRaceScoreHolder>(car, nameof(_raceScoreHandler));
+        _upgradeExecutor =  Extantions.GetComponentOrThrowNullException<UpgradeListExecutor>(car, nameof(_upgradeExecutor));
     }
 
     private void InitFinish()

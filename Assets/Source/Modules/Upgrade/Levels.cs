@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 
 [Serializable]
-public class Levels: SavedObject<Levels>
+public class Levels: SavedObject<Levels>, ILevelContainer
 {
     private const string _guid = "LEVELSGUID";
 
@@ -37,6 +37,13 @@ public class Levels: SavedObject<Levels>
 
         level = currentUpgrade.CurrentLevel;
         price = currentUpgrade.Price;
+    }
+
+    public int GetLevel(CarType car, UpgradeType upgrade)
+    {
+        var level = _upgrades.FirstOrDefault(u => u.Car == car & u.Type == upgrade).CurrentLevel;
+
+        return level;
     }
 
     protected override void OnFirstLoad()
