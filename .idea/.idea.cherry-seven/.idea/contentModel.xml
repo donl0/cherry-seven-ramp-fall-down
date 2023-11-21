@@ -438,6 +438,7 @@
                 <e p="MainMenuCarPlacePresenter.cs" t="Include" />
                 <e p="ShopCarPlacePresenter.cs" t="Include" />
                 <e p="SkinsCarPlacePresenter.cs" t="Include" />
+                <e p="UpgradesPresenter.cs" t="Include" />
               </e>
               <e p="PresenterActivation.cs" t="Include" />
               <e p="View" t="Include" />
@@ -556,6 +557,16 @@
               <e p="SpawnPosition.asmdef" t="Include" />
               <e p="SpawnPosition.cs" t="Include" />
             </e>
+            <e p="Upgrade" t="Include">
+              <e p="Levels.cs" t="Include" />
+              <e p="Upgrade.asmdef" t="Include" />
+              <e p="Upgrade.cs" t="Include" />
+              <e p="UpgradeType.cs" t="Include" />
+              <e p="View" t="Include">
+                <e p="UpgradeView.cs" t="Include" />
+                <e p="UpgradeViewDS.cs" t="Include" />
+              </e>
+            </e>
             <e p="Yandex" t="Include">
               <e p="SDKInitializer.cs" t="Include" />
               <e p="SDKReadySetter.cs" t="Include" />
@@ -633,6 +644,7 @@
       <e p="Tayx.Graphy.csproj" t="IncludeRecursive" />
       <e p="Tayx.Graphy.Editor.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Upgrade.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

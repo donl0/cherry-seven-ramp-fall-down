@@ -15,6 +15,7 @@ public class PresenterActivation : MonoBehaviour
     private IMainMenuPresenter _skinsPresenter;
     private IMainMenuPresenter _shopPresenter;
     private IMainMenuPresenter _levelPresenter;
+    
     private void Awake()
     {
         _homePresenter = GetComponent<HomeCarPlacePresenter>();

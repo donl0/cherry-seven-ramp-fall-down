@@ -1,0 +1,21 @@
+{
+    "name": "Upgrade",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e77342b43dc160344a85725ce94be047",
+        "GUID:8b79d73ece90ee6479550166af0e2ce5",
+        "GUID:3257c6d65b519c14187e5f8f60aa8e13",
+        "GUID:84b653a037b61964b8992f9a2cee0e48",
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
