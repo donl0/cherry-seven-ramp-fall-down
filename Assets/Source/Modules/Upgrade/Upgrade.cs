@@ -1,11 +1,15 @@
+using System;
+using UnityEngine;
+
+[Serializable]
 internal class Upgrade
 {
-    private readonly CarType _car;
-    private readonly UpgradeType _type;
-    private readonly int _maxLevel;
-    private readonly int _price;
+    [SerializeField] private CarType _car;
+    [SerializeField] private UpgradeType _type;
+    [SerializeField] private int _maxLevel;
+    [SerializeField] private int _price;
     
-    private int _currentLevel;
+    [SerializeField] private int _currentLevel;
 
     public CarType Car => _car;
     public UpgradeType Type => _type;

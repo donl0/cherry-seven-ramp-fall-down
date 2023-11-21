@@ -20,31 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adc0f367-da02-47e5-807a-aad01beb9f80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/UpgradeType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/UpgradeType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/View/UpgradeViewDS.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/View/UpgradeViewDS.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Niisan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Niisan.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Base.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Base.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/View/BaseRenderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/View/BaseRenderView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car/Current Car/CurrentCarHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car/Current Car/CurrentCarHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/MainMenu.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/MainMenu.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/IMainMenuPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/IMainMenuPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/SkinsCarPlacePresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/SkinsCarPlacePresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/PresenterActivation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/PresenterActivation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +113,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Playable Level/Button/RestartButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/91/1f822907/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Camera/FollowObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/Extantions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Yandex/SDKReadySetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Yandex/SDKInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Current Car Placer/ICurrentCarPlacer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -134,27 +126,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartSaveAssistance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/Boost.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/GetComponentOrThrowNullException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.agava.yandexgames@faf20595c0/Runtime/PlayerAccount/PlayerAccount.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484A9A-F6B9-44DE-A5CD-9BE4DBB0DA2C/41/6c76fb18/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/View/BaseRenderView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Test/TestScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/605BF8B3-1FCB-444B-8517-6DA963870AA7/2b/70f128df/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Web Utility/3.1.0/Playtesting Sample/PlaytestingCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/On Moved Excecutor/IMainCarInteracter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Score/Convention/Flip.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/ItemBoost.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/ItemPart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/BoostList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/Presenter/Boost/BoostCirclePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/SO/Simple Picture/SimpleActionCircleItemSpriteList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Simple Picture/SimpleActionItemSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Circle/View/Picture View/Simple Picture/SimpleActionSpriteCircleView.cs" />
@@ -184,9 +171,7 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/InputDecider.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrades/TestBrakeTorque.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" />
@@ -198,10 +183,16 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/PresenterActivation.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/SkinsCarPlacePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Car/Current Car/CurrentCarHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/ScoreHolder/MainScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Extantions/HelpFunctionsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Level Root/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Test/TestScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" />
       </list>
     </option>
   </component>
@@ -238,10 +229,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1764">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1764" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -271,7 +262,7 @@
       <workItem from="1700212140815" duration="748000" />
       <workItem from="1700390481553" duration="7633000" />
       <workItem from="1700482489218" duration="4953000" />
-      <workItem from="1700566694096" duration="7779000" />
+      <workItem from="1700566694096" duration="12229000" />
     </task>
     <servers />
   </component>
@@ -300,58 +291,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="345" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1698257691206" />
-    <state width="486" height="464" key="DebuggerActiveHint" timestamp="1700408331880">
+    <state width="486" height="464" key="DebuggerActiveHint" timestamp="1700581898953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="486" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1700408331880" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1700507030403">
+    <state width="486" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1700581898953" />
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1700581723841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030403" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1700507030403">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723841" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1700581723841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030403" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1700507030403">
+    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723841" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1700581723841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030403" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1700507030403">
+    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723841" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1700581723841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030403" />
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom" timestamp="1700507030404">
+    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723841" />
+    <state width="1877" height="271" key="GridCell.Tab.1.bottom" timestamp="1700581723842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030404" />
-    <state width="1877" height="271" key="GridCell.Tab.1.center" timestamp="1700507030403">
+    <state width="1877" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723842" />
+    <state width="1877" height="271" key="GridCell.Tab.1.center" timestamp="1700581723841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030403" />
-    <state width="1877" height="271" key="GridCell.Tab.1.left" timestamp="1700507030403">
+    <state width="1877" height="271" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723841" />
+    <state width="1877" height="271" key="GridCell.Tab.1.left" timestamp="1700581723841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030403" />
-    <state width="1877" height="271" key="GridCell.Tab.1.right" timestamp="1700507030404">
+    <state width="1877" height="271" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723841" />
+    <state width="1877" height="271" key="GridCell.Tab.1.right" timestamp="1700581723841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030404" />
-    <state width="1877" height="271" key="GridCell.Tab.2.bottom" timestamp="1700507030404">
+    <state width="1877" height="271" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723841" />
+    <state width="1877" height="271" key="GridCell.Tab.2.bottom" timestamp="1700581723842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030404" />
-    <state width="1877" height="271" key="GridCell.Tab.2.center" timestamp="1700507030404">
+    <state width="1877" height="271" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723842" />
+    <state width="1877" height="271" key="GridCell.Tab.2.center" timestamp="1700581723842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030404" />
-    <state width="1877" height="271" key="GridCell.Tab.2.left" timestamp="1700507030404">
+    <state width="1877" height="271" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723842" />
+    <state width="1877" height="271" key="GridCell.Tab.2.left" timestamp="1700581723842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030404" />
-    <state width="1877" height="271" key="GridCell.Tab.2.right" timestamp="1700507030404">
+    <state width="1877" height="271" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723842" />
+    <state width="1877" height="271" key="GridCell.Tab.2.right" timestamp="1700581723842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1700507030404" />
+    <state width="1877" height="271" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1700581723842" />
     <state x="788" y="205" key="RiderGenerateDialog" timestamp="1700572961364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -385,13 +376,46 @@
           </properties>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs</url>
+          <line>49</line>
+          <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Upgrade\Levels.cs" initialLine="49">
+            <startOffsets>
+              <option value="1211" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1246" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade.cs</url>
+          <line>30</line>
+          <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Upgrade\Upgrade.cs" initialLine="30">
+            <startOffsets>
+              <option value="774" />
+            </startOffsets>
+            <endOffsets>
+              <option value="795" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs</url>
+          <line>25</line>
+          <properties documentPath="D:\UnityProjects\cherry-seven\Assets\Source\Modules\Upgrade\Levels.cs" initialLine="25">
+            <startOffsets>
+              <option value="577" />
+            </startOffsets>
+            <endOffsets>
+              <option value="662" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
-        <watch expression="_value" language="C#" />
-        <watch expression="Value" language="C#" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

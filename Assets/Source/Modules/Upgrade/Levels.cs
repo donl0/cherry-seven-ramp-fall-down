@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[Serializable]
 public class Levels: SavedObject<Levels>
 {
     private const string _guid = "LEVELSGUID";
@@ -10,6 +12,13 @@ public class Levels: SavedObject<Levels>
 
     public Levels() : base(_guid)
     {
+    }
+
+    public int GetPrice(CarType car, UpgradeType upgrade)
+    {
+        var price = _upgrades.FirstOrDefault(u => u.Type == upgrade & u.Car == car).Price;
+
+        return price;
     }
 
     public bool TryUpgrade(CarType car, UpgradeType upgrade)
@@ -33,6 +42,7 @@ public class Levels: SavedObject<Levels>
     protected override void OnFirstLoad()
     {
         SetBase();
+        Save();
     }
 
     protected override void OnLoad(Levels loadedObject)

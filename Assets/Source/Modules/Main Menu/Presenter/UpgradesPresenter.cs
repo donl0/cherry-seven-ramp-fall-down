@@ -1,5 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 internal class UpgradesPresenter: BaseMainMenuPresenter
 {
@@ -10,24 +11,35 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
     [SerializeField] private UpgradeView _rotationView;
 
     [SerializeField] private SkinCarMover _carMover;
-    
+
+    [SerializeField] private MainScoreHolder _score;
+
+    [SerializeField] private Button _accelerationButton;
+    [SerializeField] private Button _suspensionButton;
+    [SerializeField] private Button _rotationButton;
+
     private CurrentCarHandler _currentCar;
     private Levels _levelsHandler;
 
     private void Awake()
     {
         _currentCar = new CurrentCarHandler();
-        _levelsHandler = new Levels();
     }
 
     private void OnEnable()
     {
         _carMover.Interacted += OnCarChanged;
+        _accelerationButton.onClick.AddListener(() => OnUpgradeClicked(UpgradeType.Acceleration));
+        _suspensionButton.onClick.AddListener(() => OnUpgradeClicked(UpgradeType.Suspension));
+        _rotationButton.onClick.AddListener(() => OnUpgradeClicked(UpgradeType.Rotation));
     }
 
     private void OnDisable()
     {
         _carMover.Interacted -= OnCarChanged;
+        _accelerationButton.onClick.RemoveListener(() => OnUpgradeClicked(UpgradeType.Acceleration));
+        _suspensionButton.onClick.RemoveListener(() => OnUpgradeClicked(UpgradeType.Suspension));
+        _rotationButton.onClick.RemoveListener(() => OnUpgradeClicked(UpgradeType.Rotation));
     }
 
     private void OnCarChanged(CarType car)
@@ -38,11 +50,13 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
     protected override void Activate()
     {
         base.Activate();
+
+        _currentCar.Load();
+        _levelsHandler = new Levels();
+
+        SetView(_currentCar.Car);
         
         _container.SetActive(true);
-        
-        _currentCar.Load();
-        SetView(_currentCar.Car);
     }
 
     protected override void Deactivate()
@@ -66,5 +80,23 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
         
         UpgradeViewDS acceleration = new UpgradeViewDS(levelString + level, price.ToString());
         view.Render(acceleration);
+    }
+
+    private void OnUpgradeClicked(UpgradeType upgrade)
+    {
+        _levelsHandler.Load();
+        _currentCar.Load();
+
+        int price = _levelsHandler.GetPrice(_currentCar.Car, upgrade);
+        
+        if (_score.IsEnough(price))
+        {
+            if (_levelsHandler.TryUpgrade(_currentCar.Car, upgrade))
+            {
+                _score.TrySpend(price);
+                _levelsHandler.Save();
+                SetView(_currentCar.Car);
+            }
+        }
     }
 }

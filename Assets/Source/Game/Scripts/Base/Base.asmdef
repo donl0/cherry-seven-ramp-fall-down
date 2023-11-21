@@ -2,7 +2,8 @@
     "name": "Base",
     "rootNamespace": "",
     "references": [
-        "Agava.YandexGames"
+        "Agava.YandexGames",
+        "Extantions"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

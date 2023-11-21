@@ -40,7 +40,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456091167273173645}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.22, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.7
   m_SuspensionSpring:
     spring: 35000
@@ -51,15 +51,15 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 2
-    m_ExtremumValue: 5
-    m_AsymptoteSlip: 5
-    m_AsymptoteValue: 2
+    m_ExtremumSlip: 1
+    m_ExtremumValue: 3
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 1.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 3
+    m_ExtremumSlip: 2
     m_ExtremumValue: 1
-    m_AsymptoteSlip: 4
+    m_AsymptoteSlip: 2
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_IncludeLayers:
@@ -194,7 +194,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024895098473466678}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.22, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.7
   m_SuspensionSpring:
     spring: 35000
@@ -206,14 +206,14 @@ WheelCollider:
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
     m_ExtremumSlip: 2
-    m_ExtremumValue: 5
-    m_AsymptoteSlip: 5
-    m_AsymptoteValue: 2
+    m_ExtremumValue: 7
+    m_AsymptoteSlip: 2
+    m_AsymptoteValue: 6
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 3
+    m_ExtremumSlip: 2
     m_ExtremumValue: 1
-    m_AsymptoteSlip: 4
+    m_AsymptoteSlip: 2
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_IncludeLayers:
@@ -459,7 +459,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3021709232755737460}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.22, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.7
   m_SuspensionSpring:
     spring: 35000
@@ -470,15 +470,15 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 2
-    m_ExtremumValue: 5
-    m_AsymptoteSlip: 5
-    m_AsymptoteValue: 2
+    m_ExtremumSlip: 1
+    m_ExtremumValue: 3
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 1.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 3
+    m_ExtremumSlip: 2
     m_ExtremumValue: 1
-    m_AsymptoteSlip: 4
+    m_AsymptoteSlip: 2
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_IncludeLayers:
@@ -744,7 +744,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7096046656458387027}
   serializedVersion: 2
-  m_Center: {x: 0, y: 0.22, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_Radius: 0.7
   m_SuspensionSpring:
     spring: 35000
@@ -756,14 +756,14 @@ WheelCollider:
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
     m_ExtremumSlip: 2
-    m_ExtremumValue: 5
-    m_AsymptoteSlip: 5
-    m_AsymptoteValue: 2
+    m_ExtremumValue: 7
+    m_AsymptoteSlip: 2
+    m_AsymptoteValue: 6
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 3
+    m_ExtremumSlip: 2
     m_ExtremumValue: 1
-    m_AsymptoteSlip: 4
+    m_AsymptoteSlip: 2
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_IncludeLayers:
@@ -1011,7 +1011,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8237538014713468133}
   serializedVersion: 4
-  m_Mass: 1350
+  m_Mass: 1700
   m_Drag: 0
   m_AngularDrag: 0.2
   m_CenterOfMass: {x: 0, y: 0, z: 0}

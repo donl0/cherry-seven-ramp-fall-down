@@ -264,8 +264,8 @@ MonoBehaviour:
   - {fileID: 5321546626747026217}
   _car: {fileID: 2171478542986265128}
   _centreOfMass: {fileID: 0}
-  _torque: 3500
-  _maxAngle: 65
+  _torque: 3000
+  _maxAngle: 25
   _rotationSpeed: 17
   _MoveMask:
     serializedVersion: 2

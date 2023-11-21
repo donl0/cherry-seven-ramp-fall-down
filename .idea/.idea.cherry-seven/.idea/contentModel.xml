@@ -210,8 +210,8 @@
                 <e p="Extantions" t="Include">
                   <e p="Extantions.cs" t="Include" />
                   <e p="GetComponentOrThrowNullException.cs" t="Include" />
+                  <e p="HelpFunctionsScript.cs" t="Include" />
                 </e>
-                <e p="HelpFunctionsScript.cs" t="Include" />
                 <e p="IFlowControl.cs" t="Include" />
                 <e p="ItemGameObject.cs" t="Include" />
                 <e p="ItemGameObjectList.cs" t="Include" />
@@ -516,6 +516,9 @@
               </e>
               <e p="Score.asmdef" t="Include" />
               <e p="SO" t="Include" />
+              <e p="Test" t="Include">
+                <e p="TestScore.cs" t="Include" />
+              </e>
               <e p="View" t="Include">
                 <e p="ScoreView.cs" t="Include" />
               </e>
