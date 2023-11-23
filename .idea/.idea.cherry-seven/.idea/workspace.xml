@@ -20,19 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adc0f367-da02-47e5-807a-aad01beb9f80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeControllabilitySetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeControllabilitySetter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cherry-seven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Art/Models/Level/Uneven multiple/ueven_multiple.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Art/Models/Level/Uneven multiple/ueven_multiple.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Art/Models/Level/Uneven multiple/ueven_multiple.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Art/Models/Level/Uneven multiple/ueven_multiple.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Niisan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Niisan.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/Police car 3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/vaz_cherry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Car/vaz_cherry.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Upgrades/Upgraeds.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Prefabs/Upgrades/Upgraeds.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenMultipleLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/UnevenMultipleLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scenes/firtLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Base.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Base.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/CarTypesListCircularAccess.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCars.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Save/SavedObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/AWDEffector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/AWDEffector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/IWheelsEffector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/IWheelsEffector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/TwoEffector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/TwoBackEffector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/TwoEffector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/TwoBackEffector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeRotationnSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeRotationnSetter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeAccelerationList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeAccelerationList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeSuspensionList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeSuspensionList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/UpgradeType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/UpgradeType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +138,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartSaveAssistance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Progress/IntProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Circle/Boost/Boost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeСontrollabilityList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeRotationList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.agava.yandexgames@faf20595c0/Runtime/PlayerAccount/PlayerAccount.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -141,13 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Car Mover/CarMenuMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/CarList.asmdef" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car parts/CarPartWithCarType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Car List/Type/SO/OpenedCarListCircularAccess.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/BuyCarPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Input/JoystickInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Input Decider/InputDecider.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/MoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrades/TestBrakeTorque.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Score/Model/Score.cs" />
@@ -157,7 +166,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/View/BaseRenderView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade.asmdef" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/IMainMenuPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/UpgradeType.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/View/UpgradeView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/PresenterActivation.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/SkinsCarPlacePresenter.cs" />
@@ -168,30 +176,38 @@
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/HelpFunctionsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Extantions/HelpFunctionsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Score/Test/TestScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeExecutor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeSpeedExecutor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/IUpgradeSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/UpgradeInfoList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeInfoList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeSpeedSetter.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/DS/AccelerationUpgradeDS.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/DS/UpgradeDS.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/DS/SuspensionUpgradeDS.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Level Root/GameRoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeListExecutor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeAccelerationList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeAccelerationSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeSuspensionList.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeSuspensionSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/DS/RotationUpgradeDS.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeRotationList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Game/Scripts/Base/Extantions/HelpFunctionsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeSuspensionList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeAccelerationList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/DS/SuspensionUpgradeDS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/DS/СontrollabilityUpgradeDS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Upgrade Info/List/UpgradeСontrollabilityList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/IWheelsEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/AWDEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/CarMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/TwoEffector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Movemet/Mover/Wheels Effector/TwoBackEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeRotationnSetter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/UpgradeType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Main Menu/Presenter/UpgradesPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Levels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Upgrade/Executor/UpgradeControllabilitySetter.cs" />
       </list>
     </option>
   </component>
@@ -228,10 +244,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9044">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="9044" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -263,6 +279,8 @@
       <workItem from="1700482489218" duration="4953000" />
       <workItem from="1700566694096" duration="12434000" />
       <workItem from="1700591840900" duration="11128000" />
+      <workItem from="1700668556728" duration="2508000" />
+      <workItem from="1700746720517" duration="7364000" />
     </task>
     <servers />
   </component>

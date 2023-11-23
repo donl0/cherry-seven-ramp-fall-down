@@ -27,8 +27,8 @@ public class UpgradeAccelerationList : UpgradeInfoList<AccelerationUpgradeDS>
         new AccelerationUpgradeDS(CarType.niisan,  7, 3150),
         new AccelerationUpgradeDS(CarType.niisan,  8, 3180),
         new AccelerationUpgradeDS(CarType.niisan,  9, 3200),
-        new AccelerationUpgradeDS(CarType.niisan,  9, 3220),
-        new AccelerationUpgradeDS(CarType.niisan,  10, 3250),
+        new AccelerationUpgradeDS(CarType.niisan,  9, 3250),
+        new AccelerationUpgradeDS(CarType.niisan,  10, 3300),
 
         new AccelerationUpgradeDS(CarType.cherrySeven, 1, 3000),
         new AccelerationUpgradeDS(CarType.cherrySeven,  2, 3100),

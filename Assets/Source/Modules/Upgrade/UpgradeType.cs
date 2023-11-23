@@ -2,5 +2,6 @@
 {
     Acceleration,
     Rotation,
-    Suspension
+    Suspension,
+    Controllability
 }

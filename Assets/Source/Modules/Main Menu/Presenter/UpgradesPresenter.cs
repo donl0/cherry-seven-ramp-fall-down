@@ -9,6 +9,7 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
     [SerializeField] private UpgradeView _accelerationView;
     [SerializeField] private UpgradeView _suspensionView;
     [SerializeField] private UpgradeView _rotationView;
+    [SerializeField] private UpgradeView _controllabilityView;
 
     [SerializeField] private SkinCarMover _carMover;
 
@@ -17,6 +18,7 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
     [SerializeField] private Button _accelerationButton;
     [SerializeField] private Button _suspensionButton;
     [SerializeField] private Button _rotationButton;
+    [SerializeField] private Button _controllabilityButton;
 
     private CurrentCarHandler _currentCar;
     private Levels _levelsHandler;
@@ -32,6 +34,7 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
         _accelerationButton.onClick.AddListener(() => OnUpgradeClicked(UpgradeType.Acceleration));
         _suspensionButton.onClick.AddListener(() => OnUpgradeClicked(UpgradeType.Suspension));
         _rotationButton.onClick.AddListener(() => OnUpgradeClicked(UpgradeType.Rotation));
+        _controllabilityButton.onClick.AddListener(() => OnUpgradeClicked(UpgradeType.Controllability));
     }
 
     private void OnDisable()
@@ -40,6 +43,7 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
         _accelerationButton.onClick.RemoveListener(() => OnUpgradeClicked(UpgradeType.Acceleration));
         _suspensionButton.onClick.RemoveListener(() => OnUpgradeClicked(UpgradeType.Suspension));
         _rotationButton.onClick.RemoveListener(() => OnUpgradeClicked(UpgradeType.Rotation));
+        _controllabilityButton.onClick.RemoveListener(() => OnUpgradeClicked(UpgradeType.Controllability));
     }
 
     private void OnCarChanged(CarType car)
@@ -72,6 +76,7 @@ internal class UpgradesPresenter: BaseMainMenuPresenter
         RenderView(_accelerationView, car, UpgradeType.Acceleration, "Acceleration: ");
         RenderView(_suspensionView, car, UpgradeType.Suspension, "Suspension: ");
         RenderView(_rotationView, car, UpgradeType.Rotation, "Rotation: ");
+        RenderView(_controllabilityView, car, UpgradeType.Controllability, "Controllability: ");
     }
 
     private void RenderView(UpgradeView view, CarType car, UpgradeType upgrade, string levelString)

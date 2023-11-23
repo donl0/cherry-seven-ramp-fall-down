@@ -1,7 +1,7 @@
-using System;
+﻿using System;
 using UnityEngine;
 
-internal class AWDEffector : IWheelsEffector
+internal class TwoBackEffector : IWheelsEffector
 {
     private readonly WheelCollider[] _front;
     private readonly WheelCollider[] _rear;
@@ -10,7 +10,7 @@ internal class AWDEffector : IWheelsEffector
     
     private float _steeringAngle;
 
-    public AWDEffector(WheelCollider[] front, WheelCollider[] rear, float steeringAngle, float torque)
+    public TwoBackEffector(WheelCollider[] front, WheelCollider[] rear, float steeringAngle, float torque)
     {
         _front = front;
         _rear = rear;
@@ -28,16 +28,12 @@ internal class AWDEffector : IWheelsEffector
 
     public void AccelerateWheels(float value)
     {
-        foreach (var wheel in _rear)
-        {
-            wheel.motorTorque = value * _torque;
-        }
         foreach (var wheel in _front)
         {
             wheel.motorTorque = value * _torque;
         }
     }
-
+    
     public void SetSteering(float value)
     {
         if (value <= 0)

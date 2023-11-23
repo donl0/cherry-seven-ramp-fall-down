@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5532660355890480279}
   - component: {fileID: 1342883096032767032}
   - component: {fileID: 3256079178166002598}
+  - component: {fileID: -3334896905388009823}
   m_Layer: 0
   m_Name: Upgraeds
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MonoBehaviour:
   _car: 0
   _upgrade: 0
   _mover: {fileID: 0}
+--- !u!114 &-3334896905388009823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3224895248947450452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b4a3d70093475f8ef5f8ca8dcf32dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _car: 0
+  _upgrade: 3
+  _mover: {fileID: 0}
+  _wheels: []

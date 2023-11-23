@@ -166,8 +166,12 @@
                   </e>
                 </e>
                 <e p="Level" t="Include">
+                  <e p="Bike Ramp Multiple" t="Include" />
                   <e p="Finish" t="Include" />
+                  <e p="Level Build Items" t="Include" />
+                  <e p="Pipe" t="Include" />
                   <e p="stair" t="Include" />
+                  <e p="Uneven multiple" t="Include" />
                   <e p="Uneven stair" t="Include" />
                 </e>
               </e>
@@ -453,7 +457,7 @@
                 <e p="Wheels Effector" t="Include">
                   <e p="AwdEffector.cs" t="Include" />
                   <e p="IWheelsEffector.cs" t="Include" />
-                  <e p="TwoEffector.cs" t="Include" />
+                  <e p="TwoBackEffector.cs" t="Include" />
                 </e>
                 <e p="Wheels View" t="Include">
                   <e p="IWheelsView.cs" t="Include" />
@@ -565,6 +569,7 @@
               <e p="Executor" t="Include">
                 <e p="IUpgradeSetter.cs" t="Include" />
                 <e p="UpgradeAccelerationSetter.cs" t="Include" />
+                <e p="UpgradeControllabilitySetter.cs" t="Include" />
                 <e p="UpgradeListExecutor.cs" t="Include" />
                 <e p="UpgradeRotationnSetter.cs" t="Include" />
                 <e p="UpgradeSetter.cs" t="Include" />
@@ -578,12 +583,14 @@
                   <e p="RotationUpgradeDS.cs" t="Include" />
                   <e p="SuspensionUpgradeDS.cs" t="Include" />
                   <e p="UpgradeDS.cs" t="Include" />
+                  <e p="СontrollabilityUpgradeDS.cs" t="Include" />
                 </e>
                 <e p="List" t="Include">
                   <e p="UpgradeAccelerationList.cs" t="Include" />
                   <e p="UpgradeInfoList.cs" t="Include" />
                   <e p="UpgradeRotationList.cs" t="Include" />
                   <e p="UpgradeSuspensionList.cs" t="Include" />
+                  <e p="UpgradeСontrollabilityList.cs" t="Include" />
                 </e>
               </e>
               <e p="Upgrade.asmdef" t="Include" />

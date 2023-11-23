@@ -65,6 +65,7 @@ public class Levels: SavedObject<Levels>, ILevelContainer
             new Upgrade(CarType.police, UpgradeType.Rotation, 100, 1, 10));
         _upgrades.Add(
             new Upgrade(CarType.police, UpgradeType.Suspension, 100, 1, 10));
+        _upgrades.Add(new Upgrade(CarType.police, UpgradeType.Controllability, 100, 1, 1));
         
         _upgrades.Add(
             new Upgrade(CarType.niisan, UpgradeType.Acceleration, 1000, 1, 10));
@@ -72,6 +73,7 @@ public class Levels: SavedObject<Levels>, ILevelContainer
             new Upgrade(CarType.niisan, UpgradeType.Rotation, 1000, 1, 10));
         _upgrades.Add(
             new Upgrade(CarType.niisan, UpgradeType.Suspension, 1000, 1, 10));
+        _upgrades.Add(new Upgrade(CarType.niisan, UpgradeType.Controllability, 1000, 1, 10));
 
         _upgrades.Add(
             new Upgrade(CarType.cherrySeven, UpgradeType.Acceleration, 1000, 1, 10));
@@ -79,5 +81,6 @@ public class Levels: SavedObject<Levels>, ILevelContainer
             new Upgrade(CarType.cherrySeven, UpgradeType.Rotation, 1000, 1, 10));
         _upgrades.Add(
             new Upgrade(CarType.cherrySeven, UpgradeType.Suspension, 1000, 1, 10));
+        _upgrades.Add(new Upgrade(CarType.cherrySeven, UpgradeType.Controllability, 1000, 1, 10));
     }
 }

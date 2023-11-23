@@ -555,7 +555,7 @@ MonoBehaviour:
   - {fileID: 291084660714656336}
   _car: {fileID: 3298876678277009930}
   _centreOfMass: {fileID: 4525173401361581652}
-  _maxAngle: 30
+  _steeringAngle: 0
   _rotationSpeed: 17
   _MoveMask:
     serializedVersion: 2
@@ -882,7 +882,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7682475196480715314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.27, z: 0}
+  m_LocalPosition: {x: -0, y: -0.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 4876441729953388119}
   m_Layer: 6
   m_Name: Car
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1209,6 +1209,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6348355764704520829}
     m_Modifications:
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _car
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _mover
+      value: 
+      objectReference: {fileID: 38200213108158413}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[0]
+      value: 
+      objectReference: {fileID: 8321099511696553922}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[1]
+      value: 
+      objectReference: {fileID: 459545264575075453}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[2]
+      value: 
+      objectReference: {fileID: 2454817915520096281}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[3]
+      value: 
+      objectReference: {fileID: 5753366076747557418}
     - target: {fileID: 1342883096032767032, guid: 198aa5c14322ef944a0228b3c2746b71,
         type: 3}
       propertyPath: _car

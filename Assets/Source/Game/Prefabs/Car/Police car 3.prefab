@@ -265,7 +265,7 @@ MonoBehaviour:
   - {fileID: 5321546626747026217}
   _car: {fileID: 2171478542986265128}
   _centreOfMass: {fileID: 0}
-  _maxAngle: 25
+  _steeringAngle: 0
   _rotationSpeed: 17
   _MoveMask:
     serializedVersion: 2
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 7692595130430497231}
   m_Layer: 6
   m_Name: Car10 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +418,6 @@ Transform:
   m_Children:
   - {fileID: 5213374593958555904}
   - {fileID: 2121380672134132747}
-  - {fileID: 6523000644067234263}
   m_Father: {fileID: 5667625237540751284}
   m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -656,37 +655,6 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
---- !u!1 &4718117030831426703
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6523000644067234263}
-  m_Layer: 0
-  m_Name: Centre of mass
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6523000644067234263
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4718117030831426703}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -69.1, z: -7.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2107016290206068720}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4740904930930743214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1190,36 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5667625237540751284}
     m_Modifications:
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _mover
+      value: 
+      objectReference: {fileID: 4112787661284168474}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[0]
+      value: 
+      objectReference: {fileID: 1430461473471460564}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[1]
+      value: 
+      objectReference: {fileID: 817700581263886557}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[2]
+      value: 
+      objectReference: {fileID: 111256696346270190}
+    - target: {fileID: -3334896905388009823, guid: 198aa5c14322ef944a0228b3c2746b71,
+        type: 3}
+      propertyPath: _wheels.Array.data[3]
+      value: 
+      objectReference: {fileID: 4975611601736359842}
     - target: {fileID: 1342883096032767032, guid: 198aa5c14322ef944a0228b3c2746b71,
         type: 3}
       propertyPath: _wheels.Array.data[0]

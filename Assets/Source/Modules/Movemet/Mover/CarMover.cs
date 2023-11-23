@@ -14,7 +14,7 @@ public class CarMover : MonoBehaviour, ICarMover
     [Header("Physics")]
     [SerializeField] private Transform _centreOfMass;
 
-    [SerializeField] private float _maxAngle;
+    [SerializeField] private float _steeringAngle;
 
     [SerializeField] private float _rotationSpeed = 10f;
 
@@ -40,7 +40,12 @@ public class CarMover : MonoBehaviour, ICarMover
 
     public void InitEffector(float torque)
     {
-        _wheelsEffector = new AWDEffector(_frontWheels, _rearWheels, _maxAngle, torque);
+        _wheelsEffector = new AWDEffector(_frontWheels, _rearWheels, _steeringAngle, torque);
+    }
+
+    public void SetSteering(float value)
+    {
+        _wheelsEffector.SetSteering(value);
     }
 
     public void SetRotationSpeed(float value)
